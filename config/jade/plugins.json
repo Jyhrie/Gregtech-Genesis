@@ -51,12 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "createlowheated": {
-    "basic_burner_info": true
-  },
   "gtmutils": {
     "me_expanded_pattern_buffer_proxy_info": true,
     "me_expanded_pattern_buffer_info": true,
@@ -93,20 +87,6 @@
     "parallel_info": true,
     "data_bank": true
   },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -114,6 +94,10 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "apotheosis": {
     "adventure": true,
@@ -131,5 +115,25 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "createlowheated": {
+    "basic_burner_info": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   }
 }
