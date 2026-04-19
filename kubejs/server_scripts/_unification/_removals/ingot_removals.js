@@ -20,7 +20,7 @@ const ingots_to_purge = [
   "ad_astra:steel_ingot",
   "tconstruct:steel_ingot",
   "occultism:silver_ingot",
-  "forestry:tin_ingot",
+  "forestry:ingot_tin",
   "create:zinc_ingot",
 ];
 
