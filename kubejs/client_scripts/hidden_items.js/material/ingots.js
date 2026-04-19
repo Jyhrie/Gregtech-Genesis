@@ -17,11 +17,12 @@ JEIEvents.hideItems((event) => {
     "thermal:cinnabar",
     "thermal:niter",
     "thermal:sulfur",
-    "thermal:coke",
+    "thermal:coal_coke",
     "ad_astra:steel_ingot",
     "tconstruct:steel_ingot",
     "occultism:silver_ingot",
     "forestry:ingot_tin",
+    "forestry:ingot_bronze",
     "create:zinc_ingot",
   ];
 
