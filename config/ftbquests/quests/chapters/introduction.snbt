@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	id: "535AFD27863462D5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"GregTech fundamentally changes how ores generate in the world"
+				""
+				"Ores now generate in the center of every 3x3 grid chunk, +- 5 blocks"
+				""
+				"Each 3x3 grid can only contain 1 vein."
+			]
+			icon: "minecraft:raw_iron"
+			id: "600EA324D1CBA5ED"
+			size: 2.0d
+			tasks: [{
+				id: "3B4D2F983512ADBC"
+				title: "Ore Generation"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Currency has been overhauled and uses bills."
+				""
+				"Villagers are now specialized traders, providing new trades."
+				""
+				"Stock Bills can be obtained from trading with villagers or various machines."
+			]
+			icon: "kubejs:currency1"
+			id: "0FE7741213EEF606"
+			size: 2.0d
+			tasks: [{
+				id: "709FF434940FBCFD"
+				title: "Villagers"
+				type: "checkmark"
+			}]
+			title: "Unified Currency"
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "Introduction"
+}

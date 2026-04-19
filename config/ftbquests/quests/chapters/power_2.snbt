@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_2"
+	group: "0109883279C4F736"
+	id: "5E05E05B363AB627"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5C0F6FAD7D253D74"
+			tasks: [{
+				id: "70314154029F30AB"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			id: "559F2468CC72EF41"
+			tasks: [{
+				id: "51F8783C1581ED80"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Steam Age"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			id: "6304FA1CE8686555"
+			tasks: [{
+				id: "25D057852D4112E0"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			id: "6B74BAD86A273A3C"
+			tasks: [{
+				id: "5CD4E0E599BD9F9B"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			id: "0C0532F8C6A2FE22"
+			tasks: [{
+				id: "229426B616438281"
+				item: "gtceu:nuclear_reactor"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+	]
+	title: "Power"
+}

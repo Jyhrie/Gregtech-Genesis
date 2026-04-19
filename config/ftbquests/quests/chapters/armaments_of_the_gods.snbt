@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armaments_of_the_gods"
+	group: "7CBCC75C83721AE6"
+	icon: "avaritia:infinity_nugget"
+	id: "50AF894D66CF6E2C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3655FD44658397F9"
+			tasks: [{
+				id: "0590273050FA1017"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_sword"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "6A590BFF16496F5E"
+			tasks: [{
+				id: "4038B5C600351051"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "68F60EA5E4ED0CD5"
+			tasks: [{
+				id: "35C68FE2055F1AAC"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "6A9E137910CA0F8F"
+			tasks: [{
+				id: "7359D7AF65F07844"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "48C717A8058B1E17"
+			tasks: [{
+				id: "2ABCDB7D77E0425B"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_shovel"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "0260D0907135154B"
+			tasks: [{
+				id: "710684B37473990C"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "17A4666F882D6620"
+			tasks: [{
+				id: "0CFC24E5635824CE"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "4F0C821C24317C22"
+			tasks: [{
+				id: "244A6DECE28C176F"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "331939A06100EADA"
+			tasks: [{
+				id: "5C70259FFB80B91C"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "46F9B1B95DECC999"
+			tasks: [{
+				id: "7176536D775DE65C"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "38589B2D5398E07D"
+			tasks: [{
+				id: "3EE8853DF21BCF5F"
+				item: "avaritia:infinity_elytra"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "24BB59133811C1B0"
+			tasks: [{
+				id: "45F56BB3182B697E"
+				item: "avaritia:infinity_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "49B2B48DB1E6CD0E"
+			tasks: [{
+				id: "557B6B0DF565BFE5"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_umbrella"
+					tag: {
+						mode: {
+							infinity_umbrella_normal: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	title: ". Armaments of the Gods"
+}

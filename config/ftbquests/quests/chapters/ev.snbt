@@ -1,0 +1,1181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev"
+	group: "385AF786BCEBE22D"
+	icon: "gtceu:micro_processor_computer"
+	id: "3BFAABB1E0D6A8A3"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "013B7C0DA89DE84E"
+			size: 3.0d
+			tasks: [{
+				id: "7F0DB633F5545AC3"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25C298911B72EF53"]
+			description: [
+				"The Platline, works essentially the same as the one in new horizons, but some of the names have been swapped out. "
+				"Starting with &ePMP(Platnium Metallic Dust)&r, being swapped out with &9Platinum Group Sludge&r"
+			]
+			id: "5CDCF562AA94D1FF"
+			subtitle: "Time to bust out the flowchart"
+			tasks: [{
+				id: "779EB205AB62F56B"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			title: "And So, It Begins. The Platline"
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "25C298911B72EF53"
+			subtitle: "Elements so stable, you need two acids"
+			tasks: [{
+				id: "3DE066D30CB6EF84"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			title: "Royal Water"
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5CDCF562AA94D1FF"]
+			id: "2C7FD3216F589711"
+			tasks: [{
+				id: "0B1928175639EC73"
+				item: "gtceu:platinum_concentrate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5CDCF562AA94D1FF"]
+			id: "6AE2DA1A59CA4DC6"
+			tasks: [{
+				id: "5982B850F3AC4E44"
+				item: "gtceu:platinum_residue_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			id: "64D82B1B95756451"
+			tasks: [{
+				id: "017DBDC956014DD5"
+				item: "gtceu:ammonium_chloride_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2C7FD3216F589711"
+				"64D82B1B95756451"
+			]
+			id: "629F32C9FEE1AF26"
+			tasks: [{
+				id: "67552ADCBFA56038"
+				item: "gtceu:platinum_raw_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["629F32C9FEE1AF26"]
+			id: "29E27779687E3764"
+			tasks: [{
+				id: "74E7255FC3E14F88"
+				item: "gtceu:palladium_enriched_ammonia_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["629F32C9FEE1AF26"]
+			id: "17C6FAC24C4F8BAB"
+			tasks: [{
+				id: "3DA38727AB3C0173"
+				item: "gtceu:platinum_salt_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["17C6FAC24C4F8BAB"]
+			id: "6090D772CEF41070"
+			tasks: [{
+				id: "68019B1895E4BA97"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["629F32C9FEE1AF26"]
+			id: "205BC56BA2E0F0AF"
+			tasks: [{
+				id: "7E98D72E9418568D"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["205BC56BA2E0F0AF"]
+			id: "5465E2EE4F6F9A45"
+			tasks: [{
+				id: "7DE9C280A0F46344"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"675586055188080A"
+				"29E27779687E3764"
+			]
+			id: "032594CBC2F5EE14"
+			tasks: [{
+				id: "610F9FCE2D22E6EC"
+				item: "gtceu:reprecipitated_palladium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.0d
+		}
+		{
+			id: "675586055188080A"
+			tasks: [{
+				id: "705096C9A10FC6A9"
+				item: "gtceu:palladium_metallic_powder_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"0F7318A6858AF0E7"
+				"032594CBC2F5EE14"
+			]
+			id: "06FE063819DD62E7"
+			tasks: [{
+				id: "012723EB481B26EA"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			id: "0F7318A6858AF0E7"
+			tasks: [{
+				id: "74D6C4B4BE5E2ED1"
+				item: "gtceu:formic_acid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["032594CBC2F5EE14"]
+			id: "60146A6D32C89A2C"
+			tasks: [{
+				id: "5F42196FDCE4BA17"
+				item: "gtceu:palladium_salt_dust_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["60146A6D32C89A2C"]
+			id: "1FFA4B6ED07E867F"
+			tasks: [{
+				id: "35105BFD0837F517"
+				item: "gtceu:palladium_metallic_powder_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["06FE063819DD62E7"]
+			id: "6050EFC0107213C3"
+			tasks: [{
+				id: "17BD2A404C09914F"
+				item: "gtceu:palladium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6AE2DA1A59CA4DC6"]
+			id: "2079812BC3B2777C"
+			tasks: [{
+				id: "2C0F1E000D9590F4"
+				item: "gtceu:leach_residue_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6AE2DA1A59CA4DC6"]
+			id: "2CCD5E4D5DDCE7E7"
+			tasks: [{
+				id: "5F4A35E422EB8712"
+				item: "gtceu:rhodium_sulfate_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2CCD5E4D5DDCE7E7"]
+			id: "545DD8AFC6F4D8E6"
+			tasks: [{
+				id: "4F645FEBC9A259D1"
+				item: "gtceu:rhodium_sulfate_solution_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["545DD8AFC6F4D8E6"]
+			id: "1C61877305FB2CEA"
+			tasks: [{
+				id: "3828315FE0B3F085"
+				item: "gtceu:crude_rhodium_metal_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1C61877305FB2CEA"]
+			id: "5F885BB6E81DEC6D"
+			tasks: [{
+				id: "72F90B20C9CCDF82"
+				item: "gtceu:rhodium_salt_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5F885BB6E81DEC6D"]
+			id: "7E5C4F557152167A"
+			tasks: [{
+				id: "22FC3D1D571A7EC2"
+				item: "gtceu:rhodium_nitrate_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7E4321255BE8CA3F"]
+			id: "36B922BC85C8EE5B"
+			tasks: [{
+				id: "46A6CD5125C21882"
+				item: "gtceu:rhodium_filter_cake_solution_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7E5C4F557152167A"]
+			id: "7E4321255BE8CA3F"
+			tasks: [{
+				id: "77DBB09964490B2F"
+				item: "gtceu:rhodium_filter_cake_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["36B922BC85C8EE5B"]
+			id: "28128765102B9C09"
+			tasks: [{
+				id: "209E3A920F8DF0FB"
+				item: "gtceu:reprecipitated_rhodium_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["28128765102B9C09"]
+			id: "2616A8AEA4999C5A"
+			tasks: [{
+				id: "200F4311AA8436DB"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2616A8AEA4999C5A"]
+			id: "6B39047161AAE7F7"
+			tasks: [{
+				id: "01F70DAFCFD843D0"
+				item: "gtceu:rhodium_ingot"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2079812BC3B2777C"]
+			id: "32C0A23ECE020928"
+			tasks: [{
+				id: "201C6F04BFED694F"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2079812BC3B2777C"
+				"2A306452DE9004C1"
+			]
+			id: "2A18A859A1FFAB89"
+			tasks: [{
+				id: "646E41E9F74C56EA"
+				item: "gtceu:sodium_ruthenate_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["74DAA6C03FB1A827"]
+			id: "1BE90E3C848C88C3"
+			tasks: [{
+				id: "05B359660F978776"
+				item: "gtceu:ruthenium_tetroxide_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["059BAFAE002B8F83"]
+			id: "74DAA6C03FB1A827"
+			tasks: [{
+				id: "21769AC948F76CCE"
+				item: "gtceu:hot_ruthenium_tetroxide_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2A18A859A1FFAB89"]
+			id: "059BAFAE002B8F83"
+			tasks: [{
+				id: "0EE41D53140E672C"
+				item: "gtceu:ruthenium_tetroxide_solution_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1BE90E3C848C88C3"]
+			id: "401B260C4C1A62C6"
+			tasks: [{
+				id: "6CDEB7D451C3A3DE"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["401B260C4C1A62C6"]
+			id: "6FBC5E3BBF9E7C17"
+			tasks: [{
+				id: "4A4B2328271B5BCB"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6FBC5E3BBF9E7C17"]
+			id: "3781B676E2525203"
+			tasks: [{
+				id: "3072485B5BCB350D"
+				item: "gtceu:ruthenium_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["32C0A23ECE020928"]
+			id: "5D9A746A88E69E58"
+			tasks: [{
+				id: "1AF5F231BB339F85"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5D9A746A88E69E58"]
+			id: "2DE0DAF639B5A36B"
+			tasks: [{
+				id: "029C4F50C4879832"
+				item: "gtceu:iridium_dioxide_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2DE0DAF639B5A36B"]
+			id: "20D1A20078C358E3"
+			tasks: [{
+				id: "5BE147D3F10DA31C"
+				item: "gtceu:acidic_iridium_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["20D1A20078C358E3"]
+			id: "35E3C963493E940E"
+			tasks: [{
+				id: "13D1DD9B980ECD9E"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["35E3C963493E940E"]
+			id: "127FD00120DE912C"
+			tasks: [{
+				id: "625DEDE6AB63E15E"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["127FD00120DE912C"]
+			id: "64699F13526C10E7"
+			tasks: [{
+				id: "56571839986F69E7"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["51AAA3F9E0328FE1"]
+			id: "36E42D39DCEB6BC4"
+			tasks: [{
+				id: "27261ED396F68ED6"
+				item: "gtceu:osmium_solution_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["32C0A23ECE020928"]
+			id: "51AAA3F9E0328FE1"
+			tasks: [{
+				id: "3DC0E6045495C500"
+				item: "gtceu:acidic_osmium_solution_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["36E42D39DCEB6BC4"]
+			id: "110B0545B4020AEC"
+			tasks: [{
+				id: "45DEDF800BF782E6"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["110B0545B4020AEC"]
+			id: "792CAD8ED18143B9"
+			tasks: [{
+				id: "4A26B388882E696A"
+				item: "gtceu:osmium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3E15E8941787ACCB"]
+			id: "2A306452DE9004C1"
+			tasks: [{
+				id: "112CBA113FF7CB65"
+				item: "gtceu:potassium_disulfate_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.5d
+		}
+		{
+			id: "3E15E8941787ACCB"
+			tasks: [{
+				id: "2C8929E61C264027"
+				item: "gtceu:potassium_disulfate_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "287E87069A3DA718"
+			size: 2.0d
+			tasks: [{
+				id: "1B522DA7063FCF88"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["766C8170E5B92F78"]
+			id: "76817E327BB86669"
+			tasks: [{
+				id: "743EAB4457D498A0"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["76817E327BB86669"]
+			id: "254263F3B9DEC0B2"
+			tasks: [{
+				id: "210A035AF25D8D88"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["043DE72CCE94EDEC"]
+			id: "3FF121A3D6573AC7"
+			tasks: [{
+				id: "37CD7C1EE37D6837"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2352B4DBB515AA70"
+				"7E1919085C538E5B"
+			]
+			id: "64D48847CAD9AED3"
+			tasks: [{
+				id: "22C9C3851C8A4340"
+				item: "gtceu:graphene_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "4A1D7A234DC65CEA"
+			tasks: [{
+				id: "5D109CDC26E168D7"
+				item: "gtceu:vinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A1D7A234DC65CEA"]
+			id: "6A6D5B531223AE70"
+			tasks: [{
+				id: "0F6446D44510D79B"
+				item: "gtceu:polyvinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "14705EC407012881"
+			tasks: [{
+				id: "01D5E6F40DD7BEAF"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14705EC407012881"]
+			id: "455B3A2C2D544C0A"
+			tasks: [{
+				id: "3FAC156B91963CC4"
+				item: "gtceu:bisphenol_a_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AC3675BC517334D"]
+			id: "6FF645341D87C6B9"
+			tasks: [{
+				id: "064B59A6AC99F2A6"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FF645341D87C6B9"
+				"455B3A2C2D544C0A"
+			]
+			id: "655AF02B938281D9"
+			tasks: [{
+				id: "37442B8CFD8638EA"
+				item: "gtceu:epoxy_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4C2869391C75AF66"
+				"42A493CF2930E662"
+			]
+			id: "5FCBEA0F15772433"
+			tasks: [{
+				id: "40E6F1075D53B2F8"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["655AF02B938281D9"]
+			id: "42A493CF2930E662"
+			tasks: [{
+				id: "1F8F400C071A45A3"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["655AF02B938281D9"]
+			id: "4C2869391C75AF66"
+			tasks: [{
+				id: "5F60703BA17A59CD"
+				item: "gtceu:fine_borosilicate_glass_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08D3F4292632CB48"]
+			id: "40B37DDEEF16A37B"
+			tasks: [{
+				id: "4AC268D59D239D4F"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["655AF02B938281D9"]
+			id: "08D3F4292632CB48"
+			tasks: [{
+				id: "522FAD92F932DF2C"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40B37DDEEF16A37B"]
+			id: "26912556D8710210"
+			tasks: [{
+				id: "71115946EAEA2F9A"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "00F6D29998D43BDB"
+			tasks: [{
+				id: "46DBBA4135D28EB1"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00F6D29998D43BDB"]
+			id: "18E306201B3A43B2"
+			tasks: [{
+				id: "36EFDA63A523BB0D"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"18E306201B3A43B2"
+				"26912556D8710210"
+				"6AB10BA4247A1827"
+			]
+			id: "6D268688965814AC"
+			tasks: [{
+				id: "3D734690E2570841"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D268688965814AC"]
+			id: "4F7D9475E4A1F7E7"
+			tasks: [{
+				id: "39E3B2FF041AB238"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F7D9475E4A1F7E7"]
+			id: "402363BD22D21432"
+			size: 2.0d
+			tasks: [{
+				id: "68636DA579374C7C"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["036764C38611053F"]
+			id: "6AB10BA4247A1827"
+			size: 1.5d
+			tasks: [{
+				id: "076A7A09BFF34608"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: -7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B0824CB270991B8"]
+			id: "036764C38611053F"
+			tasks: [{
+				id: "20EA8B22505B68F7"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FF121A3D6573AC7"]
+			id: "1B0824CB270991B8"
+			tasks: [{
+				id: "1924E2A0F0CE877C"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "043DE72CCE94EDEC"
+			size: 1.5d
+			tasks: [{
+				id: "202292B126C74A96"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "2352B4DBB515AA70"
+			size: 1.5d
+			tasks: [{
+				id: "76136280DA8A3061"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "1577C4ADD65915A6"
+			size: 1.5d
+			tasks: [{
+				id: "0D65AB4269C71007"
+				item: "gtceu:ev_autoclave"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "0BC9958FAFE3649A"
+			size: 1.5d
+			tasks: [{
+				id: "46CF8B09E370E607"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0BC9958FAFE3649A"]
+			id: "57B76A75DA735BCB"
+			tasks: [{
+				id: "65A3EFCF4915C647"
+				item: "gtceu:lapotron_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1577C4ADD65915A6"
+				"57B76A75DA735BCB"
+			]
+			id: "39BF151FD290BD2E"
+			tasks: [{
+				id: "3EE9474CB9D6A7B0"
+				item: "gtceu:lapotron_gem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39BF151FD290BD2E"
+				"2352B4DBB515AA70"
+			]
+			id: "0EA281E9E73AD2AE"
+			tasks: [{
+				id: "55801F06A42BA30E"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "403B69D3AA7FE9C2"
+			tasks: [{
+				id: "388F6854C53555ED"
+				item: "gtceu:dichlorobenzene_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			id: "0FDC195387DB8451"
+			tasks: [{
+				id: "3AD5DFBE2CA812CB"
+				item: "gtceu:sodium_sulfide_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"403B69D3AA7FE9C2"
+				"0FDC195387DB8451"
+			]
+			id: "162FE1715B1A63F7"
+			tasks: [{
+				id: "27A797B7A794B8E7"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "05BB622B4CF5E00B"
+			tasks: [{
+				id: "100A7D64C17D8DF7"
+				item: "gtceu:endstone_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6A6D5B531223AE70"]
+			id: "7E1919085C538E5B"
+			tasks: [{
+				id: "0DC47511FC119683"
+				item: "gtceu:advanced_glue_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "7FF31E81C09482DC"
+			tasks: [{
+				id: "0340933FC1490DEF"
+				item: "gtceu:moonstone_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05BB622B4CF5E00B"]
+			id: "4CC39F23E0261A8D"
+			tasks: [{
+				id: "488FBFAAC7219D29"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["013B7C0DA89DE84E"]
+			id: "7AC3675BC517334D"
+			tasks: [{
+				id: "46D4D736712BD5AE"
+				item: "gtceu:hypochlorous_acid_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FF31E81C09482DC"]
+			id: "6D11E08D924DCEEE"
+			tasks: [{
+				id: "07F614ADD517969F"
+				item: "gtceu:tungstate_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7FF31E81C09482DC"
+				"6D11E08D924DCEEE"
+			]
+			id: "615F358E4037622B"
+			tasks: [{
+				id: "197435D4BDE9A9D8"
+				item: "gtceu:scheelite_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["615F358E4037622B"]
+			id: "04DA7066375FBF47"
+			tasks: [{
+				id: "2F0C5C77B28452C4"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04DA7066375FBF47"]
+			id: "790D54F59690A55C"
+			tasks: [{
+				id: "631A9BD15FABF215"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["287E87069A3DA718"]
+			id: "766C8170E5B92F78"
+			tasks: [{
+				id: "4C7D1F953CA480C9"
+				item: "gtceu:raw_scheelite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["790D54F59690A55C"]
+			id: "047336433FCA3855"
+			tasks: [{
+				id: "7115C53568463123"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["287E87069A3DA718"]
+			id: "1D3DF19FDD3F07F2"
+			tasks: [
+				{
+					id: "67C7A4A1928DEDE2"
+					item: "gtceu:raw_pitchblende"
+					type: "item"
+				}
+				{
+					id: "7B8B96B9C96919D2"
+					item: "gtceu:raw_uraninite"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D3DF19FDD3F07F2"]
+			id: "657E183C5001EE69"
+			tasks: [{
+				id: "2FA320CFD5A35A96"
+				item: "gtceu:uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["657E183C5001EE69"]
+			id: "35569601B7CF8781"
+			tasks: [{
+				id: "064519DD116595C2"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["766C8170E5B92F78"]
+			id: "35F8E6720D2F79DA"
+			tasks: [{
+				id: "140FF3F4263C18C3"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2352B4DBB515AA70"]
+			id: "44C24486388D82EE"
+			tasks: [{
+				id: "3C887E3A708DB8A9"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+	]
+	title: "EV"
+}

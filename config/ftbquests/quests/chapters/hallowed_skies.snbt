@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hallowed_skies"
+	group: "4288201204AF5F02"
+	icon: "botania:dreamwood_twig"
+	id: "186AD62C61FEED1D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12AC3174BB92956B"
+			size: 3.0d
+			tasks: [{
+				id: "3FE6A0B54EF6DEF7"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12AC3174BB92956B"]
+			id: "5F398F53FF095A2F"
+			tasks: [{
+				id: "0693DB656AA39B37"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5F398F53FF095A2F"]
+			id: "1D8787CF66A32911"
+			tasks: [{
+				id: "20994FFDDD288624"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D8787CF66A32911"]
+			id: "303D725EC5A880F3"
+			tasks: [{
+				id: "14C6E8D03522EA20"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1020CDEC47D7A2A1"]
+			id: "2F5C09F9F212115B"
+			tasks: [{
+				id: "6B9300505E17C1F3"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1020CDEC47D7A2A1"]
+			id: "714834BC4501C426"
+			tasks: [{
+				id: "5A42D1C644444F14"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1020CDEC47D7A2A1"]
+			id: "090F4740B675CD21"
+			tasks: [{
+				id: "426A6CFF994F5A47"
+				item: {
+					Count: 1
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							825975343
+							-1439347912
+							-1159201993
+							5719520
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1020CDEC47D7A2A1"]
+			id: "7502B9EF15493BF4"
+			tasks: [{
+				id: "0B89EEB680564186"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["1020CDEC47D7A2A1"]
+			id: "6972BCEEB241AE71"
+			tasks: [{
+				id: "1A3FAF74878DF3F4"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1020CDEC47D7A2A1"]
+			id: "52F60EB123FB6B5E"
+			tasks: [{
+				id: "2FE94855E6CA1158"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["303D725EC5A880F3"]
+			id: "1020CDEC47D7A2A1"
+			tasks: [{
+				id: "0D365FEDE0EDF338"
+				item: "botania:dice"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1D8787CF66A32911"]
+			id: "4EB1E7C5F0CF9F5F"
+			tasks: [{
+				id: "1B6E661BB1814582"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1D8787CF66A32911"]
+			id: "336F72B113E61D8F"
+			tasks: [{
+				id: "3CD78C0F58798F95"
+				item: "botania:black_hole_talisman"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1D8787CF66A32911"]
+			id: "33847D864BE63086"
+			tasks: [{
+				id: "3C93B7D2601FC42D"
+				item: "botania:diva_charm"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1D8787CF66A32911"]
+			id: "65FA33967431AB3A"
+			tasks: [{
+				id: "14A25EB81E95F870"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+	]
+	title: "Hallowed Dreams"
+}

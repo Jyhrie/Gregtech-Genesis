@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothic_enchantments"
+	group: "4288201204AF5F02"
+	id: "10D05A46EA54DCD0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "03DE5B779F19AE3D"
+			tasks: [{
+				id: "3B6A0F089E5F695D"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "28D5631BA6FDA15A"
+			tasks: [{
+				id: "0C13621D7BFBDCDA"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "5A02B03F25E9C750"
+			tasks: [{
+				id: "028C68AB439B88B6"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "2693BD9640863992"
+			tasks: [{
+				id: "3AC5CF1EBF87C8B9"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "52DA6F3D14ADF619"
+			tasks: [{
+				id: "2B7033F6BF009D94"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "341EE79A59D42913"
+			tasks: [{
+				id: "62C10C880923E759"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "7EA3B20EC45B1AB5"
+			tasks: [{
+				id: "22FCC30C1E92D027"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "1BB21D38964E88AA"
+			tasks: [{
+				id: "471145D64B04749B"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "465482082BB0C07D"
+			tasks: [{
+				id: "7F85859A55A64B24"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+	]
+	title: "Apothic Enchantments"
+}

@@ -1,0 +1,69 @@
+
+#=== Light Aura Configuration ===
+#Configure various lighting behaviors below
+[general]
+	#How often lighting updates occur (in ticks)
+	#Lower values = smoother but more resource intensive
+	#Default: 1 (every tick)
+	#Range: 1 ~ 20
+	updateFrequency = 1
+	#How long lights persist after source is gone (in ticks)
+	#Higher values = longer fade time
+	#Default: 3
+	#Range: 1 ~ 100
+	cleanupDelay = 3
+	#Enable dynamic lighting for player-held items
+	#Set to false to disable all player lighting
+	#Default: true
+	enablePlayerLighting = true
+	#Enable smooth lighting transitions
+	#Lights will fade in/out gradually instead of appearing instantly
+	#Default: false (disabled for better performance)
+	enableSmoothTransitions = false
+	#Enhanced lighting for mainhand items
+	#Provides additional light coverage when holding items in main hand
+	#Default: true
+	enhancedMainhandLighting = true
+	#Enhanced lighting for offhand items
+	#Provides additional light coverage when holding items in off hand
+	#Default: true
+	enhancedOffhandLighting = true
+
+[items]
+	#Radius to scan for dropped light-emitting items (in blocks)
+	#Larger values may impact performance
+	#Default: 16
+	#Range: 4 ~ 64
+	droppedItemRadius = 16
+	#Brightness multiplier for dropped items (0.1-1.0)
+	#Dropped items will be this percentage of their normal brightness
+	#Default: 0.7 (70% brightness)
+	#Range: 0.1 ~ 1.0
+	droppedItemMultiplier = 0.7
+	#Maximum number of dropped items to track for lighting
+	#Higher values may impact performance
+	#Default: 50
+	#Range: 10 ~ 200
+	maxTrackedEntities = 50
+	#Custom light-emitting items (format: modid:item=level)
+	#Add or modify items that emit light when held or dropped
+	#Light level must be between 1-15
+	#Example: minecraft:blaze_rod=10
+	customLightItems = ["minecraft:sea_lantern=15", "minecraft:beacon=15", "minecraft:glow_berries=8", "minecraft:soul_torch=10", "minecraft:pearlescent_froglight=15", "minecraft:magma_block=13", "minecraft:soul_lantern=10", "minecraft:end_rod=14", "minecraft:jack_o_lantern=15", "minecraft:lava_bucket=15", "minecraft:glow_ink_sac=7", "minecraft:ochre_froglight=15", "minecraft:torch=14", "minecraft:verdant_froglight=15", "minecraft:campfire=15", "minecraft:soul_campfire=10", "minecraft:glowstone=15", "minecraft:blaze_rod=10", "minecraft:shroomlight=15", "minecraft:redstone_torch=7", "minecraft:lantern=15"]
+
+[performance]
+	#Maximum distance for light updates (in blocks)
+	#Lights beyond this distance won't be processed
+	#Default: 32
+	#Range: 16 ~ 128
+	lightUpdateDistance = 32
+	#Enable light update optimizations
+	#May improve performance at the cost of some lighting accuracy
+	#Default: true
+	optimizeLightUpdates = true
+	#Duration of smooth light transitions (in ticks)
+	#Only used when smooth transitions are enabled
+	#Default: 5
+	#Range: 1 ~ 20
+	transitionLightDuration = 5
+

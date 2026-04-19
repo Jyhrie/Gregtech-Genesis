@@ -1,0 +1,987 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor"
+	group: "5E7FB30B9EB672E9"
+	id: "6ECF00369B84F82D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2D7C703EDB4171E0"
+			tasks: [
+				{
+					id: "6C0237A2AE2042B2"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12FA0BFE36F2BC3C"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41C92D0E91E21FC5"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "763EC0A1B8DB3D06"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			id: "21A52B91BB4F8E07"
+			tasks: [
+				{
+					id: "4B8C63A712B01D23"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "264B1094503ED884"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C38ADA1C642FC68"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43C08739CB70BFFA"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			id: "64B52C249BFA5573"
+			tasks: [
+				{
+					id: "5631C6B1E0E8EAB6"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7902EA1B630FE2A5"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			id: "7D2BC5E5D52287D4"
+			tasks: [
+				{
+					id: "6CB068985E498394"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7743EF380BB3A7B0"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EC99A710F37DCA8"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1824D1D7C04CCE26"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -13.5d
+		}
+		{
+			id: "395BE53D85FAB4E6"
+			tasks: [
+				{
+					id: "4C9F85510BEA62F4"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C1B9961155F248B"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7301BF3DEA52DABC"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AE1CD0F83D1D744"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			id: "4B2E08CC0AC2E4D7"
+			tasks: [
+				{
+					id: "792F987B6213C4F0"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "469FB00CBC94D621"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63A6FBB714D6FE04"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E8F2F8D45701905"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			id: "4F13752CE3EE6ED6"
+			tasks: [{
+				id: "45F4EF6F9EAC8E18"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.5d
+		}
+		{
+			id: "3DBA32426B290A70"
+			tasks: [{
+				id: "5091927277C68E34"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			id: "1B23DD749C333EF3"
+			tasks: [
+				{
+					id: "18F5C1A584E48227"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "305F89F6271E2D02"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3445ECB352C2A7BF"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41D0D8F7BF1CB8E1"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			id: "68FCCE11445129F3"
+			tasks: [
+				{
+					id: "0A187F82653FF1EF"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71F8AECCCCC7F89A"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0318EC55A8163C70"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A140A6B9F176C0D"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "68A8187BCB799358"
+			tasks: [
+				{
+					id: "3F573682505FEE2B"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60EC2ACE9AE173FA"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "626DF6D3ABB39857"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A61F74161152EAC"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			id: "07F0553D5D65AE94"
+			tasks: [
+				{
+					id: "1FA7D202B59529C9"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44AD32B7623B1D0A"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FFC4E7620ECA722"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52FA5AA136592EDB"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "5183F6A237975181"
+			tasks: [
+				{
+					id: "77FDE51DB5ABF442"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FCF796D3E312AD"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "009A7E104244A6B5"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28649DB7950611E6"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "4E6800DE0BEF1950"
+			tasks: [
+				{
+					id: "0202F9E2FB82F254"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3389F94521F7E368"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "759A4F98FB4B6E16"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "434F5FA81E9254DA"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "7149D6EABD23EDBD"
+			tasks: [
+				{
+					id: "68BCE9A7801FF3CB"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00A85056D957EE56"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E50384CC700ED04"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2384428651B3ABE1"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "43BC43B393296046"
+			tasks: [
+				{
+					id: "6035FC3FC6569DCB"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "151A4DFA9F3A9E66"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "56851F7A8B4586FC"
+			tasks: [
+				{
+					id: "6D1C6F54D40B567B"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C76B05890970635"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64CD9AE8B4CA78F0"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F0F1CECC4484A9"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "61638B2084224BA3"
+			tasks: [
+				{
+					id: "4102679DA796A429"
+					item: "gtceu:hazmat_headpiece"
+					type: "item"
+				}
+				{
+					id: "79C449BB424495F8"
+					item: "gtceu:hazmat_chestpiece"
+					type: "item"
+				}
+				{
+					id: "608A49D790987B0B"
+					item: "gtceu:hazmat_leggings"
+					type: "item"
+				}
+				{
+					id: "4A6719D12F3FC409"
+					item: "gtceu:hazmat_boots"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			id: "605E2D34648B535C"
+			tasks: [
+				{
+					id: "14AC87195389FE5F"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2084E8D3B2CD3195"
+					item: "gtceu:nanomuscle_chestplate"
+					type: "item"
+				}
+				{
+					id: "218A0F2435F1B9C1"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "0A85E6490D0ACAE6"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			id: "41F1880597E197B1"
+			tasks: [{
+				id: "636C6F55395098FF"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			id: "49033C76FB8BDCC7"
+			tasks: [{
+				id: "782A41B2C0366460"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "2C56DB9DDCA63230"
+			tasks: [
+				{
+					id: "44BC199B678972E4"
+					item: {
+						Count: 1
+						id: "gtceu:quarktech_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CB606904C344704"
+					item: "gtceu:quarktech_chestplate"
+					type: "item"
+				}
+				{
+					id: "36D1A9E3A6CC250B"
+					item: "gtceu:quarktech_leggings"
+					type: "item"
+				}
+				{
+					id: "646605504B3C1964"
+					item: "gtceu:quarktech_boots"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			id: "08AD189A93EA37FD"
+			tasks: [
+				{
+					id: "2B3509C2ED203D21"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "138B0260BDC4D473"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52DE4FD4132CE5AB"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F334CDAD9B49D54"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -13.5d
+		}
+	]
+	title: "Armor"
+}

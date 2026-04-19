@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblocks"
+	group: "497C3B3571F1E420"
+	id: "5D35B17DF12E28FB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7EE37C9EE341E854"
+			tasks: [{
+				id: "60AD01CC8E1A6A97"
+				item: "gtceu:steam_blender"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "6EFB877706741200"
+			tasks: [{
+				id: "18E14DB52DFA6BB4"
+				item: "gtceu:steam_fuser"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "3267B1110D566E08"
+			tasks: [{
+				id: "2E211D3873B1D668"
+				item: "gtceu:steam_press"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "50B2C32A55F7F813"
+			tasks: [{
+				id: "7F38CC728C1B6275"
+				item: "gtceu:steam_squasher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "17CCB5D203D50968"
+			tasks: [{
+				id: "5FC07C534A9E2369"
+				item: "gtceu:steam_washer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "2EAF68FCEEAD68E7"
+			tasks: [{
+				id: "1880723699BC07F3"
+				item: "gtceu:freight_trade_hub_lv"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "666205D9C050AEE2"
+			tasks: [{
+				id: "535947C9876897B1"
+				item: "gtceu:freight_trade_hub_mv"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "50ACD8372A4E018F"
+			tasks: [{
+				id: "00C354D2103A07B1"
+				item: "gtceu:freight_trade_hub_hv"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "6D49A53C89CC4353"
+			tasks: [{
+				id: "3F06436F9CDADC78"
+				item: "gtceu:freight_trade_hub_ev"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "38B40D342798CB84"
+			tasks: [{
+				id: "036E06915689FF65"
+				item: "gtceu:izakaya_service_floor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "71A4A13112BC4CBC"
+			tasks: [{
+				id: "74E730C5678891B5"
+				item: "gtceu:restaurant_service_floor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "74ADD0D2728E8183"
+			tasks: [{
+				id: "5B44D5281BD1A2F3"
+				item: "gtceu:bar_service_floor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	title: "Multiblocks"
+}

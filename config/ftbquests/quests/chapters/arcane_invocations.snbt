@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcane_invocations"
+	group: "4288201204AF5F02"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "23F51E61C0A223EF"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E1067B7E754E389"]
+			id: "263A31A718F050F6"
+			size: 4.0d
+			tasks: [{
+				id: "0E0C2C47C0A91BA5"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["263A31A718F050F6"]
+			id: "3525787938C6ED73"
+			size: 1.5d
+			tasks: [{
+				id: "3CB7D5A8BC757808"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3525787938C6ED73"]
+			id: "277901AA74C6BC5D"
+			tasks: [{
+				id: "5C517AAFF601CBBA"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3525787938C6ED73"]
+			id: "333F1E0B462DF657"
+			tasks: [{
+				id: "007A9E4B3A28B45F"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["333F1E0B462DF657"]
+			id: "2963226C2BF5C330"
+			tasks: [{
+				id: "25FB48B5B8351A46"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D20EAC2F67647DF"]
+			id: "58240DD93C009AE9"
+			tasks: [{
+				id: "1C18B7AAE5899BB9"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["58240DD93C009AE9"]
+			id: "5E542F83A78926B4"
+			tasks: [{
+				id: "78DE8039A722755E"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5E542F83A78926B4"]
+			id: "0B08D0B977BD3634"
+			tasks: [{
+				id: "29325F3E53851D88"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["47D08EC0D7916671"]
+			id: "269A697C3A58F14C"
+			tasks: [{
+				id: "0F4652488B67A4A3"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["269A697C3A58F14C"]
+			id: "68B0F9D982AE6D7E"
+			tasks: [{
+				id: "160C7080F490D031"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["269A697C3A58F14C"]
+			id: "790D5646C3FFC09B"
+			tasks: [{
+				id: "3B308F2F06E82613"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["269A697C3A58F14C"]
+			id: "56C07CF57C27CD88"
+			tasks: [{
+				id: "7F2CF4B9328FEEAA"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["269A697C3A58F14C"]
+			id: "71F26C67FA7C9944"
+			tasks: [{
+				id: "3F64F479C06D9612"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["269A697C3A58F14C"]
+			id: "26D8B0B5F4EC93D7"
+			tasks: [{
+				id: "4CC827730086E389"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["71B8B26BDC2656FB"]
+			id: "0574EE850DB0BC8F"
+			tasks: [{
+				id: "08938C706A72DBB0"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["26D8B0B5F4EC93D7"]
+			id: "71B8B26BDC2656FB"
+			tasks: [{
+				id: "31E48DCFBA2A4A49"
+				item: "ars_nouveau:wixie_cauldron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -15.0d
+		}
+		{
+			id: "240C1752D9EC48B1"
+			tasks: [{
+				id: "3FA082BACA111D04"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3525787938C6ED73"]
+			id: "3D20EAC2F67647DF"
+			tasks: [{
+				id: "30D8591D51B23959"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3D20EAC2F67647DF"]
+			id: "47D08EC0D7916671"
+			tasks: [{
+				id: "7B711530FE65E228"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+	]
+	title: "Arcane Invocations"
+}

@@ -1,0 +1,1371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basis_of_magic"
+	group: "4288201204AF5F02"
+	icon: "minecraft:writable_book"
+	id: "44DB1BDC4A519A37"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Magic Progression has been severely overhauled in this pack."
+				""
+				"Everything from Ars, Blood Magic, Malum, Botania \\& Hexerei has been overhauled."
+				""
+				"Crafting Powerful items now require Thaumcraft-esque crafting."
+			]
+			id: "7BE077A09346FF5A"
+			size: 3.0d
+			tasks: [{
+				id: "4164400D7C8776C5"
+				title: "Preface: Magic"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["020DD41E3917E779"]
+			id: "640B724F09B4ADE4"
+			tasks: [{
+				id: "4A66FA29219B058C"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3C12CC0B32092"]
+			id: "1AE22FD06E857791"
+			size: 1.5d
+			tasks: [
+				{
+					id: "23D3360EC10B8DE4"
+					item: "malum:cluster_of_brilliance"
+					type: "item"
+				}
+				{
+					id: "12B5B80B7AE81E19"
+					item: "malum:raw_soulstone"
+					type: "item"
+				}
+				{
+					id: "19A1C866834CE720"
+					item: "kubejs:raw_arcane"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3C12CC0B32092"]
+			id: "78D4938B7E8D0763"
+			size: 1.5d
+			tasks: [{
+				id: "6A2595E99EA2192D"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "1D6BA1718D61A6E1"
+			tasks: [{
+				id: "187E50A92B673C13"
+				item: "malum:sacred_spirit"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "58322CA13B6E7D9A"
+			tasks: [{
+				id: "78B1BE7BE8E2CD16"
+				item: "malum:wicked_spirit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "6A80A4D819842CB9"
+			tasks: [{
+				id: "3FE65C95A4DD1CDA"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "7E8325E2D74FFE78"
+			tasks: [{
+				id: "6C19D0F17B55B48B"
+				item: "malum:eldritch_spirit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "57B413FB2F6D7B26"
+			tasks: [{
+				id: "5911D41A146A4272"
+				item: "malum:aerial_spirit"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "65E8E4F86FDB024E"
+			tasks: [{
+				id: "4CAA4BEF3C9DDA18"
+				item: "malum:aqueous_spirit"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "2C2B6595A54384F9"
+			tasks: [{
+				id: "5D90E98473D090EC"
+				item: "malum:earthen_spirit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "31B8C798E32ACDCF"
+			tasks: [{
+				id: "13B3ABBEA6AC4473"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1AE22FD06E857791"]
+			id: "6D64A72035627E31"
+			tasks: [{
+				id: "41B06E850389528B"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			title: "The Primal Spirits"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A80A4D819842CB9"]
+			id: "521344A4F243F91D"
+			tasks: [{
+				id: "0F7B9F847FEECE22"
+				item: "kubejs:thaumium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AE22FD06E857791"]
+			id: "3C000F359DC77409"
+			tasks: [{
+				id: "1CAE6303F598CD1B"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3C000F359DC77409"
+				"0B9AAA9D96FAA64A"
+				"1C91838B53124309"
+				"13D2B0282BF704E3"
+			]
+			id: "36EB91B0B12480F7"
+			size: 2.0d
+			tasks: [{
+				id: "0C34D72CEEECF13B"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78D4938B7E8D0763"]
+			id: "4FE2223DAEB4F601"
+			tasks: [{
+				id: "7908FF2D843A1B7F"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FE2223DAEB4F601"]
+			id: "30FA907BBF610F5A"
+			tasks: [{
+				count: 16L
+				id: "5BB9BB52CC01A3D3"
+				item: { Count: 16, id: "botania:livingrock" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FE2223DAEB4F601"]
+			id: "020DD41E3917E779"
+			tasks: [{
+				id: "65BB0E5E27F055EE"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30FA907BBF610F5A"
+				"3C000F359DC77409"
+			]
+			id: "6E1EAA1D42AB2386"
+			tasks: [{
+				id: "3C95E553178EFB01"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30FA907BBF610F5A"
+				"606F2AE00BBCABE8"
+			]
+			id: "4E0B1E024D800184"
+			tasks: [{
+				id: "62EC5E8328388FF7"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4E0B1E024D800184"]
+			id: "278CBCA95525B15B"
+			tasks: [{
+				id: "0379192B3F75DE06"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"30FA907BBF610F5A"
+				"059B92918DD742E8"
+			]
+			id: "748BE30362400EEF"
+			tasks: [{
+				id: "4A67905D9AAE4103"
+				item: "botania:apothecary_livingrock"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E0B1E024D800184"]
+			id: "281A9C7AC1433D49"
+			tasks: [{
+				id: "3A7001DCA880ACF4"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4E0B1E024D800184"]
+			id: "2EDACC390D5CD3FC"
+			tasks: [{
+				id: "574F70871F0075C8"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			title: "More Flowers"
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["281A9C7AC1433D49"]
+			id: "5A342A28FBCBAE69"
+			tasks: [{
+				id: "09499A2CA3EEA874"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["521344A4F243F91D"]
+			id: "0B9AAA9D96FAA64A"
+			tasks: [{
+				id: "47A0CD08936A0BBF"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"569DBE8E885613E7"
+				"161562D2E4253FB6"
+				"730AD79E25A630C5"
+				"4BAB617D8FB7AC8B"
+			]
+			id: "48F6D60EECFB3A47"
+			size: 3.0d
+			tasks: [{
+				id: "05E33D79A1BA5B97"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"36EB91B0B12480F7"
+				"278CBCA95525B15B"
+			]
+			id: "56E37F1B7103A5AF"
+			size: 2.0d
+			tasks: [{
+				id: "77A9A05538790CF8"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E0B1E024D800184"]
+			id: "020254CCFE8A3F65"
+			tasks: [{
+				id: "417E60BECF2802A4"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["748BE30362400EEF"]
+			id: "606F2AE00BBCABE8"
+			tasks: [{
+				id: "19DAC513CA5E9F21"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36EB91B0B12480F7"]
+			id: "67FB63C4DFE5EFB6"
+			size: 2.0d
+			tasks: [{
+				id: "168132995D4E822D"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "15C4892378EF4A21"
+			tasks: [{
+				id: "1319FC8BA5DEDB57"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "0C0D6261D81C34DD"
+			tasks: [{
+				id: "3EDC01B66AD15D60"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "6E699AE4C3F82661"
+			tasks: [{
+				id: "145A677CD6288EB0"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "47DEA13C258615F6"
+			tasks: [{
+				id: "7A3D0A9826BF0D48"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["020DD41E3917E779"]
+			id: "5F9532F80DC57FE8"
+			tasks: [{
+				id: "06FE7F0AF3541F82"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["278CBCA95525B15B"]
+			id: "6D51461A9FB9E847"
+			tasks: [{
+				id: "22488C9AA737B7E3"
+				item: "kubejs:primal_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2EDACC390D5CD3FC"]
+			id: "7F3D8496974FD6BA"
+			tasks: [{
+				id: "35D9C5A6A0312047"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "1C91838B53124309"
+			tasks: [
+				{
+					id: "7D24FC291A75FA05"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "5C954DC477714199"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "392626B82F0B826B"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "3C33BCD4D75F6584"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36EB91B0B12480F7"]
+			id: "7F0BECBFE55E9B08"
+			tasks: [
+				{
+					id: "428A2121944998B1"
+					item: "malum:runewood_sapling"
+					type: "item"
+				}
+				{
+					id: "2DE7A02B3D0A82F7"
+					item: "malum:azure_runewood_sapling"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "4BAB617D8FB7AC8B"
+			tasks: [{
+				id: "1EE335959945CB7B"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "569DBE8E885613E7"
+			tasks: [{
+				id: "2DD6C7A3BC9D50DE"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "730AD79E25A630C5"
+			tasks: [{
+				id: "4803907A0DA9E12E"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "161562D2E4253FB6"
+			tasks: [{
+				id: "4066AC12320F3979"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D64A72035627E31"]
+			id: "057AED1BA264A877"
+			tasks: [{
+				id: "0CC41F405AE29E17"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["057AED1BA264A877"]
+			id: "4BD527E844899BE4"
+			size: 2.0d
+			tasks: [{
+				id: "17EA173C2AE7927B"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "12E6D7873C100259"
+			size: 2.0d
+			tasks: [{
+				id: "67D4360706847953"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7BE077A09346FF5A"]
+			id: "3529B392062D0B30"
+			size: 1.5d
+			tasks: [{
+				id: "4D47C27B40875CF9"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "69440E7A5D909844"
+			tasks: [{
+				id: "31E95A827595497C"
+				item: "hexerei:mahogany_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "35949C10CE79D1E3"
+			tasks: [{
+				id: "0C4A48FEAA71BD1D"
+				item: "hexerei:willow_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "5CECCA776A4FA145"
+			tasks: [{
+				id: "732753825C88A81A"
+				item: "hexerei:witch_hazel_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48F6D60EECFB3A47"]
+			id: "3752A8D847BE7967"
+			size: 2.0d
+			tasks: [{
+				id: "25FE02413AF77643"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12E6D7873C100259"]
+			id: "035FD54B56C3DD1C"
+			tasks: [{
+				id: "19CA90FED6EC61BB"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FBAB99E6FC102B0"]
+			id: "32C85DAD541E63AB"
+			tasks: [{
+				id: "19A29F3907B0CCEF"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32C85DAD541E63AB"]
+			id: "6E88B7176FB4A958"
+			tasks: [{
+				id: "6CDDADDF8B7DFB6B"
+				item: {
+					Count: 1
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["12E6D7873C100259"]
+			id: "01C27B8FE596F857"
+			size: 3.0d
+			tasks: [{
+				id: "037BD75D2127AC24"
+				item: {
+					Count: 1
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12E6D7873C100259"]
+			id: "499E9BB532C6AB08"
+			tasks: [{
+				id: "47BCC6FC3782838C"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "3BC19B0F231124AE"
+			tasks: [{
+				id: "6CB568919D06B3B4"
+				item: "hexerei:belladonna_flowers"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "35D795C0A9C8D779"
+			tasks: [{
+				id: "50900C0B32A52A74"
+				item: "hexerei:mandrake_root"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "122119318620C8D0"
+			tasks: [{
+				id: "4904D597A96F9D5D"
+				item: "hexerei:mugwort_leaves"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "58052BC66809DA23"
+			tasks: [{
+				id: "599C0F2812631137"
+				item: "hexerei:yellow_dock_leaves"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3529B392062D0B30"]
+			id: "754855372DB503C5"
+			tasks: [{
+				id: "26731FB50E585D7B"
+				item: "hexerei:sage"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["035FD54B56C3DD1C"]
+			id: "49ECC89930F2D347"
+			tasks: [{
+				id: "2E69FAE84E6FFFB1"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1FBAB99E6FC102B0"
+				"499E9BB532C6AB08"
+			]
+			id: "059B92918DD742E8"
+			tasks: [{
+				id: "19BFE41CF73B3FC5"
+				item: "hexerei:mindful_trance_blend"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["12E6D7873C100259"]
+			id: "1FBAB99E6FC102B0"
+			tasks: [{
+				id: "399F7E516FE61AC5"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7BE077A09346FF5A"
+				"5CB19A9993007C5D"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "1DA3C12CC0B32092"
+			size: 2.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "1B660CAB0192AF06"
+				type: "dimension"
+			}]
+			x: -8.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4BD527E844899BE4"]
+			id: "1AD6590EBAF9FFC7"
+			tasks: [{
+				id: "4EB817EB89363D7A"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1AD6590EBAF9FFC7"]
+			id: "0BE593EFFB5EB735"
+			tasks: [{
+				id: "4C776D57C298AEE8"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE593EFFB5EB735"]
+			id: "18AEA033E7FF216E"
+			tasks: [{
+				id: "1F0CEC293D4DE5A2"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE593EFFB5EB735"]
+			id: "6FAD627FE7995D27"
+			tasks: [{
+				id: "1FF0F9D99E9D9F3D"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BE593EFFB5EB735"]
+			id: "03D7BC5C3D747C3D"
+			tasks: [{
+				id: "1D6A6D1870BC98BC"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BE593EFFB5EB735"]
+			id: "036B7C81993165BB"
+			tasks: [{
+				id: "6ED53DDA80707DA8"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["036B7C81993165BB"]
+			id: "6B6BF4A7B9909B02"
+			tasks: [{
+				id: "02DF4DD05B5D8C45"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["036B7C81993165BB"]
+			id: "07C57946B82BAD50"
+			tasks: [{
+				id: "1978B7D3287441DE"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6B6BF4A7B9909B02"]
+			id: "35D027FB4B02C32F"
+			tasks: [{
+				id: "72321EAAA232F038"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6B6BF4A7B9909B02"]
+			id: "646C9B2D779C4680"
+			tasks: [{
+				id: "1D5B63F25FD1BDA8"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B6BF4A7B9909B02"]
+			id: "72AB21A2C39CFA61"
+			tasks: [{
+				id: "0C3F31E701D9F7DD"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["72AB21A2C39CFA61"]
+			id: "70F878399CF9F699"
+			tasks: [{
+				id: "34F81FAD8F8F2F4B"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["72AB21A2C39CFA61"]
+			id: "78390EF15560CD39"
+			tasks: [{
+				id: "34B366EE4AF2E0F7"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"48F6D60EECFB3A47"
+				"7F0BECBFE55E9B08"
+			]
+			id: "357F61BC95C06E17"
+			size: 2.0d
+			tasks: [{
+				id: "739C929C71AD2E51"
+				item: "malum:runewood_totem_base"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["357F61BC95C06E17"]
+			id: "3CC347B47CA5A516"
+			size: 1.5d
+			tasks: [{
+				id: "3C8CB0BB467E4F8E"
+				item: "malum:soulwood_growth"
+				type: "item"
+			}]
+			title: "A Rite Unchained"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3CC347B47CA5A516"]
+			id: "6AB292457A56B0A2"
+			tasks: [{
+				id: "6F591EBBFE1A5241"
+				item: "malum:tainted_rock"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3752A8D847BE7967"]
+			id: "14BCCF660ABBF6CB"
+			size: 1.5d
+			tasks: [{
+				id: "3EEDF9FD183172A1"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48F6D60EECFB3A47"]
+			id: "083264CDFFAE610A"
+			tasks: [{
+				id: "37EE298C43CAD505"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"14BCCF660ABBF6CB"
+				"083264CDFFAE610A"
+			]
+			id: "4E73A55D8FF12435"
+			tasks: [{
+				id: "2BDFF5C4E58CC088"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E73A55D8FF12435"]
+			icon: "botania:dreamwood_twig"
+			id: "192AC6C6F2CDC99F"
+			size: 4.0d
+			tasks: [{
+				id: "07B338B649CFC686"
+				title: "Elven Trade"
+				type: "checkmark"
+			}]
+			title: "Purity"
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6AB292457A56B0A2"]
+			icon: "malum:umbral_spirit"
+			id: "0DA7FC24604E29A7"
+			size: 4.0d
+			tasks: [{
+				id: "4B173E946EF6C0BF"
+				title: "Mysterious Liquid"
+				type: "checkmark"
+			}]
+			title: "Corruption"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "6088EB43BB306EC6"
+			tasks: [{
+				id: "3FFAA5E8F268E790"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "3FBD6B066DCCDB04"
+			tasks: [{
+				id: "04DDBB0FC82574EE"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "64081787057502DC"
+			tasks: [{
+				id: "35DB03F52739C252"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "6F4465C50E8329F5"
+			tasks: [{
+				id: "48107A6C95C3E500"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "1A3DF2991D570B68"
+			tasks: [{
+				id: "30C1428F81D617C4"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "1B98B5FA6739CCF5"
+			tasks: [{
+				id: "17C231F56C34E71F"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "2AB0B53B4BD4995C"
+			tasks: [{
+				id: "254CC73FBE9F2AD9"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "01414417ACE81A76"
+			tasks: [{
+				id: "17A38786F91C86FF"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14BCCF660ABBF6CB"]
+			id: "4AB3CA80D89BF912"
+			tasks: [{
+				id: "049AA8086E86CE17"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["70F878399CF9F699"]
+			icon: "bloodmagic:weakbloodshard"
+			id: "6A4126CF1DAE343F"
+			size: 4.0d
+			tasks: [{
+				id: "047365E57C35E712"
+				title: "Sanguine"
+				type: "checkmark"
+			}]
+			x: -26.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1AE4033587122901"]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "0E1067B7E754E389"
+			size: 4.0d
+			tasks: [{
+				id: "06F8EEA1B6141B5C"
+				title: "Arcane"
+				type: "checkmark"
+			}]
+			title: "Arcana"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["37BB99C9CFEEAB1B"]
+			icon: "occultism:awakened_feather"
+			id: "7BF35AB048611E8A"
+			size: 4.0d
+			tasks: [{
+				id: "4D9E45AC7A36D5BF"
+				title: "Occult"
+				type: "checkmark"
+			}]
+			x: -24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["12E6D7873C100259"]
+			id: "37BB99C9CFEEAB1B"
+			size: 1.5d
+			tasks: [{
+				id: "10839B61EFB72865"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["36EB91B0B12480F7"]
+			id: "1AE4033587122901"
+			tasks: [{
+				id: "7728DE9A4FCC17B1"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["521344A4F243F91D"]
+			id: "13D2B0282BF704E3"
+			tasks: [{
+				id: "04201B3138A8E8CC"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["13D2B0282BF704E3"]
+			id: "13946D02036E912C"
+			tasks: [{
+				id: "480ACE5270A1DFF8"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["13D2B0282BF704E3"]
+			id: "636BC52015C80D90"
+			tasks: [{
+				id: "43D0A778D5F99AA5"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["13D2B0282BF704E3"]
+			id: "0F8FB58252422079"
+			tasks: [{
+				id: "7FC414D2CCE59C08"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["13D2B0282BF704E3"]
+			id: "3F9D62F95B8F02F5"
+			tasks: [{
+				id: "43F0947C408475ED"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["13D2B0282BF704E3"]
+			id: "57271D2290C42069"
+			tasks: [{
+				id: "7CAAFA5BD7A9ECE9"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["48F6D60EECFB3A47"]
+			id: "1C7D23841EBFB03A"
+			size: 2.0d
+			tasks: [{
+				id: "409360BD7B9CB9D6"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C7D23841EBFB03A"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "2AE3A75DA4118142"
+			size: 4.0d
+			tasks: [{
+				id: "7DD9F71334C68DE0"
+				title: "Apotheosis"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+	]
+	title: "The Basis of Magic"
+}

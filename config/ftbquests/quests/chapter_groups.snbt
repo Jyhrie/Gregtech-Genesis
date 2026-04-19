@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "385AF786BCEBE22D", title: "Main Progression" }
+		{ id: "0109883279C4F736", title: "Generation" }
+		{ id: "497C3B3571F1E420", title: "Multiblocks" }
+		{ id: "48314A0D612E5B8C", title: "Storage" }
+		{ id: "4288201204AF5F02", title: "Magic" }
+		{ id: "7CBCC75C83721AE6", title: "Finality" }
+		{ id: "5E7FB30B9EB672E9", title: "Completionist" }
+	]
+}

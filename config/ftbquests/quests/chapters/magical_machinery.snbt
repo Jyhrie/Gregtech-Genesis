@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_machinery"
+	group: "4288201204AF5F02"
+	id: "603C8F967FBB7A2F"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Magical Machinery"
+}

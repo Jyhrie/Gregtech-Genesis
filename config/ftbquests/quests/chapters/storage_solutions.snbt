@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "48314A0D612E5B8C"
+	id: "15C4C925623D5A70"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5004B65029465DD6"
+		tasks: [{
+			id: "347533AE06987AF3"
+			item: "ars_nouveau:storage_lectern"
+			type: "item"
+		}]
+		x: -5.0d
+		y: -1.5d
+	}]
+	title: "Storage Solutions"
+}

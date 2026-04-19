@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv"
+	group: "385AF786BCEBE22D"
+	icon: "gtceu:nano_processor_mainframe"
+	id: "7154973302DE80F4"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59A8AB3C6A856C55"
+			tasks: [{
+				id: "3A669CB88762B49F"
+				item: "gtceu:blue_steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "59023F5BE666D301"
+			tasks: [{
+				id: "195A29178687AFBE"
+				item: "gtceu:luv_battery_hull"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "LuV"
+}

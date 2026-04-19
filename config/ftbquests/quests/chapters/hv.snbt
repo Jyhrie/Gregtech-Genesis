@@ -1,0 +1,721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv"
+	group: "385AF786BCEBE22D"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "42FE3594503CCD15"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["683E4D5712CF86B9"]
+			id: "029C29A1F00CF35D"
+			tasks: [{
+				id: "09BCB6E18CE8F7D0"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["324DCA0A359E371C"]
+			id: "683E4D5712CF86B9"
+			tasks: [{
+				id: "1E9D125CC0675C10"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "3A165B23069C1C4A"
+			size: 1.5d
+			tasks: [{
+				id: "2FF9D49CA1FAA5E2"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2070AAE23341AB36"
+				"01B27111A8E3C68C"
+				"5907EC3182E64E0B"
+			]
+			id: "0AB694B4E7A28082"
+			size: 2.0d
+			tasks: [{
+				id: "0A4CF6E62B65D5E0"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "7192526AF8B0B0B8"
+			size: 1.5d
+			tasks: [{
+				id: "1CA7CE8A9DC5541F"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 2.0d
+		}
+		{
+			id: "3A278C785C1D25E1"
+			tasks: [{
+				id: "6E845F8DCFCE8870"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A278C785C1D25E1"]
+			id: "5F66A3136F91FC09"
+			tasks: [{
+				id: "4435CEFF6481CCA0"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			id: "0B4F59B99CF4EB70"
+			size: 1.5d
+			tasks: [{
+				id: "25770BDC203894C5"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"67E3DA49C021841D"
+				"2C7B44B2EC99459D"
+				"43B472BA9485696A"
+			]
+			id: "3E07F5AB991BD6A7"
+			tasks: [
+				{
+					id: "04C72F0D196BB09E"
+					item: "gtceu:nand_memory_chip"
+					type: "item"
+				}
+				{
+					id: "27E8E166498510DA"
+					item: "gtceu:nor_memory_chip"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E07F5AB991BD6A7"]
+			id: "78BF8FFEEABEAE4C"
+			tasks: [{
+				id: "51E624C8258D914E"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A6CB77FE4830C09"]
+			id: "5B45833E14B63B2C"
+			tasks: [{
+				id: "25A041FF0638248A"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5B45833E14B63B2C"
+				"1D993C51D8E1A7C8"
+			]
+			id: "3A8CDDE51165A145"
+			tasks: [{
+				id: "6C108008112C0D02"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			id: "1D993C51D8E1A7C8"
+			tasks: [{
+				id: "3BBEEDB2C385D187"
+				item: "gtceu:inductor"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3A8CDDE51165A145"
+				"7192526AF8B0B0B8"
+			]
+			id: "169F291C1D148F97"
+			size: 2.0d
+			tasks: [{
+				id: "7B8425C1104A4855"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "0937AA1B5FBC21BA"
+			size: 1.5d
+			tasks: [{
+				id: "325F4AFD71A37EFF"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0937AA1B5FBC21BA"
+				"5F66A3136F91FC09"
+			]
+			id: "67E3DA49C021841D"
+			tasks: [{
+				id: "26C0DEAB2B23A66D"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "2C7B44B2EC99459D"
+			size: 1.5d
+			tasks: [{
+				id: "60791426A34821FC"
+				item: "gtceu:hv_laser_engraver"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5E6B322927C4B4E4"]
+			id: "5E8F5CDC536ED19B"
+			tasks: [{
+				id: "63444A87C17D46FD"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E6B322927C4B4E4"]
+			id: "5810B3ECDDA35E1F"
+			tasks: [{
+				id: "07B12DE1CC281A0E"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5E6B322927C4B4E4"]
+			id: "66AF7517B5767EE1"
+			tasks: [{
+				id: "5E571458CE67739C"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5E6B322927C4B4E4"]
+			id: "7F8EFADF4F5446AB"
+			tasks: [{
+				id: "0299E7B1C82D9A5D"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5E6B322927C4B4E4"]
+			id: "664BC8AC57F266C2"
+			tasks: [{
+				id: "0D4DC9EF144FF7F8"
+				item: "gtceu:smd_inductor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			id: "6A6CB77FE4830C09"
+			tasks: [{
+				id: "11F08AAEF2950C2A"
+				item: "gtceu:cpu_chip"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3A165B23069C1C4A"
+				"029C29A1F00CF35D"
+			]
+			id: "7E063661C24B3EC0"
+			size: 2.0d
+			tasks: [{
+				id: "7F583E5D0F357315"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "00FBF6D1520A841B"
+			size: 1.5d
+			tasks: [{
+				id: "69881FE4D6A2BB4E"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00FBF6D1520A841B"]
+			id: "324DCA0A359E371C"
+			tasks: [{
+				id: "2E8D702BF09FF3D3"
+				item: "gtceu:ammonia_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00FBF6D1520A841B"]
+			id: "2E3C649F4070E7B9"
+			tasks: [{
+				id: "1066201D125BB733"
+				item: "gtceu:chloromethane_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E3C649F4070E7B9"]
+			id: "13AADC0CBD66691D"
+			tasks: [{
+				id: "6FF1AD9FE88B754D"
+				item: "gtceu:dimethyldichlorosilane_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["324DCA0A359E371C"]
+			id: "2DD21118721673F6"
+			tasks: [{
+				id: "029530142776A8B4"
+				item: "gtceu:nitric_oxide_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DD21118721673F6"]
+			id: "78173E3DEEB95DE8"
+			tasks: [{
+				id: "7078B65882667EB0"
+				item: "gtceu:nitrogen_dioxide_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["78173E3DEEB95DE8"]
+			id: "472EBBE6309E3BE6"
+			tasks: [{
+				id: "00D603E7D3329E3D"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13AADC0CBD66691D"]
+			id: "42583A1CCB51740F"
+			tasks: [{
+				id: "63E6D7A8899113AC"
+				item: "gtceu:polydimethylsiloxane_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["42583A1CCB51740F"]
+			id: "1DC7EC49980FDCB3"
+			tasks: [{
+				id: "6F9B98612F2155AF"
+				item: "gtceu:silicone_rubber_plate"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["00FBF6D1520A841B"]
+			id: "0EE2F8B753EB0428"
+			tasks: [{
+				id: "7270908D532116C2"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0EE2F8B753EB0428"]
+			id: "2C97373D793171B3"
+			tasks: [{
+				id: "0E24D7A09146D205"
+				item: "gtceu:chloroform_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2C97373D793171B3"]
+			id: "06679DE7CFF6DFEE"
+			tasks: [{
+				id: "26BF24E2252F989D"
+				item: "gtceu:polytetrafluoroethylene_plate"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7445F50006E694BE"
+				"392F43B3244E42D9"
+			]
+			id: "464234A0AAAED482"
+			tasks: [{
+				id: "03BCA93980604B82"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["464234A0AAAED482"]
+			id: "6AB87F3A10210F83"
+			tasks: [{
+				id: "7D10DEB72C776F4E"
+				item: "gtceu:butadiene_bucket"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["464234A0AAAED482"]
+			id: "7942CBCCB77DC195"
+			tasks: [{
+				id: "7B56C31983CF0C86"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7942CBCCB77DC195"]
+			id: "4F372ABA8008BD9F"
+			tasks: [{
+				id: "12EA6F6068AA3D59"
+				item: "gtceu:styrene_bucket"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"6AB87F3A10210F83"
+				"4F372ABA8008BD9F"
+			]
+			id: "24E962F121D991BF"
+			tasks: [{
+				id: "2516E5D4561EA8E4"
+				item: "gtceu:raw_styrene_butadiene_rubber_dust"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["24E962F121D991BF"]
+			id: "49E0999316304483"
+			tasks: [{
+				id: "62E06ADA0EBF188C"
+				item: "gtceu:styrene_butadiene_rubber_plate"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "7445F50006E694BE"
+			size: 1.5d
+			tasks: [{
+				id: "40827B9DBC377F01"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			hide_dependency_lines: true
+			id: "5A2A0B55039E8B0A"
+			size: 1.5d
+			tasks: [{
+				id: "50F919AFF88ED07E"
+				item: "gtceu:hv_fluid_heater"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5A2A0B55039E8B0A"]
+			id: "44BA6BCE807703A8"
+			tasks: [{
+				id: "5A3E2C9E98614053"
+				item: "gtceu:sodium_potassium_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"44BA6BCE807703A8"
+				"5E6B322927C4B4E4"
+			]
+			id: "576D1E0391C1BE96"
+			tasks: [{
+				id: "6D30617E6BCAF303"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["44BA6BCE807703A8"]
+			id: "469F4D816451FA52"
+			tasks: [{
+				id: "46B5803444785413"
+				item: "gtceu:helium_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["469F4D816451FA52"]
+			id: "01B27111A8E3C68C"
+			tasks: [{
+				id: "5DFD6B706A92AABC"
+				item: "gtceu:liquid_helium_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "5E6B322927C4B4E4"
+			size: 1.5d
+			tasks: [{
+				id: "5413BB0B966EC0EE"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["367545008B089561"]
+			id: "3766C3CDFE8330F2"
+			tasks: [{
+				id: "2B44CFE75C1D230B"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3A165B23069C1C4A"]
+			id: "367545008B089561"
+			tasks: [{
+				id: "3436D1FF7D8EB788"
+				item: "gtceu:raw_ilmenite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "2070AAE23341AB36"
+			size: 1.5d
+			tasks: [{
+				id: "0A88F334C84424F0"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7AEC6E42AF96FCD7"]
+			id: "5907EC3182E64E0B"
+			tasks: [{
+				id: "52A44BA512F65F68"
+				item: "gtceu:hot_titanium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3766C3CDFE8330F2"]
+			id: "7AEC6E42AF96FCD7"
+			tasks: [{
+				id: "0E5CAA7A4A719AA8"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B4F59B99CF4EB70"]
+			id: "43B472BA9485696A"
+			tasks: [
+				{
+					id: "0BA6D07D2889A515"
+					item: "gtceu:gray_glass_lens"
+					type: "item"
+				}
+				{
+					id: "01F800A4DE546E64"
+					item: "gtceu:pink_glass_lens"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "392F43B3244E42D9"
+			size: 1.5d
+			tasks: [{
+				id: "427C4059D755D225"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: -14.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5E6B322927C4B4E4"]
+			id: "5D6C5E4E93DB26E4"
+			tasks: [{
+				id: "2D562E4AFCBABBAA"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "15221A37D2EBC449"
+			tasks: [{
+				id: "12E43DF5494CBEAE"
+				item: "gtceu:blue_alloy_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			id: "10D30A6E77ACDCDA"
+			size: 4.0d
+			tasks: [{
+				id: "78B79785402BB8D0"
+				title: "HV"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+	]
+	title: "HV"
+}

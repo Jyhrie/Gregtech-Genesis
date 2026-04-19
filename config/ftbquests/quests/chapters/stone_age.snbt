@@ -1,0 +1,655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone_age"
+	group: "385AF786BCEBE22D"
+	icon: {
+		Count: 1
+		id: "minecraft:stone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2A5AF333874CEC48"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0774E6C28242ED78"]
+			id: "71B001D7F60ED874"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5AD142DE566993C0"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "35F54FF272DB7D2F"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5516B7B1439A6D3D"]
+			id: "4DA5B056D8BC1C5C"
+			tasks: [{
+				id: "56ABE2ADF1493DBA"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Wrought Iron"
+			x: -18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4DD9D7E0B11D1058"]
+			id: "67C07C71661D1569"
+			tasks: [
+				{
+					count: 32L
+					id: "567370314BDF70BA"
+					item: { Count: 32, id: "minecraft:porkchop" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5E61F882534F4570"
+					item: { Count: 32, id: "minecraft:beef" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4CDEE04B162B297A"
+					item: { Count: 32, id: "minecraft:mutton" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "218308DCFF5145E2"
+					item: { Count: 32, id: "minecraft:chicken" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16BE75DAA40391F9"]
+			id: "022FF6CABB47F903"
+			tasks: [
+				{
+					count: 64L
+					id: "2C03BECAFBDC9202"
+					item: { Count: 64, id: "minecraft:carrot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4D16EA4E048160FF"
+					item: { Count: 64, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7709CBB14B3DE2BD"
+					item: { Count: 64, id: "minecraft:potato" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71B001D7F60ED874"]
+			id: "2E326388C6CCFCF5"
+			tasks: [{
+				id: "6ADCC3C00B8B3791"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			title: "Creosote"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71B001D7F60ED874"]
+			id: "0E72F015D5FE35A6"
+			tasks: [{
+				id: "74570344E902689E"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DA5B056D8BC1C5C"]
+			id: "4DD9D7E0B11D1058"
+			tasks: [{
+				id: "42180D055F38D78E"
+				item: "farm_and_charm:feeding_trough"
+				type: "item"
+			}]
+			title: "Auto Breeding"
+			x: -17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DA5B056D8BC1C5C"]
+			id: "16BE75DAA40391F9"
+			tasks: [{
+				id: "59B61B0008D64758"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A8640BB7DD02CE7"]
+			id: "5377580DC992F1D3"
+			tasks: [{
+				id: "796D76F3F08FC11F"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5377580DC992F1D3"]
+			id: "5B205B235A1D8C10"
+			tasks: [{
+				id: "421062FDCF9320D7"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B205B235A1D8C10"]
+			id: "3E524A6EC68D618E"
+			tasks: [{
+				id: "1212B185E1BA66DC"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3E524A6EC68D618E"]
+			id: "569D2F4C1E15DF53"
+			tasks: [{
+				id: "17FBE9606EBD8593"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -8.0d
+		}
+		{
+			id: "40909376A298B416"
+			tasks: [{
+				id: "3ED8C5BB7675337A"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5A8640BB7DD02CE7"]
+			id: "111DA1E3A42D1E8C"
+			tasks: [{
+				count: 16L
+				id: "2FA973EB050158BB"
+				item: {
+					Count: 16
+					id: "storagedrawers:oak_full_drawers_1"
+				}
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: -30.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09AE7036F47E324A"]
+			id: "5A8640BB7DD02CE7"
+			tasks: [{
+				id: "1A1FA68866BCF2EE"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wrench"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							AttackDamage: 3.0f
+							AttackSpeed: -2.8f
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["09AE7036F47E324A"]
+			id: "5D8B7AA2AD59C206"
+			tasks: [{
+				id: "4ED362B3D041C0E1"
+				item: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 3.0f
+							AttackSpeed: -2.8f
+							DefaultEnchantments: [ ]
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D8B7AA2AD59C206"]
+			id: "300504DDA0D6A66B"
+			tasks: [{
+				id: "3766D75DD7B48BD6"
+				item: {
+					Count: 1
+					id: "gtceu:iron_file"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 0.0f
+							AttackSpeed: -2.4f
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09AE7036F47E324A"]
+			id: "68CBDF85E648265B"
+			tasks: [{
+				id: "3E17BA5E7ABC18E4"
+				item: {
+					Count: 1
+					id: "gtceu:iron_mortar"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 0.0f
+							AttackSpeed: -2.4f
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5ED98AF0286D0B14"]
+			id: "5BCB621F2B1AECFC"
+			tasks: [{
+				id: "42B3B714266B098F"
+				item: {
+					Count: 1
+					id: "gtceu:iron_saw"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							HarvestIce: 1b
+						}
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: -2.6f
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			id: "670DD73813DEABA4"
+			tasks: [{
+				id: "533528C36EC4E2CB"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.5d
+		}
+		{
+			id: "6FA401A6D82EDA7C"
+			tasks: [{
+				id: "7A02EEE9CB0F8F97"
+				item: "gtceu:tin_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"226B5A2C8738011B"
+				"6FA401A6D82EDA7C"
+				"670DD73813DEABA4"
+			]
+			id: "68AAB835ABC2FBE2"
+			tasks: [{
+				id: "0F2AFDE23FDDBAE8"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"68AAB835ABC2FBE2"
+				"5A8640BB7DD02CE7"
+			]
+			id: "56DB5065F3C9FD83"
+			size: 3.0d
+			tasks: [{
+				id: "4B4D15261EFD6A44"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Steam Power"
+			x: -20.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["226B5A2C8738011B"]
+			id: "1530555254F2ADAB"
+			tasks: [{
+				count: 16L
+				id: "2784E7E6D3FD815D"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5BCB621F2B1AECFC"]
+			id: "31C0CC9915BBF7CC"
+			tasks: [{
+				id: "44BED50AD803A39F"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["300504DDA0D6A66B"]
+			id: "7C977C44647B1711"
+			tasks: [{
+				id: "5C059FB5C099BD0F"
+				item: {
+					Count: 1
+					id: "gtceu:iron_knife"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 2.0f
+							AttackSpeed: 3.0f
+							DefaultEnchantments: [ ]
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0166447E11B61883"
+				"2B4417B67266902F"
+				"3222F4FAF1957271"
+			]
+			id: "0774E6C28242ED78"
+			tasks: [{
+				count: 4L
+				id: "5ADCB65BEFD51C6E"
+				item: { Count: 4, id: "gtceu:compressed_coke_clay" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C977C44647B1711"]
+			id: "0166447E11B61883"
+			tasks: [{
+				id: "046DC768E41D30F3"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C54FA04002F2190"]
+			id: "09AE7036F47E324A"
+			size: 1.5d
+			tasks: [{
+				count: 32L
+				id: "21F530AD588688CB"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09AE7036F47E324A"]
+			id: "5516B7B1439A6D3D"
+			tasks: [{
+				id: "42BF71DFCD3761FA"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1530555254F2ADAB"]
+			id: "6D02A2C789ECFC6B"
+			tasks: [{
+				count: 16L
+				id: "133C456FA8DFCA28"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5D8B7AA2AD59C206"]
+			id: "5ED98AF0286D0B14"
+			tasks: [{
+				id: "34ABE6C55571E037"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.0d
+		}
+		{
+			id: "2B4417B67266902F"
+			tasks: [{
+				count: 64L
+				id: "43AA6DC2EA6E6258"
+				item: { Count: 64, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			id: "3222F4FAF1957271"
+			tasks: [{
+				count: 64L
+				id: "7E82BF499A04F8D9"
+				item: { Count: 64, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["226B5A2C8738011B"]
+			id: "6328AF918C3C13FE"
+			tasks: [{
+				id: "5FDA9F4A34E88B3D"
+				item: {
+					Count: 1
+					id: "tconstruct:pick_head"
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6328AF918C3C13FE"]
+			id: "02C7794D34BE789A"
+			tasks: [{
+				id: "205B485DC688157D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["226B5A2C8738011B"]
+			id: "2ECFA200F1F72621"
+			tasks: [{
+				id: "13C729576B8A9D8A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["31C936AEB83E0150"]
+			id: "226B5A2C8738011B"
+			size: 2.0d
+			tasks: [
+				{
+					count: 18L
+					id: "4F67315E1A7F9D1E"
+					item: { Count: 18, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B42BB772B387411"
+					item: { Count: 2, id: "tconstruct:seared_drain" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A1438F73D63DD84"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "1D1E80ACF15916BA"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "0E88E97E3CFA48F2"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "22126269724C2C84"
+					item: "tconstruct:smeltery_controller"
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["670DD73813DEABA4"]
+			id: "31C936AEB83E0150"
+			tasks: [{
+				id: "5F5ED24B21BAE88F"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+	]
+	title: "Stone Age"
+}

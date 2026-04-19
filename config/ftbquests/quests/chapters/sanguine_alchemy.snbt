@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sanguine_alchemy"
+	group: "4288201204AF5F02"
+	icon: "bloodmagic:weakbloodshard"
+	id: "62D3FFF14E899874"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A4126CF1DAE343F"]
+			id: "4200F9C926EE5453"
+			size: 4.0d
+			tasks: [{
+				id: "3F9AEEF286BAD67B"
+				item: "bloodmagic:masterritualstone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08C5B5E62DD5C663"]
+			id: "39EAF0B18D2BBD27"
+			tasks: [{
+				id: "3E532E4FB2CD6C13"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08C5B5E62DD5C663"]
+			id: "35037A4A71FAB34A"
+			tasks: [{
+				id: "5E61A858DAD03471"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08C5B5E62DD5C663"]
+			id: "532F861AD49BD7A7"
+			tasks: [{
+				id: "1473C735010808DB"
+				item: {
+					Count: 1
+					id: "bloodmagic:duskscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39EAF0B18D2BBD27"]
+			id: "636C56B2A7673655"
+			tasks: [{
+				id: "1AFEAC20DDD24AA7"
+				item: "bloodmagic:activationcrystalawakened"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EA1B6A66466234A"]
+			icon: "bloodmagic:altar"
+			id: "3F28F9013FE02ABC"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "2127AFEEEA80DFD6"
+				item: "bloodmagic:dungeon_metal"
+				type: "item"
+			}]
+			title: "Tier 5 Altar"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["16C0A78F33FD7B63"]
+			icon: "bloodmagic:altar"
+			id: "08C5B5E62DD5C663"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "0E7CA8124BFB5B95"
+				item: "bloodmagic:largebloodstonebrick"
+				type: "item"
+			}]
+			title: "Tier 4 Altar"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F254032690A825A"]
+			id: "05487957D90E8D98"
+			tasks: [{
+				id: "0E14A298975DEC1B"
+				item: "bloodmagic:activationcrystalweak"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4200F9C926EE5453"]
+			id: "2F254032690A825A"
+			tasks: [
+				{
+					id: "5175D2DCE58871B4"
+					item: {
+						Count: 1
+						id: "bloodmagic:airscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BC4E543C7A77A44"
+					item: {
+						Count: 1
+						id: "bloodmagic:earthscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AB749CFAA535C90"
+					item: {
+						Count: 1
+						id: "bloodmagic:waterscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E5B588AAFC34390"
+					item: {
+						Count: 1
+						id: "bloodmagic:firescribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1683CB2F7A537ABF"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+			]
+			title: "Rituals"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05487957D90E8D98"]
+			id: "16C0A78F33FD7B63"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6B92F33C26CDF2C9"
+					item: "bloodmagic:weak_tau"
+					type: "item"
+				}
+				{
+					id: "39C0685452014276"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+			]
+			title: "Edge of the Hidden Realm"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["532F861AD49BD7A7"]
+			id: "3EA1B6A66466234A"
+			size: 2.0d
+			tasks: [{
+				id: "77880A0A0391525F"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			title: "The Endless Realm"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F28F9013FE02ABC"]
+			id: "6ECC1A3444DF89DE"
+			tasks: [{
+				id: "4700918F9000BBA8"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05487957D90E8D98"]
+			id: "4D1ED1E110727457"
+			tasks: [{
+				id: "1C69072E106A2A5E"
+				item: "kubejs:empty_meteor_catalyst"
+				type: "item"
+			}]
+			title: "Mark of the Falling Tower"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D1ED1E110727457"]
+			id: "238E6E2212364A4D"
+			tasks: [{
+				id: "34104017D9B6C759"
+				item: "kubejs:overworld_catalyst_shallow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D1ED1E110727457"]
+			id: "644D8B9F856CF2C8"
+			tasks: [{
+				id: "11D49E817994269A"
+				item: "kubejs:overworld_catalyst_deep"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D1ED1E110727457"]
+			id: "7E0BB392FFA484D8"
+			tasks: [{
+				id: "007934570B05975A"
+				item: "kubejs:nether_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4D1ED1E110727457"]
+			id: "7FB0102BBAF6E0E3"
+			tasks: [{
+				id: "42492F7B9002A76A"
+				item: "kubejs:twilight_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D1ED1E110727457"]
+			id: "47E6722998C99A0C"
+			tasks: [{
+				id: "07D939562D0F3D58"
+				item: "kubejs:moon_catalyst"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+	]
+	title: "Sanguine Alchemy"
+}

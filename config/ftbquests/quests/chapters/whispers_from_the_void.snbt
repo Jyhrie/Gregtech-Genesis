@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "whispers_from_the_void"
+	group: "4288201204AF5F02"
+	icon: "malum:umbral_spirit"
+	id: "448371F34A648552"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AB292457A56B0A2"]
+			id: "05646E58EB725C8A"
+			size: 3.0d
+			tasks: [{
+				id: "7C3140E92FE9D966"
+				item: "kubejs:heart_of_the_void"
+				type: "item"
+			}]
+			title: "Rite of the Weeping Well"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "78DDF6F36A1CC46E"
+			tasks: [{
+				id: "1EB6207977C70F1C"
+				item: "kubejs:void_seed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"78DDF6F36A1CC46E"
+				"68738F959E4FEEAE"
+			]
+			id: "1456DA30BF98D3F4"
+			tasks: [{
+				id: "098FA91CF9981038"
+				item: "kubejs:voidmetal_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B27172655809557"]
+			id: "0F2BC67299DD6D92"
+			tasks: [{
+				id: "44C1AD1A27DFA35E"
+				item: {
+					Count: 1
+					id: "malum:edge_of_deliverance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2B27172655809557"]
+			id: "65DB0708DB880386"
+			tasks: [{
+				id: "00976AC700A3F4E4"
+				item: {
+					Count: 1
+					id: "malum:weight_of_worlds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "14E5FF522FAD4277"
+			tasks: [{
+				id: "2E1047F919D62B88"
+				item: "malum:cthonic_gold"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "3856EC5DDAF586C8"
+			tasks: [{
+				id: "241FB62F9A66E442"
+				item: "malum:auric_embers"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "575FE8C9D9E2F395"
+			tasks: [{
+				id: "69B58D663CD568C6"
+				item: "malum:mnemonic_fragment"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "338C76AFAE0E2F01"
+			tasks: [{
+				id: "3DAECA40EC886F75"
+				item: "malum:null_slate"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "43EC1BF1000FE5B9"
+			tasks: [{
+				id: "118449BE89AAE675"
+				item: "kubejs:primordial_pearl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "42020DF7283104AC"
+			tasks: [{
+				id: "54CC160DBDB1EEF8"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"42020DF7283104AC"
+				"68738F959E4FEEAE"
+			]
+			id: "2B27172655809557"
+			tasks: [{
+				id: "53CAF1555DC68B49"
+				item: "malum:malignant_pewter_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05646E58EB725C8A"]
+			id: "68738F959E4FEEAE"
+			tasks: [{
+				id: "15A0DDC008B11419"
+				item: "malum:malignant_lead"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B27172655809557"]
+			id: "47EADD9CDCDD04D5"
+			tasks: [{
+				id: "14AB338DAC96BF76"
+				item: {
+					Count: 1
+					id: "malum:erosion_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3856EC5DDAF586C8"]
+			id: "152F6B42A6F84C2F"
+			tasks: [{
+				id: "614F7ED55AF0AA49"
+				item: {
+					Count: 1
+					id: "malum:staff_of_the_auric_flame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1456DA30BF98D3F4"]
+			id: "54475B99A092DB43"
+			tasks: [{
+				id: "0DFA6C065DFF9724"
+				item: "kubejs:pickaxe_of_the_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1456DA30BF98D3F4"]
+			id: "54F72CDB1D8F597F"
+			tasks: [{
+				id: "1CA0CCEF2A7425A9"
+				item: "kubejs:staff_of_warding"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["575FE8C9D9E2F395"]
+			id: "55C94FEA5A6AE113"
+			tasks: [{
+				id: "293B405212DA24AA"
+				item: {
+					Count: 1
+					id: "malum:mnemonic_hex_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1456DA30BF98D3F4"]
+			id: "6F84E9533EA92346"
+			tasks: [{
+				id: "5C5C76EC7AF0CE1B"
+				item: "kubejs:sword_of_the_zephyr"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1456DA30BF98D3F4"]
+			id: "4A475A74CFE08685"
+			tasks: [{
+				id: "5F413EE5665BBECA"
+				item: "kubejs:hoe_of_growth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1456DA30BF98D3F4"]
+			id: "3D4CE59E49DC4E90"
+			tasks: [{
+				id: "5BD609C988CA99E7"
+				item: "kubejs:axe_of_the_stream"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1456DA30BF98D3F4"]
+			id: "7B6B2BF7DFDE4410"
+			tasks: [{
+				id: "5EE630C49CDB6CBE"
+				item: "kubejs:shovel_of_the_earthmover"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+	]
+	title: "Whispers From the Void"
+}

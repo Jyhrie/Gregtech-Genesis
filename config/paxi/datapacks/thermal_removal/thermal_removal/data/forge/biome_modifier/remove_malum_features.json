@@ -1,0 +1,10 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "malum:soulstone_ore",
+  ],
+  "steps": [
+    "underground_ores",
+  ]
+}
