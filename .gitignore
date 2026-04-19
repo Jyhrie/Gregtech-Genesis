@@ -24,4 +24,9 @@ patchouli_data.json
 user-prefs.json
 *.log
 *.curseclient
-
+**/emi.css
+**/jeiintegration-client.toml
+config/oculus.properties
+**/client.json
+**/vanillabackport-client-4.toml.bak
+config/jei/recipe-category-sort-order.ini

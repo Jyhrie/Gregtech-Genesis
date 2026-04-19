@@ -10,8 +10,18 @@ const ingots_to_purge = [
   "thermal:signalum_ingot",
   "thermal:lumium_ingot",
   "thermal:enderium_ingot",
+  "thermal:ruby",
+  "thermal:sapphire",
+  "thermal:apatite",
+  "thermal:cinnabar",
+  "thermal:niter",
+  "thermal:sulfur",
+  "thermal:coke",
   "ad_astra:steel_ingot",
   "tconstruct:steel_ingot",
+  "occultism:silver_ingot",
+  "forestry:tin_ingot",
+  "create:zinc_ingot",
 ];
 
 ServerEvents.tags("item", (event) => {

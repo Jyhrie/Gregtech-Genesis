@@ -9,6 +9,8 @@ const ores_to_purge = [
   "thermal:raw_nickel_block",
   "tconstruct:raw_cobalt",
   "tconstruct:raw_cobalt_block",
+  "forestry:raw_tin",
+  "occultism:raw_silver",
 ];
 
 ServerEvents.tags("item", (event) => {

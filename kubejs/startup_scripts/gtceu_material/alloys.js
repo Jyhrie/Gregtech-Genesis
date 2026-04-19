@@ -75,4 +75,49 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       GTMaterialFlags.GENERATE_SPRING,
       GTMaterialFlags.GENERATE_FRAME,
     );
+
+  // Signalum
+  event
+    .create("signalum")
+    .ingot()
+    .fluid()
+    .components("3x copper", "1x silver", "4x redstone")
+    .color(0xff3300)
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_SPRING,
+    );
+
+  // Lumium
+  event
+    .create("lumium")
+    .ingot()
+    .fluid()
+    .components("3x tin", "1x silver", "2x glowstone")
+    .color(0xffffb3)
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+    );
+
+  // Enderium
+  event
+    .create("enderium")
+    .ingot()
+    .fluid()
+    .components("3x lead", "1x diamond", "2x ender_pearl")
+    .color(0x036073)
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_SMALL_GEAR,
+      GTMaterialFlags.GENERATE_FRAME,
+    );
 });
