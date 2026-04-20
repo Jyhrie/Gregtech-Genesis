@@ -23,6 +23,17 @@ const ingots_to_purge = [
   "forestry:ingot_tin",
   "forestry:ingot_bronze",
   "create:zinc_ingot",
+  "gtceu:dimlite_ingot",
+  "gtceu:virentium_ingot",
+  "gtceu:cosmilite_ingot",
+  "gtceu:crystalline_iridium_ingot",
+  "gtceu:void_alloy_ingot",
+  "gtceu:conductite_ingot",
+  "gtceu:hellspec_ingot",
+  "gtceu:nyxium_ingot",
+  "gtceu:exodium_ingot",
+  "gtceu:reverium_ingot",
+  "gtceu:profanum_ingot"
 ];
 
 ServerEvents.tags("item", (event) => {

@@ -15,8 +15,8 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.eec('leviathan_eec')
         // Non-consumed catalyst
         .notConsumable('kubejs:soulgem_leviathan')
-        
         .itemOutputs('3x cataclysm:amethyst_crab_meat')
+        .itemOutputs('4x terramity:cracked_microcosm')
         .itemOutputs('16x gtceu:tantalloy_61_plate')
         .itemOutputs('4x gtceu:tantalloy_61_block')
         

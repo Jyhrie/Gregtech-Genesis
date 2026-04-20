@@ -1,7 +1,4 @@
 ServerEvents.recipes((event) => {
-
-//Spirit Altar
-  event.remove({ output: "malum:spirit_altar" });
   event.recipes.ars_nouveau.enchanting_apparatus(
     [
       "malum:block_of_hallowed_gold",
@@ -26,7 +23,7 @@ ServerEvents.recipes((event) => {
     25000, // Source Cost: 7,500
   );
 
-  event.remove({ output: "malum:runewood_sapling" });
+
   event.recipes.ars_nouveau.enchanting_apparatus(
     ["malum:processed_soulstone", "malum:chunk_of_brilliance", "botania:mana_powder"],
     "ars_nouveau:red_archwood_sapling", // Center reagent
@@ -34,7 +31,7 @@ ServerEvents.recipes((event) => {
     5000, // Source Cost: 5,000 (Half a full Jar)
   );
 
-  event.remove({ output: "malum:azure_runewood_sapling" });
+
   event.recipes.ars_nouveau.enchanting_apparatus(
     ["malum:processed_soulstone", "malum:chunk_of_brilliance", "botania:mana_powder"],
     "ars_nouveau:blue_archwood_sapling", // Center reagent

@@ -120,4 +120,152 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       GTMaterialFlags.GENERATE_SMALL_GEAR,
       GTMaterialFlags.GENERATE_FRAME,
     );
+
+  event
+    .create("dimlite")
+    .ingot()
+    .fluid()
+    .color(0x1c7370)
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_SMALL_GEAR,
+      GTMaterialFlags.GENERATE_FOIL,
+    );
+
+
+    event.create("virentium")
+    .ingot()
+    .fluid()
+    .color(0x4cbd33) 
+    .iconSet("shiny")
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_BOLT_SCREW, 
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("cosmilite")
+    .ingot()
+    .fluid()
+    .color(0x3e108f) 
+    .iconSet("shiny")
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_LONG_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("crystalline_iridium")
+    .ingot()
+    .fluid()
+    .color(0xdab5f5) 
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FOIL
+    );
+
+    event.create("void_alloy")
+    .ingot()
+    .fluid()
+    .color(0x141414) 
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_LONG_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("conductite")
+    .ingot()
+    .fluid()
+    .color(0xe0d7ab)
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_FINE_WIRE, 
+        GTMaterialFlags.GENERATE_FOIL,      
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("hellspec_alloy")
+    .ingot()
+    .fluid()
+    .color(0x610000)
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_LONG_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("nyxium")
+    .ingot()
+    .fluid()
+    .color(0x7e65e0) 
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_FOIL,    
+        GTMaterialFlags.GENERATE_SMALL_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("exodium")
+    .ingot()
+    .fluid()
+    .color(0xa8435e)
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_LONG_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("profanum")
+    .ingot()
+    .fluid()
+    .color(0xdb6002)
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_SMALL_GEAR,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+    event.create("reverium")
+    .ingot()
+    .fluid()
+    .color(0xdcfbfc)
+    .iconSet("shiny") 
+    .flags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_LONG_ROD,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_LENS,
+        GTMaterialFlags.GENERATE_FRAME
+    );
+
+
 });
