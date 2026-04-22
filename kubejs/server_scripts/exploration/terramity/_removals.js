@@ -18,4 +18,10 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "terramity:black_hole_bomb" });
   event.remove({ output: "terramity:macro_black_hole_bomb" });
   //event.remove({ id: "terramity:profanum" });
+  event.remove({ output: 'terramity:copper_round' });
+  event.remove({ output: 'terramity:gold_round' });
+  event.remove({ output: 'terramity:iridium_round' });
+  event.remove({ output: 'terramity:dimlite_round' });
+  event.remove({ output: 'terramity:antimatter_round' });
+  
 });
