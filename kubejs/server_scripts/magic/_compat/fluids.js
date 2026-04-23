@@ -1,12 +1,10 @@
 ServerEvents.recipes((event) => {
-
-
   event.custom({
     type: "lychee:item_inside",
     item_in: [
       { item: "minecraft:glowstone_dust" },
       { item: "gtceu:amethyst_dust" },
-      { item: "minecraft:empty" },
+      { item: "minecraft:bucket" },
     ],
     block_in: {
       blocks: ["minecraft:water_cauldron"],
