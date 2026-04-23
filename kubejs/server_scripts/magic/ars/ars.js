@@ -454,6 +454,15 @@
         T: 'kubejs:thaumium_ingot',
         F: 'minecraft:warped_fungus',
         S: 'ars_nouveau:sourcestone_slab',
+        
+    })
+
+    event.shaped('8x ars_nouveau:archwood_planks', [
+        'WWW',
+        'WGW',
+        'WWW'
+    ], {
+        W: '#minecraft:planks',
         G: 'ars_nouveau:source_gem'
     })
     
