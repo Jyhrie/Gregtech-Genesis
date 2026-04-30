@@ -22,6 +22,13 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   event.create("sandstone").dust().color(0xd9c99a).iconSet("sand");
 
   event
+    .create("oroberyl")
+    .gem()
+    .color(0xfa1f0f)
+    .secondaryColor(0x0f0a0a)
+    .iconSet("certus")
+
+  event
     .create("alumina")
     .dust()
     .color(0xdbe5f1)

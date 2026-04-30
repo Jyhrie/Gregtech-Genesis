@@ -16,6 +16,14 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .components("3x sodium", "1x aluminium", "6x fluorine");
 
   event
+    .create("originium")
+    .gem()
+    .ore()
+    .color(0xfca308)
+    .secondaryColor(0x0f0a0a)
+    .iconSet("quartz")
+
+  event
     .create("fluorite")
     .dust()
     .ore()
