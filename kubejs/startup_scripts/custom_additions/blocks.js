@@ -11,10 +11,10 @@ StartupEvents.registry("block", (e) => {
   e.create("warded_stone")
     .displayName("Warded Stone")
     .material("stone")
-    .hardness(-1.0) // -1.0 makes it impossible to mine (like Bedrock)
-    .resistance(3600000) // High blast resistance
-    .requiresTool(false) // Since it's unbreakable, no tool works anyway
-    .tagBlock("minecraft:mineable/pickaxe"); // For JEI display purposes
+    .hardness(-1.0)
+    .resistance(3600000) 
+    .requiresTool(false)
+    .tagBlock("minecraft:mineable/pickaxe"); 
 
   // Warded Glass
   e.create("warded_glass")
@@ -30,4 +30,9 @@ StartupEvents.registry("block", (e) => {
     .viewBlocking(false)
     .fullBlock(false)
     .renderType("cutout");
+
+  e.create("iberian_sand")
+    .displayName("Iberian Sand")
+    .material("sand")
+    .tagBlock("mineable/shovel"); // For JEI display purposes
 });
