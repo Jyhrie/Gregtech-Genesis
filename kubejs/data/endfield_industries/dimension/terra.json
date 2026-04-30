@@ -1,0 +1,23 @@
+{
+  "type": "endfield_industries:terra",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "endfield_industries:settings",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld",
+"biomes": [
+  { "biome": "endfield_industries:aegir_depths", "parameters": { "temperature": -0.2, "humidity": 0.0, "continentalness": -0.5, "erosion": 0.0, "depth": 0.0, "weirdness": 0.0, "offset": 0.0 }},
+  { "biome": "endfield_industries:sea_of_silence", "parameters": { "temperature": -0.2, "humidity": 0.0, "continentalness": -0.2, "erosion": 0.0, "depth": 0.0, "weirdness": 0.0, "offset": 0.0 }},
+  { "biome": "endfield_industries:iberian_shores", "parameters": { "temperature": -0.2, "humidity": 0.0, "continentalness": 0.0, "erosion": 0.0, "depth": 0.0, "weirdness": 0.0, "offset": 0.0 }},
+  { "biome": "endfield_industries:infy_icefields", "parameters": { "temperature": -0.45, "humidity": 0.0, "continentalness": 0.5, "erosion": 0, "depth": 0.0, "weirdness": 0, "offset": 0.0 }},
+  { "biome": "endfield_industries:sami_snowfields", "parameters": { "temperature": -0.4, "humidity": 0.0, "continentalness": 0.4, "erosion": 0, "depth": 0.0, "weirdness": 0, "offset": 0.0 }},
+  { "biome": "endfield_industries:barrenlands", "parameters": { "temperature": 0.0, "humidity": 0.0, "continentalness": 0.3, "erosion": 0.2, "depth": 0.0, "weirdness": 0.0, "offset": 0.0 }},
+  { "biome": "endfield_industries:yanese_peaks", "parameters": { "temperature": -0.2, "humidity": 0.0, "continentalness": 0.8, "erosion": -0.7, "depth": 0.0, "weirdness":0, "offset": 0.0 }},
+  { "biome": "endfield_industries:kazdel_crags", "parameters": { "temperature": 0.3, "humidity": 0.0, "continentalness": 0.7, "erosion": -0.5, "depth": 0.0, "weirdness": 0, "offset": 0.0 }},
+  { "biome": "endfield_industries:higashi_highlands", "parameters": { "temperature": 0.2, "humidity": 0.0, "continentalness": 0.4, "erosion": -0.2, "depth": 0.0, "weirdness": 0, "offset": 0.0 }},
+  { "biome": "endfield_industries:foehn_hotlands", "parameters": { "temperature": 0.5, "humidity": 0.0, "continentalness": 0.5, "erosion": 0.7, "depth": 0.0, "weirdness": 0.0, "offset": 0.0 }}
+]
+    }
+  }
+}
