@@ -19,6 +19,11 @@ StartupEvents.registry("item", (e) => {
     .tooltip("§7It still beats with a rhythmic, sickly thud.")
     .texture("kubejs:item/tainted_heart");
 
+  e.create("jade")
+    .displayName("Jade")
+    .rarity("rare")
+    .texture("kubejs:item/jade");
+
   e.create("seaborn_blood")
     .displayName("Seaborn Blood")
     .rarity("rare")

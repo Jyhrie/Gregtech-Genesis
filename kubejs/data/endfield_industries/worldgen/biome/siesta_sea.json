@@ -1,15 +1,15 @@
 {
-  "has_precipitation": false,
-  "temperature": 0.5,
+  "has_precipitation": true,
+  "temperature": 0.9,
   "temperature_modifier": "none",
-  "downfall": 0.0,
+  "downfall": 0.5,
   "effects": {
-    "sky_color": 1184783,
-    "fog_color": 1184783,
-    "water_color": 1186337,
-    "water_fog_color": 1186337,
-    "grass_color": 5463126,
-    "foliage_color": 5463126
+    "sky_color": 6457311,
+    "fog_color": 10468305,
+    "water_color": 2512040,
+    "water_fog_color": 2512040,
+    "grass_color": 7454840,
+    "foliage_color": 7454840
   },
   "carvers": { "air": [] },
   "features": [ [], [], [], [], [], [], [], [], [], [], [] ],

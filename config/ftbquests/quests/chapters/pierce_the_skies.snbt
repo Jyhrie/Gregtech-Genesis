@@ -1,12 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "iv"
+	filename: "pierce_the_skies"
 	group: "385AF786BCEBE22D"
-	icon: "gtceu:micro_processor_mainframe"
-	id: "7D5F23297A4E9941"
-	order_index: 8
+	id: "0DD3FB4A11313F44"
+	order_index: 6
 	quest_links: [ ]
 	quests: [ ]
-	title: "IV"
+	title: "Pierce The Skies"
 }

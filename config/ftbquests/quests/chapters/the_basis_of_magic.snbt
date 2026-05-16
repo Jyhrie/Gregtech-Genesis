@@ -58,8 +58,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -3.0d
+			x: -7.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["1DA3C12CC0B32092"]
@@ -74,115 +74,103 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "1D6BA1718D61A6E1"
 			tasks: [{
 				id: "187E50A92B673C13"
 				item: "malum:sacred_spirit"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -8.5d
+			x: -9.5d
+			y: -13.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "58322CA13B6E7D9A"
 			tasks: [{
 				id: "78B1BE7BE8E2CD16"
 				item: "malum:wicked_spirit"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -9.5d
+			x: -8.5d
+			y: -14.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "6A80A4D819842CB9"
 			tasks: [{
 				id: "3FE65C95A4DD1CDA"
 				item: "malum:arcane_spirit"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -9.5d
+			x: -6.5d
+			y: -14.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "7E8325E2D74FFE78"
 			tasks: [{
 				id: "6C19D0F17B55B48B"
 				item: "malum:eldritch_spirit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.5d
+			x: -5.5d
+			y: -13.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "57B413FB2F6D7B26"
 			tasks: [{
 				id: "5911D41A146A4272"
 				item: "malum:aerial_spirit"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -7.0d
+			x: -9.5d
+			y: -12.0d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "65E8E4F86FDB024E"
 			tasks: [{
 				id: "4CAA4BEF3C9DDA18"
 				item: "malum:aqueous_spirit"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -5.5d
+			x: -9.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "2C2B6595A54384F9"
 			tasks: [{
 				id: "5D90E98473D090EC"
 				item: "malum:earthen_spirit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
+			x: -5.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["71471BA9EDE36432"]
 			id: "31B8C798E32ACDCF"
 			tasks: [{
 				id: "13B3ABBEA6AC4473"
 				item: "malum:infernal_spirit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -7.0d
+			x: -5.5d
+			y: -12.0d
 		}
 		{
-			dependencies: ["1AE22FD06E857791"]
-			id: "6D64A72035627E31"
-			tasks: [{
-				id: "41B06E850389528B"
-				item: "minecraft:cauldron"
-				type: "item"
-			}]
-			title: "The Primal Spirits"
-			x: -6.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["6A80A4D819842CB9"]
+			dependencies: ["3C000F359DC77409"]
 			id: "521344A4F243F91D"
 			tasks: [{
 				id: "0F7B9F847FEECE22"
 				item: "kubejs:thaumium_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.5d
+			x: -2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1AE22FD06E857791"]
@@ -200,7 +188,6 @@
 				"3C000F359DC77409"
 				"0B9AAA9D96FAA64A"
 				"1C91838B53124309"
-				"13D2B0282BF704E3"
 			]
 			id: "36EB91B0B12480F7"
 			size: 2.0d
@@ -341,7 +328,7 @@
 				item: "ars_nouveau:arcane_core"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -495,7 +482,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
 			id: "1C91838B53124309"
 			tasks: [
 				{
@@ -519,7 +505,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -585,15 +571,15 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6D64A72035627E31"]
+			dependencies: ["6749D268F8EC5993"]
 			id: "057AED1BA264A877"
 			tasks: [{
 				id: "0CC41F405AE29E17"
 				item: "malum:hallowed_gold_ingot"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.5d
+			x: -10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["057AED1BA264A877"]
@@ -1268,69 +1254,58 @@
 		}
 		{
 			dependencies: ["521344A4F243F91D"]
-			id: "13D2B0282BF704E3"
-			tasks: [{
-				id: "04201B3138A8E8CC"
-				item: "ars_nouveau:source_jar"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["13D2B0282BF704E3"]
 			id: "13946D02036E912C"
 			tasks: [{
 				id: "480ACE5270A1DFF8"
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.5d
+			x: -3.5d
+			y: -10.0d
 		}
 		{
-			dependencies: ["13D2B0282BF704E3"]
+			dependencies: ["521344A4F243F91D"]
 			id: "636BC52015C80D90"
 			tasks: [{
 				id: "43D0A778D5F99AA5"
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -11.0d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["13D2B0282BF704E3"]
+			dependencies: ["521344A4F243F91D"]
 			id: "0F8FB58252422079"
 			tasks: [{
 				id: "7FC414D2CCE59C08"
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -12.0d
+			x: -2.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["13D2B0282BF704E3"]
+			dependencies: ["521344A4F243F91D"]
 			id: "3F9D62F95B8F02F5"
 			tasks: [{
 				id: "43F0947C408475ED"
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -11.5d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
-			dependencies: ["13D2B0282BF704E3"]
+			dependencies: ["521344A4F243F91D"]
 			id: "57271D2290C42069"
 			tasks: [{
 				id: "7CAAFA5BD7A9ECE9"
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -11.0d
+			x: -0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["48F6D60EECFB3A47"]
@@ -1365,6 +1340,65 @@
 			}]
 			x: 20.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1DA3C12CC0B32092"]
+			id: "6749D268F8EC5993"
+			size: 1.5d
+			tasks: [{
+				id: "7F37AF867F306732"
+				item: "kubejs:holy_water_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"268AB11C2F8F1525"
+				"521344A4F243F91D"
+			]
+			id: "11A9438CB3F11C74"
+			tasks: [{
+				id: "2C1B5E65BBE08A44"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["11A9438CB3F11C74"]
+			id: "71471BA9EDE36432"
+			tasks: [{
+				id: "72E784F8E9CE12EB"
+				item: "starbunclemania:source_fluid_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["653350D19DCAAA3B"]
+			id: "268AB11C2F8F1525"
+			tasks: [{
+				id: "03BD0E1FAB56EBF4"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3C000F359DC77409"]
+			id: "653350D19DCAAA3B"
+			tasks: [{
+				id: "77CF27F03C9FDB55"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
 		}
 	]
 	title: "The Basis of Magic"

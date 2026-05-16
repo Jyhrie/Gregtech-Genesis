@@ -1,31 +1,25 @@
 {
-  "has_precipitation": true,
-  "temperature": 0.0,
-  "temperature_modifier": "frozen",
-  "downfall": 0.2,
+  "has_precipitation": false,
+  "temperature": 1.5,
+  "temperature_modifier": "none",
+  "downfall": 0.0,
   "effects": {
-    "sky_color": 5266782,
-    "fog_color": 5266782,
-    "water_color": 5266782,
-    "water_fog_color": 5266782
+    "sky_color": 13024951,
+    "fog_color": 11512480,
+    "water_color": 7632243,
+    "water_fog_color": 7632243,
+    "grass_color": 11184290,
+    "foliage_color": 11184290,
+    "ambient_particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.015
+    }
   },
-  "carvers": {
-    "air": []
-  },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
-  "spawners": {},
+  "carvers": { "air": [] },
+  "features": [ [], [], [], [], [], [], [], [], [], [], [] ],
+  "spawners": { "monster": [], "creature": [], "ambient": [] },
   "spawn_costs": {},
-  "creature_spawn_probability": 0.07
+  "creature_spawn_probability": 0.0
 }
