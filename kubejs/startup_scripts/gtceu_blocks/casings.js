@@ -30,4 +30,13 @@ StartupEvents.registry('block', event => {
         .resistance(10.0)
         .requiresTool(true)
         .tagBlock('mineable/pickaxe')
+
+    event.create('casing_stellar_aerospace') // Galleria Stellaria
+        .displayName('Stellar Aerospace Casing')    
+        .mapColor('metal')
+        .soundType('metal')
+        .hardness(5.0)
+        .resistance(10.0)
+        .requiresTool(true)
+        .tagBlock('mineable/pickaxe')
 });
