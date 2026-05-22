@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ecological_resources"
+	group: "1F389DCC1EAC1B0A"
+	id: "7682ACE670C77397"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "64B6F618496BDE6B"
+		tasks: [{
+			id: "55256790ABD403A2"
+			item: "kubejs:stonelily_seeds"
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.5d
+	}]
+	title: "Gilded Harvest"
+}

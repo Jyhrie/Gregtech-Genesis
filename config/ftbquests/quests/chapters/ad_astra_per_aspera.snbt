@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra_per_aspera"
+	group: "385AF786BCEBE22D"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "66E073F09EE66B45"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B3E9AD05C8705BD"
+			size: 2.0d
+			tasks: [{
+				id: "4527770C2F240B1F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "55AB1CF9A3090946"
+			tasks: [{
+				id: "7E9B6DDF697ABD18"
+				item: "gtceu:originium_gem"
+				type: "item"
+			}]
+			title: "Harbinger of our Calamities, Herald of our Creations"
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+	title: "Ad Astra Per Aspera"
+}

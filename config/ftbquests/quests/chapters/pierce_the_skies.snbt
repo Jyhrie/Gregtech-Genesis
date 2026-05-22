@@ -3,9 +3,250 @@
 	default_quest_shape: ""
 	filename: "pierce_the_skies"
 	group: "385AF786BCEBE22D"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
 	id: "0DD3FB4A11313F44"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"029C29A1F00CF35D"
+				"000A510D508C8AA7"
+				"46B6A0E5D587DE06"
+				"0A2673CD39406CC5"
+				"4FA26CA39F739B58"
+				"5D006794CDF69864"
+			]
+			id: "7E063661C24B3EC0"
+			size: 4.0d
+			tasks: [{
+				id: "7F583E5D0F357315"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "One Small Step"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "000A510D508C8AA7"
+			size: 2.0d
+			tasks: [{
+				id: "5D0B2D2B0FDDF1E6"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["324DCA0A359E371C"]
+			id: "683E4D5712CF86B9"
+			tasks: [{
+				id: "1E9D125CC0675C10"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["683E4D5712CF86B9"]
+			id: "029C29A1F00CF35D"
+			size: 2.0d
+			tasks: [{
+				id: "09BCB6E18CE8F7D0"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E063661C24B3EC0"]
+			id: "367545008B089561"
+			tasks: [{
+				id: "3436D1FF7D8EB788"
+				item: "gtceu:raw_ilmenite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["469F4D816451FA52"]
+			hide_dependency_lines: true
+			id: "01B27111A8E3C68C"
+			tasks: [{
+				id: "5DFD6B706A92AABC"
+				item: "gtceu:liquid_helium_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["367545008B089561"]
+			id: "3766C3CDFE8330F2"
+			tasks: [{
+				id: "2B44CFE75C1D230B"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3766C3CDFE8330F2"]
+			id: "7AEC6E42AF96FCD7"
+			tasks: [{
+				id: "0E5CAA7A4A719AA8"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AEC6E42AF96FCD7"]
+			id: "5907EC3182E64E0B"
+			tasks: [{
+				id: "52A44BA512F65F68"
+				item: "gtceu:hot_titanium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"01B27111A8E3C68C"
+				"5907EC3182E64E0B"
+				"2070AAE23341AB36"
+			]
+			id: "0AB694B4E7A28082"
+			size: 2.0d
+			tasks: [{
+				id: "0A4CF6E62B65D5E0"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "2070AAE23341AB36"
+			size: 1.5d
+			tasks: [{
+				id: "0A88F334C84424F0"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E063661C24B3EC0"]
+			id: "08924357771E9576"
+			tasks: [{
+				id: "7AA317CC8E545ED5"
+				item: "gtceu:raw_certus_quartz"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"08924357771E9576"
+				"0AB694B4E7A28082"
+			]
+			hide_until_deps_visible: false
+			id: "7D4A5050C6338C11"
+			size: 3.0d
+			tasks: [{
+				id: "2C4D559E12EC6E1F"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "46B6A0E5D587DE06"
+			size: 2.0d
+			tasks: [{
+				id: "585C0C6893A6D46E"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "0A2673CD39406CC5"
+			tasks: [{
+				count: 16L
+				id: "52E53ED37171B91B"
+				item: { Count: 16, id: "gtceu:aluminium_lithium_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "4FA26CA39F739B58"
+			tasks: [{
+				id: "531A56525725F466"
+				item: "gtceu:hv_flight_controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "5D006794CDF69864"
+			tasks: [{
+				id: "53D8F2E8FD34A583"
+				item: "gtceu:hv_rocket_fuel_tank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"44BA6BCE807703A8"
+				"4DE01FB10A9EA86D"
+			]
+			id: "469F4D816451FA52"
+			tasks: [{
+				id: "46B5803444785413"
+				item: "gtceu:helium_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E063661C24B3EC0"]
+			id: "4DE01FB10A9EA86D"
+			tasks: [{
+				id: "5F0896EFB8FB40C7"
+				item: "gtceu:moonstone_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+	]
 	title: "Pierce The Skies"
 }

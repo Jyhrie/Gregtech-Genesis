@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "my_gospel_is_gunpowder"
+	group: "256EA949C9D445CC"
+	id: "4DD16860B872B5C5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "My Gospel is Gunpowder"
+}

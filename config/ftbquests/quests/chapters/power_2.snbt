@@ -48,16 +48,6 @@
 			x: -10.5d
 			y: -3.0d
 		}
-		{
-			id: "0C0532F8C6A2FE22"
-			tasks: [{
-				id: "229426B616438281"
-				item: "gtceu:nuclear_reactor"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -6.0d
-		}
 	]
-	title: "Power"
+	title: "Steam"
 }

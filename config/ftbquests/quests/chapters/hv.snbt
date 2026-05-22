@@ -5,59 +5,9 @@
 	group: "385AF786BCEBE22D"
 	icon: "gtceu:advanced_integrated_circuit"
 	id: "42FE3594503CCD15"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["683E4D5712CF86B9"]
-			id: "029C29A1F00CF35D"
-			tasks: [{
-				id: "09BCB6E18CE8F7D0"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["324DCA0A359E371C"]
-			id: "683E4D5712CF86B9"
-			tasks: [{
-				id: "1E9D125CC0675C10"
-				item: "gtceu:dimethylhydrazine_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["10D30A6E77ACDCDA"]
-			id: "3A165B23069C1C4A"
-			size: 1.5d
-			tasks: [{
-				id: "2FF9D49CA1FAA5E2"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			x: -0.75d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"2070AAE23341AB36"
-				"01B27111A8E3C68C"
-				"5907EC3182E64E0B"
-			]
-			id: "0AB694B4E7A28082"
-			size: 2.0d
-			tasks: [{
-				id: "0A4CF6E62B65D5E0"
-				item: "gtceu:titanium_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.0d
-		}
 		{
 			dependencies: ["10D30A6E77ACDCDA"]
 			id: "7192526AF8B0B0B8"
@@ -67,7 +17,7 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -12.25d
 			y: 2.0d
 		}
 		{
@@ -77,8 +27,8 @@
 				item: "gtceu:phosphorus_dust"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -3.5d
+			x: -2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3A278C785C1D25E1"]
@@ -88,10 +38,11 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.5d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
+			dependencies: ["10D30A6E77ACDCDA"]
 			id: "0B4F59B99CF4EB70"
 			size: 1.5d
 			tasks: [{
@@ -99,8 +50,8 @@
 				item: "gtceu:hv_chemical_bath"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -6.0d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -121,8 +72,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -3.5d
+			x: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3E07F5AB991BD6A7"]
@@ -136,8 +87,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: -3.5d
+			x: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6A6CB77FE4830C09"]
@@ -147,8 +98,8 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -5.5d
+			x: -13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -161,23 +112,26 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -5.5d
+			x: -15.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			hide_dependency_lines: true
 			id: "1D993C51D8E1A7C8"
 			tasks: [{
 				id: "3BBEEDB2C385D187"
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -7.5d
+			x: -15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"3A8CDDE51165A145"
 				"7192526AF8B0B0B8"
+				"15221A37D2EBC449"
 			]
 			id: "169F291C1D148F97"
 			size: 2.0d
@@ -186,8 +140,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -3.0d
+			x: -15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["10D30A6E77ACDCDA"]
@@ -198,8 +152,8 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -212,8 +166,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -1.5d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["10D30A6E77ACDCDA"]
@@ -224,92 +178,53 @@
 				item: "gtceu:hv_laser_engraver"
 				type: "item"
 			}]
-			x: -15.75d
-			y: 0.75d
-		}
-		{
-			dependencies: ["5E6B322927C4B4E4"]
-			id: "5E8F5CDC536ED19B"
-			tasks: [{
-				id: "63444A87C17D46FD"
-				item: "gtceu:smd_transistor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 13.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5E6B322927C4B4E4"]
 			id: "5810B3ECDDA35E1F"
-			tasks: [{
-				id: "07B12DE1CC281A0E"
-				item: "gtceu:smd_resistor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 11.5d
+			tasks: [
+				{
+					id: "07B12DE1CC281A0E"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "572BF951DBD5B52A"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "2EA1BD522EB11651"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "72D324454A72BC5C"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "1F1C5C419B96CC80"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5E6B322927C4B4E4"]
-			id: "66AF7517B5767EE1"
-			tasks: [{
-				id: "5E571458CE67739C"
-				item: "gtceu:smd_capacitor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["5E6B322927C4B4E4"]
-			id: "7F8EFADF4F5446AB"
-			tasks: [{
-				id: "0299E7B1C82D9A5D"
-				item: "gtceu:smd_diode"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["5E6B322927C4B4E4"]
-			id: "664BC8AC57F266C2"
-			tasks: [{
-				id: "0D4DC9EF144FF7F8"
-				item: "gtceu:smd_inductor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 12.5d
-		}
-		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			hide_dependency_lines: true
 			id: "6A6CB77FE4830C09"
 			tasks: [{
 				id: "11F08AAEF2950C2A"
 				item: "gtceu:cpu_chip"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -6.5d
-		}
-		{
-			dependencies: [
-				"3A165B23069C1C4A"
-				"029C29A1F00CF35D"
-			]
-			id: "7E063661C24B3EC0"
-			size: 2.0d
-			tasks: [{
-				id: "7F583E5D0F357315"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_1_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: 7.0d
+			x: -13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["10D30A6E77ACDCDA"]
@@ -320,8 +235,8 @@
 				item: "gtceu:hv_chemical_reactor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.0d
+			x: -6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["00FBF6D1520A841B"]
@@ -331,8 +246,8 @@
 				item: "gtceu:ammonia_bucket"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: -4.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["00FBF6D1520A841B"]
@@ -342,8 +257,8 @@
 				item: "gtceu:chloromethane_bucket"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 8.0d
+			x: -6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2E3C649F4070E7B9"]
@@ -353,8 +268,8 @@
 				item: "gtceu:dimethyldichlorosilane_bucket"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 8.0d
+			x: -7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["324DCA0A359E371C"]
@@ -364,8 +279,8 @@
 				item: "gtceu:nitric_oxide_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 8.0d
+			x: -3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2DD21118721673F6"]
@@ -375,8 +290,8 @@
 				item: "gtceu:nitrogen_dioxide_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.5d
+			x: -3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["78173E3DEEB95DE8"]
@@ -386,8 +301,8 @@
 				item: "gtceu:nitric_acid_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 11.0d
+			x: -3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["13AADC0CBD66691D"]
@@ -397,8 +312,8 @@
 				item: "gtceu:polydimethylsiloxane_dust"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 9.5d
+			x: -7.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["42583A1CCB51740F"]
@@ -408,8 +323,8 @@
 				item: "gtceu:silicone_rubber_plate"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 9.5d
+			x: -9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["00FBF6D1520A841B"]
@@ -419,8 +334,8 @@
 				item: "gtceu:hydrofluoric_acid_bucket"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 8.0d
+			x: -9.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0EE2F8B753EB0428"]
@@ -430,8 +345,8 @@
 				item: "gtceu:chloroform_bucket"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 8.0d
+			x: -11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2C97373D793171B3"]
@@ -441,8 +356,8 @@
 				item: "gtceu:polytetrafluoroethylene_plate"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 9.5d
+			x: -11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -455,8 +370,8 @@
 				item: "gtceu:naphtha_bucket"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 5.75d
+			x: -10.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["464234A0AAAED482"]
@@ -466,8 +381,8 @@
 				item: "gtceu:butadiene_bucket"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 6.75d
+			x: -12.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["464234A0AAAED482"]
@@ -477,8 +392,8 @@
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 5.25d
+			x: -12.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["7942CBCCB77DC195"]
@@ -488,8 +403,8 @@
 				item: "gtceu:styrene_bucket"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 5.25d
+			x: -14.5d
+			y: 6.75d
 		}
 		{
 			dependencies: [
@@ -502,8 +417,8 @@
 				item: "gtceu:raw_styrene_butadiene_rubber_dust"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 6.75d
+			x: -14.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["24E962F121D991BF"]
@@ -513,8 +428,8 @@
 				item: "gtceu:styrene_butadiene_rubber_plate"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 8.5d
+			x: -14.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["10D30A6E77ACDCDA"]
@@ -525,12 +440,11 @@
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 5.25d
+			x: -8.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["10D30A6E77ACDCDA"]
-			hide_dependency_lines: true
 			id: "5A2A0B55039E8B0A"
 			size: 1.5d
 			tasks: [{
@@ -538,8 +452,8 @@
 				item: "gtceu:hv_fluid_heater"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.25d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A2A0B55039E8B0A"]
@@ -549,8 +463,8 @@
 				item: "gtceu:sodium_potassium_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -563,32 +477,11 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["44BA6BCE807703A8"]
-			id: "469F4D816451FA52"
-			tasks: [{
-				id: "46B5803444785413"
-				item: "gtceu:helium_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["469F4D816451FA52"]
-			id: "01B27111A8E3C68C"
-			tasks: [{
-				id: "5DFD6B706A92AABC"
-				item: "gtceu:liquid_helium_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.0d
-		}
-		{
+			dependencies: ["10D30A6E77ACDCDA"]
 			id: "5E6B322927C4B4E4"
 			size: 1.5d
 			tasks: [{
@@ -596,63 +489,8 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["367545008B089561"]
-			id: "3766C3CDFE8330F2"
-			tasks: [{
-				id: "2B44CFE75C1D230B"
-				item: "gtceu:rutile_dust"
-				type: "item"
-			}]
-			x: 2.0d
+			x: -2.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["3A165B23069C1C4A"]
-			id: "367545008B089561"
-			tasks: [{
-				id: "3436D1FF7D8EB788"
-				item: "gtceu:raw_ilmenite"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.5d
-		}
-		{
-			id: "2070AAE23341AB36"
-			size: 1.5d
-			tasks: [{
-				id: "0A88F334C84424F0"
-				item: "gtceu:vacuum_freezer"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.75d
-		}
-		{
-			dependencies: ["7AEC6E42AF96FCD7"]
-			id: "5907EC3182E64E0B"
-			tasks: [{
-				id: "52A44BA512F65F68"
-				item: "gtceu:hot_titanium_ingot"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["3766C3CDFE8330F2"]
-			id: "7AEC6E42AF96FCD7"
-			tasks: [{
-				id: "0E5CAA7A4A719AA8"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["0B4F59B99CF4EB70"]
@@ -669,7 +507,7 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
+			x: -6.0d
 			y: -5.0d
 		}
 		{
@@ -681,8 +519,8 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: -14.25d
-			y: 3.75d
+			x: -10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E6B322927C4B4E4"]
@@ -692,18 +530,20 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			hide_dependency_lines: true
 			id: "15221A37D2EBC449"
 			tasks: [{
 				id: "12E43DF5494CBEAE"
 				item: "gtceu:blue_alloy_ingot"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -9.0d
+			x: -17.0d
+			y: 2.0d
 		}
 		{
 			id: "10D30A6E77ACDCDA"
@@ -713,9 +553,67 @@
 				title: "HV"
 				type: "checkmark"
 			}]
-			x: -8.0d
+			x: -6.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "676C729BFD75E259"
+			size: 1.5d
+			tasks: [{
+				id: "7778F80660D64598"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["676C729BFD75E259"]
+			id: "37C5A8FF5248F2B0"
+			tasks: [{
+				id: "44447FC05808342B"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10D30A6E77ACDCDA"]
+			id: "47813F1E66353555"
+			size: 1.5d
+			tasks: [{
+				id: "2699C566239C9AAE"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47813F1E66353555"]
+			id: "28667DBF3DE3C095"
+			tasks: [{
+				id: "61B645BB0CB679A3"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06679DE7CFF6DFEE"]
+			id: "076467A83D0A1EC2"
+			size: 1.5d
+			tasks: [{
+				id: "442DCF447A5E3EBB"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.75d
+		}
 	]
-	title: "HV"
+	title: "Precision and Purity"
 }
