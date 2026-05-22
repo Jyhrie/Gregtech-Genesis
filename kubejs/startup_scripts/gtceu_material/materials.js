@@ -15,9 +15,9 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 
   event.create("iridium_dioxide").dust().color(0x262133).formula("IrO2");
 
-  event.create("leach_residue").dust().color(0x616142);
+  event.create("platinum_leach_residue").dust().color(0x616142);
 
-  event.create("moonstone").dust().color(0x111929);
+  event.create("moonstone").dust().color(0x192845);
 
   event.create("sandstone").dust().color(0xd9c99a).iconSet("sand");
 
@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .gem()
     .color(0xfa1f0f)
     .secondaryColor(0x0f0a0a)
-    .iconSet("certus")
+    .iconSet("certus");
 
   event
     .create("alumina")
@@ -35,24 +35,224 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .iconSet("shiny")
     .components("2x aluminium", "3x oxygen");
 
-  event.create("uranium_fuel_blend")
+  event
+    .create("uranium_fuel_blend")
     .dust()
     .color(0x33ff33)
     .iconSet("fine")
     .components("9x uranium", "1x uranium_235")
     .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
 
-  event.create("plutonium_fuel_blend")
+  event
+    .create("plutonium_fuel_blend")
     .dust()
     .color(0xff3333)
     .iconSet("fine")
     .components("9x uranium", "1x plutonium")
     .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
 
-  event.create("naquadah_fuel_blend")
+  event
+    .create("naquadah_fuel_blend")
     .dust()
     .color(0x202020)
     .iconSet("shiny")
     .components("3x naquadah", "1x enriched_naquadah")
     .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
+
+  // ----------------------------------------------
+  // Bastnasite Processing Line Materials
+  // ----------------------------------------------
+
+  event
+    .create("bastnasite_rare_earth_oxides")
+    .dust()
+    .color(0x756b5c) // Earthy grey-brown
+    .iconSet("DULL");
+
+  event
+    .create("leached_bastnasite_rare_earth_oxides")
+    .dust()
+    .color(0x948a7a) // Lighter, washed-out grey-brown
+    .iconSet("DULL");
+  event
+    .create("cerium_oxidised_rare_earth_oxides")
+    .dust()
+    .color(0xb8b87a) // Cerium compounds often have a pale yellowish tint
+    .iconSet("DULL");
+
+  event
+    .create("bastnasite_rarer_earth_oxides")
+    .dust()
+    .color(0x595952) // Darker, denser grey
+    .iconSet("DULL");
+
+  event
+    .create("samaric_concentrate")
+    .dust()
+    .color(0xe6e6cc) // Samarium oxide is a pale, yellowish-white
+    .iconSet("METALLIC"); // Upgrading the icon set to reflect higher purity
+
+  event
+    .create("neodymic_concentrate")
+    .dust()
+    .color(0xcc99ff)
+    .iconSet("METALLIC");
+
+  event
+    .create("fluorinated_samaric_concentrate")
+    .dust()
+    .color(0xccff99) // Pale yellow-green
+    .iconSet("DULL")
+
+  event
+    .create("ammonium_nitrate")
+    .dust()
+    .fluid()
+    .color(0xe6e6e6) // White/off-white crystal
+    .iconSet("ROUGH") // Rough is good for crystalline salts
+
+  event
+    .create("samaric_residue")
+    .dust()
+    .color(0x808060) // Dirty yellow-brown
+    .iconSet("DULL")
+
+  event
+    .create("terbium_nitrate")
+    .dust()
+    .color(0xf0e6f0) // Colorless to very pale pink
+
+  event
+    .create("neodymium_oxide")
+    .dust()
+    .color(0x8a99c7) // Neodymium oxide is famously light blue/violet
+    .iconSet("DULL")
+
+  event
+    .create("lanthanum_chloride")
+    .dust()
+    .color(0xffffff) // Pure white salt
+    .iconSet("ROUGH")
+
+  
+  // ----------------------------------------------
+  // Cerium Processing Line Materials
+  // ----------------------------------------------
+
+  event
+    .create("cerium_dioxide")
+    .dust()
+    .color(0xffffcc) // Pale yellow powder
+    .iconSet("DULL")
+
+  event
+    .create("cerium_oxalate")
+    .dust()
+    .color(0xfafafa) // White precipitate
+    .iconSet("DULL")
+
+  event
+    .create("cerium_3_oxide") // Often written as Cerium(III) Oxide
+    .dust()
+    .color(0xcccc99) // Yellow-green
+    .iconSet("DULL")
+
+  event
+    .create("cerium_chloride")
+    .dust()
+    .color(0xffff99) // Pale yellow liquid
+
+  event
+    .create("vanadium_pentoxide")
+    .dust()
+    .color(0xa64f19)
+
+  // ----------------------------------------------
+  // Monazite Processing Line Materials
+  // ----------------------------------------------
+
+  // Ores and Basic Powders
+  event.create("thorianite")
+    .dust()
+    .color(0x303030) // Dark brownish-black (typical of the mineral)
+  
+  event.create("acidic_monazite_powder")
+    .dust()
+    .color(0x8C8A67) // Yellowish-grey
+  
+  event.create("monazite_sulfate")
+    .dust()
+    .color(0x9E9B82) // Pale earthy yellow
+
+  // Monazite Filtrates and Concentrates
+  event.create("monazite_rare_earth_concentrate")
+    .dust()
+    .color(0xABA279) // Pale sandy pink/yellow
+  
+  event.create("monazite_rare_earth_filtrate")
+    .dust()
+    .color(0xA2A691) // Pale greenish-white
+  
+  event.create("neutralized_monazite_rare_earth_filtrate")
+    .dust()
+    .color(0xB8BCA8) // Whitish-grey
+  
+  event.create("monazite_rare_earth_hydroxide_concentrate")
+    .dust()
+    .color(0xC1BAA1) // Pale off-white/beige
+
+  // Uranium and Specific Elements
+  event.create("uranium_filtrate")
+    .dust()
+    .color(0x99B334) // Bright radioactive yellow-green
+  
+  event.create("neutralized_uranium_filtrate")
+    .dust()
+    .color(0xA5C443) // Slightly paler yellow-green
+  
+  event.create("europium_3_oxide")
+    .dust()
+    .color(0xFFE6EB) // White with a faint pink tint
+
+  // ----------------------------------------------
+  // Platinum Processing Line Materials
+  // ----------------------------------------------
+
+    // Platinum Group
+    event.create('platinum_residue')
+        .dust()
+        .color(0x170B0B)
+        .formula('Pt?')
+
+    event.create('reprecipitated_platinum')
+        .dust()
+        .color(0xc2b491)
+        .formula('Pt')
+
+    event.create('platinum_salt')
+        .dust()
+        .color(0x616142)
+        .formula('(PtCl6)Na2')
+    
+    event.create('sodium_nitrate')
+        .dust()
+        .color(0x1F3080)
+        .formula('NaNO3')
+    // Palladium Line
+
+    event.create('palladium_metallic_powder')
+        .dust()
+        .color(0x3E4039)
+        .formula('Pd?') // Impure Palladium powder
+
+    event.create('reprecipitated_palladium')
+        .dust()
+        .color(0xC1C1C1)
+        .formula('Pd') // Pure refined Palladium
+
+    event.create('palladium_salts')
+        .dust()
+        .color(0xB0BA83)
+        .formula('PdCl2') // Palladium(II) Chloride
+
 });

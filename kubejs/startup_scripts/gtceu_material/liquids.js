@@ -1,6 +1,87 @@
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
   event.create("advanced_glue").fluid().color(0xd4af74);
 
+  // ----------------------------------------------
+  // Bastnasite Processing Line Materials
+  // ----------------------------------------------
+
+  event
+    .create("bastnasite_mud")
+    .fluid()
+    .color(0x5c4033) // A dark, muddy brown hex color
+    .iconSet("DULL");
+
+  event
+    .create("steam_cracked_bastnasite_mud")
+    .liquid() // Behaves like a fluid, but visually floats and uses gas textures
+    .color(0x8a7359); // A lighter, steamier brown/tan
+
+  event.create("hexafluorosilicic_acid").fluid().color(0xccffcc); // A pale, toxic, acidic green
+
+  event.create("sodium_fluorosilicate").fluid().color(0xfafafa); // Pure white
+
+  event
+    .create("conditioned_bastnasite_mud")
+    .fluid()
+    .color(0xa17865) // A dark, muddy brown hex color
+    .iconSet("DULL");
+
+  event
+    .create("nitrogenated_bastnasite_rarer_earth_oxides")
+    .fluid()
+    .color(0x4d6666); // Murky, slightly blue-grey acidic solution
+
+  event
+    .create("bastnasite_rarer_earth_oxides_suspension")
+    .fluid()
+    .color(0x7a7a6e); // Muddy, suspended liquid
+
+  // ----------------------------------------------
+  // Cerium Processing Line Materials
+  // ----------------------------------------------
+
+  event.create("oxalic_acid").fluid().color(0xccffff); // Clear/pale bluish liquid
+
+  // ----------------------------------------------
+  // Monazite Processing Line Materials
+  // ----------------------------------------------
+
+  // Mud and Diluted Mud
+  event.create("monazite_mud").fluid().color(0x3d3a2e);
+
+  event.create("dilute_monazite_rare_earth_mud").fluid().color(0x5a5a45);
+
+  // Nitric Leached Fluids
+  event
+    .create("nitrogenated_monazite_rare_earth_concentrate")
+    .fluid()
+    .color(0x4b6e5d);
+
+  event
+    .create("nitric_leached_cerium_monazite_mixture")
+    .fluid()
+    .color(0x8fa35c);
+
+  event.create("nitric_leached_monazite_concentrate").fluid().color(0x71804e);
+
+  // ----------------------------------------------
+  // PGM Processing Line Materials
+  // ----------------------------------------------
+
+  // Potassium Disulfate
+  event
+    .create("potassium_disulfate")
+    .fluid()
+    .dust()
+    .color(0xf2f2a2)
+    .formula("K2S2O7");
+
+  event
+    .create("palladium_enriched_ammonia")
+    .fluid()
+    .color(0x608e94)
+    .formula("Pd(NH3)2Cl2");
+
   event
     .create("rhodium_sulfate_solution")
     .liquid()
@@ -13,7 +94,10 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .color(0xbfbaba)
     .formula("Na3RhCl6");
 
-  event.create("rhodium_filter_cake_solution").liquid().color(0x8c8484);
+  event
+    .create("rhodium_filter_cake_solution")
+    .liquid()
+    .color(0x8c8484);
 
   event
     .create("ruthenium_tetroxide_solution")
@@ -33,9 +117,17 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .color(0x262133)
     .formula("H2IrCl6");
 
-  event.create("osmium_solution").liquid().color(0x040b1c).formula("OsCl4");
+  event
+    .create("osmium_solution")
+    .liquid()
+    .color(0x040b1c)
+    .formula("OsCl4");
 
-  event.create("sodium_formate").fluid().color(0xde7373).formula("HCOONa");
+  event
+    .create("sodium_formate")
+    .fluid()
+    .color(0xde7373)
+    .formula("HCOONa");
 
   event
     .create("platinum_concentrate")
