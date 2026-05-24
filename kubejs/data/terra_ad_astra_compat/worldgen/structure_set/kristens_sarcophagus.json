@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "terra_ad_astra_compat:kristens_sarcophagus",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 42,
+    "separation": 36,
+    "salt": 8273645
+  }
+}

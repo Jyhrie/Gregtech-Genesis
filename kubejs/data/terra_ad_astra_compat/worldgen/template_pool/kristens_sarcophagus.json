@@ -1,0 +1,15 @@
+{
+  "name": "terra_ad_astra_compat:kristens_sarcophagus",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "terra_ad_astra_compat:kristens_sarcophagus",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
