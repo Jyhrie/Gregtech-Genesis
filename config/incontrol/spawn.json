@@ -1,0 +1,9 @@
+[
+  {
+    "mod": "minecraft",
+    "healthmultiply": 3.5,
+    "damagemultiply": 2.0,
+    "armormultiply": 4.0,
+    "result": "default"
+  }
+]
