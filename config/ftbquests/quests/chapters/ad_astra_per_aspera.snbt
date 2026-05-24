@@ -13,6 +13,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"79D71FE570F019B0"
+				"31A4BD9AAB8A0E5F"
+				"22D3E7CE2D396A0F"
+				"510ADDF5C67D8CBD"
+			]
 			id: "6B3E9AD05C8705BD"
 			size: 2.0d
 			tasks: [{
@@ -25,19 +31,71 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "55AB1CF9A3090946"
 			tasks: [{
 				id: "7E9B6DDF697ABD18"
-				item: "gtceu:originium_gem"
+				item: "terrafoundation:originium_crystal"
 				type: "item"
 			}]
 			title: "Harbinger of our Calamities, Herald of our Creations"
-			x: 5.0d
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["157E05FD9DFB4425"]
+			id: "79D71FE570F019B0"
+			tasks: [{
+				id: "162C5BEA21CFE141"
+				item: "gtceu:originium_stabilized_hydrolox_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["599A6F13B8248D85"]
+			id: "157E05FD9DFB4425"
+			tasks: [{
+				id: "33F1270654D5C913"
+				item: "kubejs:originium_fuel_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "31A4BD9AAB8A0E5F"
+			tasks: [{
+				id: "28C3FA22388A3871"
+				item: "gtceu:luv_rocket_engine"
+				type: "item"
+			}]
+			x: -2.5d
 			y: 1.5d
 		}
+		{
+			id: "510ADDF5C67D8CBD"
+			tasks: [{
+				id: "0379D3D596C8BE79"
+				item: "gtceu:luv_flight_controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "22D3E7CE2D396A0F"
+			tasks: [{
+				id: "3A98CE9BD23132A8"
+				item: "gtceu:luv_rocket_fuel_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
 	]
-	title: "Ad Astra Per Aspera"
+	title: "Pierce the False Sky"
 }

@@ -151,7 +151,7 @@
 				type: "item"
 			}]
 			x: 9.75d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7E063661C24B3EC0"]
@@ -234,10 +234,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["7E063661C24B3EC0"]
+			dependencies: ["391D672B2C71671E"]
 			id: "4DE01FB10A9EA86D"
 			tasks: [{
 				id: "5F0896EFB8FB40C7"
@@ -245,8 +245,21 @@
 				type: "item"
 			}]
 			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E063661C24B3EC0"]
+			id: "391D672B2C71671E"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "35503810DDC71BBD"
+				type: "dimension"
+			}]
+			x: -2.0d
 			y: 4.0d
 		}
 	]
-	title: "Pierce The Skies"
+	title: "Ad Astra Per Aspera"
 }

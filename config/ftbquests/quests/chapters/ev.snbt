@@ -199,7 +199,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["013B7C0DA89DE84E"]
+			dependencies: [
+				"013B7C0DA89DE84E"
+				"6109D4F755E76C46"
+			]
 			hide_dependency_lines: true
 			id: "00F6D29998D43BDB"
 			tasks: [{
@@ -485,7 +488,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["287E87069A3DA718"]
+			dependencies: ["554081F96115B80A"]
 			id: "1D3DF19FDD3F07F2"
 			tasks: [
 				{
@@ -499,7 +502,7 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
+			x: 11.75d
 			y: 8.5d
 		}
 		{
@@ -537,7 +540,7 @@
 				item: "gtceu:nuclear_reactor"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 13.5d
 		}
 		{
@@ -548,7 +551,7 @@
 				item: "kubejs:coolant_cell"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 11.0d
 			y: 13.5d
 		}
 		{
@@ -559,7 +562,7 @@
 				item: "kubejs:uranium_fuel_cell"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 11.75d
 			y: 11.5d
 		}
 		{
@@ -571,8 +574,8 @@
 				item: "gtceu:water_purification_plant"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.5d
+			x: 6.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["07F7E2AC15B685CB"]
@@ -582,7 +585,7 @@
 				item: "gtceu:small_plutonium_dust"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 15.5d
 		}
 		{
@@ -593,7 +596,7 @@
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 11.0d
 			y: 15.5d
 		}
 		{
@@ -616,7 +619,7 @@
 				item: "gtceu:thorium_dust"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 10.0d
 		}
 		{
@@ -627,7 +630,7 @@
 				item: "gtceu:uranium_235_dust"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 11.75d
 			y: 10.0d
 		}
 		{
@@ -763,7 +766,7 @@
 				item: "kubejs:thorium_fuel_cell"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 11.5d
 		}
 		{
@@ -779,13 +782,16 @@
 			y: 4.5d
 		}
 		{
-			id: "290AA0532E69E5F9"
+			dependencies: ["287E87069A3DA718"]
+			id: "554081F96115B80A"
+			size: 2.0d
 			tasks: [{
-				id: "4B323C7F3B74C19A"
-				item: "ae2:controller"
-				type: "item"
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "5467AF3F43B3666E"
+				type: "dimension"
 			}]
-			x: -3.0d
+			x: 9.5d
 			y: 8.5d
 		}
 	]
