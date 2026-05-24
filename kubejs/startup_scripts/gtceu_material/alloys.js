@@ -42,6 +42,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       GTMaterialFlags.GENERATE_ROD,
       GTMaterialFlags.GENERATE_GEAR,
       GTMaterialFlags.GENERATE_SPRING,
+      GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING,
     );
 
   // Tantalloy 61 (TaW)
@@ -58,6 +59,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       GTMaterialFlags.GENERATE_BOLT_SCREW,
       GTMaterialFlags.GENERATE_GEAR,
       GTMaterialFlags.GENERATE_FOIL,
+      GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING,
     );
 
   // Hastelloy-N (NiMoCrFe)
@@ -75,6 +77,75 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       GTMaterialFlags.GENERATE_SPRING,
       GTMaterialFlags.GENERATE_FRAME,
     );
+
+
+  // ----------------------------------------------------
+  // Rocket Materials
+  // ----------------------------------------------------
+
+  event
+    .create("aluminium_lithium")
+    .ingot()
+    .fluid()
+    .components("7x aluminium", "1x copper", "1x lithium")
+    .color(0xCEE5E5) // A sleek, pale silvery-blue aerospace metal color
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING,
+    );
+
+  event
+    .create("titanium_aluminide")
+    .ingot()
+    .fluid()
+    .components("1x titanium", "1x aluminium")
+    .color(0x9ca9b5) // A distinct, dull metallic silver-blue color
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING
+    );
+
+  event
+    .create("tungsten_niobium")
+    .ingot()
+    .fluid()
+    .components("2x tungsten", "1x niobium")
+    .color(0x525266) // Darker, heavy metallic grey
+    .iconSet("shiny")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING
+    );
+    
+  event
+    .create("stellated_starsteel")
+    .ingot()
+    .fluid()
+    .components("1x stellite_100" ,"1x naquadah")
+    .color(0x2E3B42) // Deep cosmic charcoal with a hint of blue
+    .iconSet("metallic")
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING
+    );
+
+  // ----------------------------------------------------
+  // Thermal
+  // ----------------------------------------------------
 
   // Signalum
   event
@@ -120,6 +191,11 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       GTMaterialFlags.GENERATE_SMALL_GEAR,
       GTMaterialFlags.GENERATE_FRAME,
     );
+
+
+  // ----------------------------------------------------
+  // Terramity
+  // ----------------------------------------------------
 
   event
     .create("dimlite")

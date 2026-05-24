@@ -134,4 +134,26 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .fluid()
     .color(0xf2f2a2)
     .formula("H2PtCl6");
+
+    // Liquid Hydrogen
+  event
+    .create("liquid_hydrogen")
+    .liquid(20)
+    .color(0xb3d9ff) 
+    .formula("H2");
+
+  // Cryogenic Hydrolox (T3/T4 Rocket Fuel)
+  event
+    .create("hydrolox")
+    .liquid(20)
+    .color(0x33ccff) 
+    .formula("H4O2");
+
+    // Cryogenic Hydrolox (T3/T4 Rocket Fuel)
+  event
+    .create("originium_stabilized_hydrolox")
+    .liquid(0)
+    .color(0x0066ff) 
+    .secondaryColor(0xff985c)
+    .formula("H4O2");
 });
