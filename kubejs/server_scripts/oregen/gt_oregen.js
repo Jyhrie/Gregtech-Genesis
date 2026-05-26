@@ -135,22 +135,23 @@ GTCEuServerEvents.oreVeins(event => {
     registerClassicVein(event, "nether_tetrahedrite", GTMaterials.Tetrahedrite, GTMaterials.Tetrahedrite, GTMaterials.Copper, GTMaterials.Stibnite, 80, 120, 0.6, 48, 70, NETHER);
 
     // --- Twilight Forest Veins ---
-    registerClassicVein(event, "twilight_diamond", GTMaterials.Graphite, GTMaterials.Graphite, GTMaterials.Diamond, GTMaterials.Coal, -32, 5, 0.8, 16, 40, TF);
-    registerClassicVein(event, "twilight_lapis", GTMaterials.Lazurite, GTMaterials.Sodalite, GTMaterials.Lapis, GTMaterials.Calcite, -32, 5, 1.0, 16, 40, TF);
-    registerClassicVein(event, "twilight_soapstone", GTMaterials.Soapstone, GTMaterials.Talc, GTMaterials.GlauconiteSand, GTMaterials.Pentlandite, -32, 5, 1.0, 16, 40, TF);
+    registerClassicVein(event, "twilight_diamond", GTMaterials.Graphite, GTMaterials.Coal, GTMaterials.Diamond, GTMaterials.Coal, -32, 5, 1.0, 32, 40, TF);
+    registerClassicVein(event, "twilight_soapstone", GTMaterials.Soapstone, GTMaterials.Talc, GTMaterials.GlauconiteSand, GTMaterials.Pentlandite, -32, 5, 1.0, 32, 40, TF);
     registerClassicVein(event, "twilight_gold", GTMaterials.Magnetite, GTMaterials.Silver, GTMaterials.VanadiumMagnetite, GTMaterials.Gold, -32, 5, 1.0, 32, 60, TF);
     registerClassicVein(event, "twilight_coal", GTMaterials.Coal, GTMaterials.Coal, GTMaterials.Coal, GTMaterials.Diamond, -32, 5, 1.0, 32, 80, TF);
-    registerClassicVein(event, "twilight_apatite", GTMaterials.Apatite, GTMaterials.Apatite, GTMaterials.TricalciumPhosphate, GTMaterials.Pyrochlore, -32, 5, 1.0, 16, 60, TF);
+    registerClassicVein(event, "twilight_apatite", GTMaterials.Apatite, GTMaterials.Apatite, GTMaterials.TricalciumPhosphate, GTMaterials.Pyrochlore, -32, 5, 1.0, 32, 60, TF);
     registerClassicVein(event, "twilight_salts", GTMaterials.RockSalt, GTMaterials.Salt, GTMaterials.Lepidolite, GTMaterials.Spodumene, -32, 5, 1.0, 24, 50, TF);
     registerClassicVein(event, "twilight_magnetite_massive", GTMaterials.Magnetite, GTMaterials.Magnetite, GTMaterials.Iron, GTMaterials.VanadiumMagnetite, -32, 5, 1.0, 32, 160, TF);
-    registerClassicVein(event, "twilight_cassiterite", GTMaterials.Tin, GTMaterials.Tin, GTMaterials.Cassiterite, GTMaterials.Tin, -32, 5, 1.0, 24, 50, TF);
-    registerClassicVein(event, "twilight_cryolite", GTMaterials.get("cryolite"), GTMaterials.Silver, GTMaterials.Silver, GTMaterials.Galena, -32, 5, 1.0, 16, 40, TF);
-    registerClassicVein(event, "twilight_sapphire", GTMaterials.Almandine, GTMaterials.Pyrope, GTMaterials.Sapphire, GTMaterials.GreenSapphire, -32, 5, 1.0, 16, 60, TF);
-    registerClassicVein(event, "twilight_olivine", GTMaterials.Bentonite, GTMaterials.Magnesite, GTMaterials.Olivine, GTMaterials.GlauconiteSand, -32, 5, 1.0, 16, 60, TF);
-    registerClassicVein(event, "twilight_nickel", GTMaterials.Garnierite, GTMaterials.Nickel, GTMaterials.Cobaltite, GTMaterials.Pentlandite, -32, 5, 1.0, 16, 40, TF);
+    registerClassicVein(event, "twilight_cassiterite", GTMaterials.Tin, GTMaterials.Tin, GTMaterials.Cassiterite, GTMaterials.Sphalerite, -32, 5, 1.0, 24, 50, TF);
+    registerClassicVein(event, "twilight_cryolite", GTMaterials.get("cryolite"), GTMaterials.Silver, GTMaterials.Silver, GTMaterials.Galena, -32, 5, 1.0, 32, 40, TF);
+    registerClassicVein(event, "twilight_olivine", GTMaterials.Bentonite, GTMaterials.Magnesite, GTMaterials.Olivine, GTMaterials.GlauconiteSand, -32, 5, 1.0, 32, 60, TF);
+    registerClassicVein(event, "twilight_nickel", GTMaterials.Garnierite, GTMaterials.Nickel, GTMaterials.Cobaltite, GTMaterials.Pentlandite, -32, 5, 1.0, 32, 40, TF);
+    registerClassicVein(event, "twilight_blue", GTMaterials.Sapphire, GTMaterials.Amethyst, GTMaterials.Lapis, GTMaterials.Spodumene, -32, 5, 1.0, 32, 60, TF);
+    registerClassicVein(event, "twilight_green", GTMaterials.Emerald, GTMaterials.Beryllium, GTMaterials.GreenSapphire, GTMaterials.Malachite, -32, 5, 1.0, 32, 60, TF);
+    registerClassicVein(event, "twilight_red", GTMaterials.Ruby, GTMaterials.Pyrope, GTMaterials.Almandine, GTMaterials.Redstone, -32, 5, 1.0, 32, 60, TF);
 
     event.add("custom/twilight/twilight_magical", vein => {
-        vein.weight(160)
+        vein.weight(100)
         vein.density(0.95)
         vein.clusterSize(32)
         vein.layer("twilight_forest")
