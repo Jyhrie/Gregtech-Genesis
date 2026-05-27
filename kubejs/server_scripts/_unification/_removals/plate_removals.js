@@ -16,6 +16,10 @@ const plates_to_purge = [
   "thermal:netherite_plate",
   'ad_astra:iron_plate',
   'ad_astra:steel_plate',
+  'create:iron_sheet',
+  'create:copper_sheet',
+  'create:brass_sheet',
+  'create:golden_sheet',
 ];
 
 ServerEvents.tags("item", (event) => {

@@ -14,6 +14,9 @@ const nuggets_to_purge = [
   "thermal:netherite_nugget",
   "ad_astra:steel_nugget",
   "create:zinc_nugget",
+  "create:netherite_nugget",
+  "create:copper_nugget",
+  "create:brass_nugget"
 ];
 
 ServerEvents.tags("item", (event) => {
