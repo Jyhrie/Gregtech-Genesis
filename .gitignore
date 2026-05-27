@@ -30,3 +30,4 @@ config/oculus.properties
 **/client.json
 **/vanillabackport-client-4.toml.bak
 config/jei/recipe-category-sort-order.ini
+**/modernfix/
