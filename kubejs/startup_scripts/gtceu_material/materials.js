@@ -255,4 +255,38 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .color(0xB0BA83)
         .formula('PdCl2') // Palladium(II) Chloride
 
+  // ----------------------------------------------
+  // Gravel Processing Line Materials
+  // ----------------------------------------------
+
+    event.create('ochrum')
+        .dust()
+        .color(0x9E844D) // Gold-ish brown
+        .iconSet('rough');
+
+    event.create('crimsite')
+        .dust()
+        .color(0x8B3A3A) // Reddish
+        .iconSet('rough');
+
+    event.create('veridium')
+        .dust()
+        .color(0x3B8970) // Greenish
+        .iconSet('rough');
+
+    event.create('asurine')
+        .dust()
+        .color(0x40587C) // Bluish
+        .iconSet('rough');
+
+    event.create('scorchia')
+        .dust()
+        .color(0x2D2924) // Dark grey/black
+        .iconSet('rough');
+
+    event.create('scoria')
+        .dust()
+        .color(0x423832) // Dark brown
+        .iconSet('rough');
+
 });

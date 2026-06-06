@@ -144,56 +144,6 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     );
 
   // ----------------------------------------------------
-  // Thermal
-  // ----------------------------------------------------
-
-  // Signalum
-  event
-    .create("signalum")
-    .ingot()
-    .fluid()
-    .components("3x copper", "1x silver", "4x redstone")
-    .color(0xff3300)
-    .iconSet("shiny")
-    .flags(
-      GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-      GTMaterialFlags.GENERATE_SPRING,
-    );
-
-  // Lumium
-  event
-    .create("lumium")
-    .ingot()
-    .fluid()
-    .components("3x tin", "1x silver", "2x glowstone")
-    .color(0xffffb3)
-    .iconSet("shiny")
-    .flags(
-      GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-    );
-
-  // Enderium
-  event
-    .create("enderium")
-    .ingot()
-    .fluid()
-    .components("3x lead", "1x diamond", "2x ender_pearl")
-    .color(0x036073)
-    .iconSet("shiny")
-    .flags(
-      GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-      GTMaterialFlags.GENERATE_SMALL_GEAR,
-      GTMaterialFlags.GENERATE_FRAME,
-    );
-
-
-  // ----------------------------------------------------
   // Terramity
   // ----------------------------------------------------
 
@@ -342,6 +292,88 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         GTMaterialFlags.GENERATE_LENS,
         GTMaterialFlags.GENERATE_FRAME
     );
+
+  // ----------------------------------------------------
+  // Thermal & Thermal Extra
+  // ----------------------------------------------------
+
+  event.create('soul_infused')
+    .ingot()
+    .fluid()
+    .color(0x6a4d3a) 
+    .iconSet(GTMaterialIconSet.SHINY)
+    .cableProperties(32, 2, 0, true);
+
+  event.create('signalum')
+    .ingot()
+    .fluid()
+    .color(0xed6815)
+    .iconSet(GTMaterialIconSet.SHINY)
+    .cableProperties(128, 2, 0, true)
+    .flags(
+    GTMaterialFlags.GENERATE_PLATE,
+    GTMaterialFlags.GENERATE_ROD,
+    GTMaterialFlags.GENERATE_GEAR,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_FRAME,
+  );
+
+  event.create('lumium')
+    .ingot()
+    .fluid()
+    .color(0xfce181)
+    .iconSet(GTMaterialIconSet.SHINY)
+    .cableProperties(128, 2, 0, true)
+    .flags(
+    GTMaterialFlags.GENERATE_PLATE,
+    GTMaterialFlags.GENERATE_ROD,
+    GTMaterialFlags.GENERATE_GEAR,
+    GTMaterialFlags.GENERATE_SMALL_GEAR,
+    GTMaterialFlags.GENERATE_FRAME,
+  );
+    
+
+  event.create('enderium')
+    .ingot()
+    .fluid()
+    .color(0x0b4d4d)
+    .iconSet(GTMaterialIconSet.SHINY)
+    .cableProperties(512, 2, 0, true)    
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+      GTMaterialFlags.GENERATE_ROD,
+      GTMaterialFlags.GENERATE_GEAR,
+      GTMaterialFlags.GENERATE_SMALL_GEAR,
+      GTMaterialFlags.GENERATE_FRAME,
+    );
+
+  event.create('twinite')
+      .ingot()
+      .fluid()
+      .color(0xea5fa0)
+      .iconSet(GTMaterialIconSet.SHINY)
+      .cableProperties(512, 2, 0, true);
+
+  event.create('shellite')
+      .ingot()
+      .fluid()
+      .color(0x5e37b5)
+      .iconSet(GTMaterialIconSet.SHINY)
+      .cableProperties(2048, 2, 0, true);
+
+  event.create('dragonsteel')
+      .ingot()
+      .fluid()
+      .color(0x3b1c61)
+      .iconSet(GTMaterialIconSet.SHINY)
+      .cableProperties(2048, 2, 0, true);
+
+  event.create('abyssal')
+      .ingot()
+      .fluid()
+      .color(0x00142b)
+      .iconSet(GTMaterialIconSet.SHINY)
+      .cableProperties(8192, 2, 0, true);
 
 
 });
