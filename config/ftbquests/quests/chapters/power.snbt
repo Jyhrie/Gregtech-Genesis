@@ -16,8 +16,8 @@
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08E050DA244B2CF8"]
@@ -40,7 +40,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -51,7 +51,7 @@
 				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -640,6 +640,7 @@
 			dependencies: ["08E050DA244B2CF8"]
 			hide_dependency_lines: true
 			id: "06C4470BDFCC4DF3"
+			optional: true
 			tasks: [
 				{
 					id: "04DEB634438B9A51"
@@ -750,10 +751,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"112B1153AAF7E9BB"
-				"4960C665E6F8D3AB"
-			]
+			dependencies: ["112B1153AAF7E9BB"]
 			id: "0CB75EF218752911"
 			tasks: [{
 				id: "352DBC8AAFEE84B0"
@@ -774,16 +772,6 @@
 			}]
 			x: 10.5d
 			y: 0.0d
-		}
-		{
-			id: "4960C665E6F8D3AB"
-			tasks: [{
-				id: "37BB1B135393E260"
-				item: "gtceu:cobaltite_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.5d
 		}
 		{
 			dependencies: ["218645EBA18D62E6"]
@@ -915,17 +903,6 @@
 		{
 			dependencies: ["08E050DA244B2CF8"]
 			hide_dependency_lines: true
-			id: "04D7E2343F13C48F"
-			tasks: [{
-				id: "5CB6419C626475CA"
-				item: "gtceu:raw_sapphire"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["04D7E2343F13C48F"]
 			id: "748F919A66337FAB"
 			tasks: [{
 				id: "6E40DA8CB1C0E75D"
@@ -1011,17 +988,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["50F30E6286850D4B"]
-			id: "4423E124B1482F88"
-			tasks: [{
-				id: "105CE1DFD47E8CE2"
-				item: "gtceu:cupronickel_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["21EBAE00DD3EC309"]
 			id: "201258FD4FB027D7"
 			tasks: [{
@@ -1029,7 +995,7 @@
 				item: "gtceu:glass_lens"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 12.0d
 		}
 		{
@@ -1080,6 +1046,41 @@
 			}]
 			x: -3.0d
 			y: 17.0d
+		}
+		{
+			dependencies: ["4EDEDA9F7013CFB3"]
+			id: "5D4DB9080F5178B9"
+			tasks: [{
+				id: "7877E108C9768CD4"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EDEDA9F7013CFB3"]
+			id: "6CE64564DFA0A1DB"
+			tasks: [{
+				id: "65E78F81897F2620"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08E050DA244B2CF8"]
+			id: "4EDEDA9F7013CFB3"
+			size: 2.0d
+			tasks: [{
+				id: "24B3880BC23095B5"
+				item: "create:packager"
+				type: "item"
+			}]
+			title: "Early Game Automation"
+			x: 10.5d
+			y: -3.0d
 		}
 	]
 	title: "First Spark"

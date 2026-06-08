@@ -51,4 +51,18 @@ ServerEvents.recipes((event) => {
     "create:cogwheel",
     "gtceu:treated_wood_planks",
   ]);
+
+  event.remove({ output: "create:mechanical_saw" });
+  event.remove({ output: "create:mechanical_drill" });
+
+  event.shapeless("create:mechanical_saw", [
+    "create:andesite_casing",
+    "thermal:saw_blade",
+  ]);
+
+  event.shapeless("create:mechanical_drill", [
+    "create:andesite_casing",
+    "thermal:drill_head",
+  ]);
+
 });

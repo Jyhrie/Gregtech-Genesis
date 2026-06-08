@@ -397,17 +397,6 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["5708DDCEC68766F3"]
-			id: "052F597C0497629A"
-			tasks: [{
-				id: "1F77ADD7D6BD41DA"
-				item: "gtceu:solar_panel"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -10.5d
-		}
-		{
 			dependencies: ["6CCBF81A1EC9D8B8"]
 			id: "5708DDCEC68766F3"
 			tasks: [{
@@ -416,7 +405,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["33A5F340BBF39DD1"]
@@ -451,7 +440,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -11.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["05242AC6718B6C4D"]
@@ -712,6 +701,7 @@
 			y: -15.0d
 		}
 		{
+			dependencies: ["1B431EF988213DDA"]
 			id: "05242AC6718B6C4D"
 			size: 4.0d
 			tasks: [{

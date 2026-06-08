@@ -57,17 +57,6 @@
 		}
 		{
 			dependencies: ["74974900317DBB47"]
-			id: "66B8E3C41316FAFC"
-			tasks: [{
-				id: "0CB9714B8300E31E"
-				item: "gtceu:lp_steam_solar_boiler"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["74974900317DBB47"]
 			id: "42B78FB5C310A4C2"
 			tasks: [{
 				id: "350B453E2D2CF463"
@@ -248,7 +237,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["66B8E3C41316FAFC"]
+			dependencies: ["1F55ADD761EB9510"]
 			id: "5B48DBF813F09D50"
 			tasks: [{
 				id: "3B6BB58D8ED4B0BD"
@@ -287,21 +276,10 @@
 			y: 3.0d
 		}
 		{
-			id: "499B89A2C7D98E17"
-			tasks: [{
-				id: "2F30DB99DD01B51B"
-				item: "thermal:rubber"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["499B89A2C7D98E17"]
 			id: "026F1A5A86623450"
 			tasks: [{
 				id: "1C063C702A727EFD"
-				item: "gtceu:raw_rubber_ingot"
+				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
 			x: -4.0d
@@ -830,6 +808,18 @@
 			}]
 			x: -9.0d
 			y: -15.5d
+		}
+		{
+			dependencies: ["74974900317DBB47"]
+			id: "1F55ADD761EB9510"
+			optional: true
+			tasks: [{
+				id: "55647EC03C6107D7"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
 		}
 	]
 	title: "Steam Age"

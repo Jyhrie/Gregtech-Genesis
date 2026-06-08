@@ -1,6 +1,7 @@
 const rods_to_purge = [
   "ad_astra:steel_rod",
   "ad_astra:iron_rod",
+  "thermal_extra:iron_rod"
 ];
 
 ServerEvents.tags("item", (event) => {

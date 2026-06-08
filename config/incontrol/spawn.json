@@ -1,8 +1,12 @@
 [
   {
+    "mob": "minecraft:creeper",
+    "result": "default"
+  },
+  {
     "mod": "minecraft",
-    "healthmultiply": 3.5,
-    "damagemultiply": 2.0,
+    "healthmultiply": 2.5,
+    "damagemultiply": 3.2,
     "armormultiply": 4.0,
     "result": "default"
   }

@@ -134,6 +134,24 @@ GTCEuServerEvents.oreVeins(event => {
     registerClassicVein(event, "nether_quartz_alt", GTMaterials.Quartzite, GTMaterials.Barite, GTMaterials.CertusQuartz, GTMaterials.CertusQuartz, 80, 120, 0.5, 32, 30, NETHER);
     registerClassicVein(event, "nether_tetrahedrite", GTMaterials.Tetrahedrite, GTMaterials.Tetrahedrite, GTMaterials.Copper, GTMaterials.Stibnite, 80, 120, 0.6, 48, 70, NETHER);
 
+    event.add("custom/nether/nether_gold", vein => {
+        vein.weight(25)
+        vein.density(0.70)
+        vein.clusterSize(12)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(20, 60)
+
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Gold).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Gold).size(1, 3)) 
+                .layer(l => l.weight(1).mat(GTMaterials.Gold).size(1, 2))  
+                .layer(l => l.weight(1).state(() => Block.getBlock("minecraft:ancient_debris").defaultBlockState()).size(1, 1))
+            )
+        )
+    })
+
     // --- Twilight Forest Veins ---
     registerClassicVein(event, "twilight_diamond", GTMaterials.Graphite, GTMaterials.Coal, GTMaterials.Diamond, GTMaterials.Coal, -32, 5, 1.0, 32, 40, TF);
     registerClassicVein(event, "twilight_soapstone", GTMaterials.Soapstone, GTMaterials.Talc, GTMaterials.GlauconiteSand, GTMaterials.Pentlandite, -32, 5, 1.0, 32, 40, TF);

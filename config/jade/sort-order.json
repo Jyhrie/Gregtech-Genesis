@@ -17,6 +17,7 @@
   "avaritia:compressor": null,
   "avaritia:crafting_table": null,
   "avaritia:extreme_smithing": null,
+  "balm:jade": null,
   "createlowheated:basic_burner_info": null,
   "custommachinery:machine_component_provider": null,
   "custommachinery:machine_server_data_provider": null,
@@ -40,6 +41,7 @@
   "extendedcrafting:flux_crafter": null,
   "extendedcrafting:ultimate_auto_table": null,
   "extendedcrafting:ultimate_table": null,
+  "gravestone:grave": null,
   "gtceu:auto_output_info": null,
   "gtceu:battery_info": null,
   "gtceu:cable_info": null,
@@ -75,6 +77,8 @@
   "jade:mod_name": null,
   "jade:object_name": null,
   "jade:registry_name": null,
+  "mbd2:multiblock_provider": null,
+  "mbd2:recipe_logic_provider": null,
   "minecraft:animal_owner": null,
   "minecraft:armor_stand": null,
   "minecraft:beehive": null,
@@ -125,5 +129,6 @@
   "reliquary:mortar": null,
   "reliquary:pedestal": null,
   "shetiphiancore:hud": null,
-  "twilightforest:quest_ram_wool": null
+  "twilightforest:quest_ram_wool": null,
+  "waystones:waystone": null
 }

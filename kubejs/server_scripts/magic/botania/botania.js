@@ -99,4 +99,16 @@ ServerEvents.recipes((event) => {
     10000,
     false,
   );
+
+    event.remove({ id: 'botania:pure_daisy/livingrock' })
+    event.custom({
+        type: 'botania:pure_daisy',
+        input: {
+            type: 'block',
+            block: 'ars_nouveau:sourcestone' // Change this if using a different mod's sourcestone
+        },
+        output: {
+            name: 'botania:livingrock'
+        }
+    })
 });

@@ -12,4 +12,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'occultism:ritual/summon_afrit_ore_miner' })
     event.remove({ id: 'occultism:ritual/summon_marid_ore_miner' })
 
+    event.remove({ type: 'occultism:crushing' });
+
 })

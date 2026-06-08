@@ -268,7 +268,7 @@
             A: 'kubejs:thaumium_ingot',      // Corners
             B: 'ars_nouveau:sourcestone',       // Top & Bottom
             C: 'malum:hallowed_gold_ingot',     // Left & Right
-            D: 'kubejs:primal_essence'          // Middle
+            D: 'botania:mana_pearl'          // Middle
         }
     )
 
@@ -454,7 +454,40 @@
         T: 'kubejs:thaumium_ingot',
         F: 'minecraft:warped_fungus',
         S: 'ars_nouveau:sourcestone_slab',
+        G: 'ars_nouveau:source_gem'
+    })
+
+    // Fluid Sourcelink
+    event.remove({ output: 'starbunclemania:fluid_sourcelink' })
+    event.shaped('starbunclemania:fluid_sourcelink', [
+        ' T ',
+        'HLH',
+        'SGS'
+    ], {
+        H: 'malum:hallowed_gold_ingot',
+        T: 'kubejs:thaumium_ingot',
+        L: 'starbunclemania:source_fluid_bucket',
+        S: 'ars_nouveau:sourcestone_slab',
+        G: 'ars_nouveau:source_gem'
+    })
+
+    event.remove({ output: 'ars_nouveau:relay' })
+    event.shaped('ars_nouveau:relay', [
+        'H H',
+        'HSH',
+        'H H'
+    ], {
+        H: 'malum:hallowed_gold_ingot',
+        S: 'ars_nouveau:source_gem_block',
         
+    })
+
+    event.shaped('6x ars_nouveau:sourcestone_slab', [
+        '   ',
+        'SSS',
+        '   '
+    ], {
+        S: 'ars_nouveau:sourcestone',
     })
 
     event.shaped('8x ars_nouveau:archwood_planks', [
@@ -464,6 +497,16 @@
     ], {
         W: '#minecraft:planks',
         G: 'ars_nouveau:source_gem'
+    })
+
+    event.remove({ output: 'starbunclemania:source_condenser' })
+    event.shaped('starbunclemania:source_condenser', [
+        '   ',
+        ' R ',
+        ' J '
+    ], {
+        R: 'ars_nouveau:relay',
+        J: 'ars_nouveau:source_jar'
     })
     
 

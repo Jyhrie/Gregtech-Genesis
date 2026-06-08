@@ -263,7 +263,7 @@
 				item: "gtceu:assembly_line"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -639,7 +639,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["67F22D59F8F05BA8"]
+			dependencies: [
+				"67F22D59F8F05BA8"
+				"4AB70E1695E4CAE7"
+			]
 			id: "4AC87C64D404D6F4"
 			tasks: [{
 				id: "5FE0C8C95FE9D715"
@@ -807,6 +810,16 @@
 			}]
 			x: -4.5d
 			y: -9.0d
+		}
+		{
+			id: "4AB70E1695E4CAE7"
+			tasks: [{
+				id: "6B16A56052E3CB16"
+				item: "gtceu:fluxed_titanite_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
 		}
 	]
 	title: "The Great Refactoring"

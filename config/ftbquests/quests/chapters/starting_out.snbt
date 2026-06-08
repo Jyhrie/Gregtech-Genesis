@@ -15,7 +15,7 @@
 				type: "item"
 			}]
 			title: "Chop Trees"
-			x: -22.5d
+			x: -24.5d
 			y: 4.0d
 		}
 		{
@@ -33,7 +33,7 @@
 					type: "item"
 				}
 			]
-			x: -21.0d
+			x: -23.0d
 			y: 4.0d
 		}
 		{
@@ -44,7 +44,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -18.5d
+			x: -20.5d
 			y: 4.0d
 		}
 		{
@@ -71,7 +71,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -16.0d
 			y: 2.5d
 		}
 		{
@@ -91,18 +91,13 @@
 					type: "item"
 				}
 				{
-					id: "4033BEF22D0FF936"
-					item: "tconstruct:part_chest"
-					type: "item"
-				}
-				{
 					count: 16L
 					id: "67249229063E7921"
 					item: { Count: 16, id: "tconstruct:pattern" }
 					type: "item"
 				}
 			]
-			x: -16.0d
+			x: -18.0d
 			y: 4.0d
 		}
 		{
@@ -114,12 +109,12 @@
 					Count: 1
 					id: "tconstruct:pick_head"
 					tag: {
-						Material: "tconstruct:rock"
+						Material: "tconstruct:flint"
 					}
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -16.0d
 			y: 5.5d
 		}
 		{
@@ -223,7 +218,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["1C54FA04002F2190"]
+			dependencies: ["31C0CC9915BBF7CC"]
 			id: "09AE7036F47E324A"
 			size: 1.5d
 			tasks: [{
@@ -415,15 +410,15 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5BCB621F2B1AECFC"]
+			dependencies: ["1C54FA04002F2190"]
 			id: "31C0CC9915BBF7CC"
 			tasks: [{
 				id: "44BED50AD803A39F"
 				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -13.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7C977C44647B1711"]
@@ -757,6 +752,39 @@
 			}]
 			x: 3.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["5D8B7AA2AD59C206"]
+			id: "27C2B097C4D434F5"
+			tasks: [{
+				id: "4180824C3A4F9237"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27C2B097C4D434F5"]
+			id: "5711D52E445013B9"
+			tasks: [{
+				id: "022695EA512B5305"
+				item: "terramity:cardboard_box"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5711D52E445013B9"]
+			id: "2592669CEF1D7680"
+			tasks: [{
+				id: "1DD2B2DE41E24206"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
 		}
 	]
 	title: "Humble Beginnings"

@@ -4,6 +4,9 @@ StartupEvents.registry('item', event => {
     event.create('uranium_fuel_cell').displayName('Uranium Fuel Cell').maxStackSize(1);
     event.create('depleted_uranium_fuel_cell').displayName('Depleted Uranium Fuel Cell').maxStackSize(1);
 
+    event.create('thorium_fuel_cell').displayName('Thorium Fuel Cell').maxStackSize(1);
+    event.create('depleted_thorium_fuel_cell').displayName('Depleted Thorium Fuel Cell').maxStackSize(1);
+
     // Tier 2: MOX (Mixed Oxide)
     event.create('mox_fuel_cell').displayName('MOX Fuel Cell').maxStackSize(1);
     event.create('depleted_mox_fuel_cell').displayName('Depleted MOX Fuel Cell').maxStackSize(1);

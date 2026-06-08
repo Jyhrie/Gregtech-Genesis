@@ -52,8 +52,6 @@
     "chiseled_bookshelf": true
   },
   "gtmutils": {
-    "me_expanded_pattern_buffer_proxy_info": true,
-    "me_expanded_pattern_buffer_info": true,
     "enlarged_me_stocking_bus_info": true,
     "pterb_info": true
   },
@@ -104,6 +102,9 @@
     "ench": true,
     "spawner": true
   },
+  "balm": {
+    "jade": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -115,6 +116,10 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "mbd2": {
+    "recipe_logic_provider": true,
+    "multiblock_provider": true
   },
   "ars_nouveau": {
     "mob_jar": true
@@ -135,5 +140,11 @@
     "altar": true,
     "mortar": true,
     "cauldron": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
   }
 }

@@ -13,7 +13,7 @@
 //     event.create('platinum_residue')
 //         .dust()
 //         .color(0x170B0B)
-//         .formula('Pt?') // Complex residue, usually represented with a ? or general formula
+//         .formula('Pt?')
 
 //     event.create('platinum_salt')
 //         .dust()

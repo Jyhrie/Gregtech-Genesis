@@ -25,8 +25,6 @@ ServerEvents.recipes(event => {
     .EUt(1920) // EV tier power
     .blastFurnaceTemp(1700); // Set this to match the melting point of Ti
 
-
-
   // 3. Tungsten Niobium (1 W + 1 Nb + Argon -> 2 Ingots)
   event.recipes.gtceu.alloy_blast_smelter('tungsten_niobium_alloying')
     .itemInputs(
