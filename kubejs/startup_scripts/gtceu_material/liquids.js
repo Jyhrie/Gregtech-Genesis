@@ -135,6 +135,10 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .color(0xf2f2a2)
     .formula("H2PtCl6");
 
+  // ----------------------------------------------
+  // Rocket Fuels
+  // ----------------------------------------------
+
     // Liquid Hydrogen
   event
     .create("liquid_hydrogen")
@@ -156,4 +160,44 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .color(0x0066ff) 
     .secondaryColor(0xff985c)
     .formula("H4O2");
+
+  // ----------------------------------------------
+  // Solvents
+  // ----------------------------------------------
+  event.create('diphenyl_sulfone')
+          .fluid()
+          .color(0xeaeaea) // A pale, off-white liquid
+          .components('12x carbon', '10x hydrogen', '2x oxygen', '1x sulfur');
+
+  // ----------------------------------------------
+  // Polymers
+  // ----------------------------------------------
+
+  event.create('polyether_ether_ketone')
+        .ingot()
+        .polymer()
+        .liquid()
+        .color(0xdfcba4) // A nice beige/tan color
+        .components('19x carbon', '12x hydrogen', '3x oxygen') // C19H12O3
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FRAME);
+
+  event.create('phosgene')
+        .fluid() // Registers it as a pumpable fluid/gas
+        .color(0xeeeeaa) // A pale, sickly yellow-green
+        .components('1x carbon', '1x oxygen', '2x chlorine');
+
+  event.create('fluorobenzene')
+        .fluid()
+        .color(0xddffdd) // A very pale, almost clear green/white liquid
+        .components('6x carbon', '5x hydrogen', '1x fluorine');
+
+  // ----------------------------------------------
+  // Intermittent Materials for Processing Lines
+  // ----------------------------------------------
+
+  event.create('aluminum_chloride_solution')
+        .fluid()
+        .color(0x94A3B8)
+        .iconSet('fluid');
+    
 });

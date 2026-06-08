@@ -31,8 +31,25 @@ StartupEvents.registry('block', event => {
         .requiresTool(true)
         .tagBlock('mineable/pickaxe')
 
-    event.create('casing_stellar_aerospace') // Galleria Stellaria
+    event.create('casing_petrochemical_resistant_composite') //chemplant
+        .displayName('Petrochemical Resistant Composite Casing')  
+        .soundType('metal')
+        .hardness(5.0)
+        .resistance(10.0)
+        .requiresTool(true)
+        .tagBlock('mineable/pickaxe')
+
+    event.create('casing_stellar_aerospace')
         .displayName('Stellar Aerospace Casing')    
+        .mapColor('metal')
+        .soundType('metal')
+        .hardness(5.0)
+        .resistance(10.0)
+        .requiresTool(true)
+        .tagBlock('mineable/pickaxe')
+
+    event.create('casing_originium_laced') 
+        .displayName('Originium Laced Casing')    
         .mapColor('metal')
         .soundType('metal')
         .hardness(5.0)

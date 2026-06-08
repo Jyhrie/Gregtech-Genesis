@@ -289,4 +289,28 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .color(0x423832) // Dark brown
         .iconSet('rough');
 
+  // ----------------------------------------------
+  // Polymers, Polymer Derivatives, and Chemical Intermediates
+  // ----------------------------------------------
+
+  event.create('difluorobenzophenone')
+      .dust() 
+      .color(0xdda668) 
+      .components('13x carbon', '8x hydrogen', '2x fluorine', '1x oxygen');
+
+  event.create('hydroquinone')
+        .dust()
+        .color(0xf4f4f4) // A pale off-white powder
+        .components('6x carbon', '6x hydrogen', '2x oxygen');
+
+  event.create('sodium_carbonate')
+        .dust()
+        .color(0xfafafa) // A bright white powder
+        .components('2x sodium', '1x carbon', '3x oxygen');
+  
+  event.create('sodium_fluoride')
+        .dust()
+        .color(0xffffff) // Pure white powder
+        .components('1x sodium', '1x fluorine');
+
 });

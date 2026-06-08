@@ -1,4 +1,35 @@
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
+  // ----------------------------------------------------
+  // Custom Materials
+  // ----------------------------------------------------
+
+  event.create('fluxed_electrum') 
+        .ingot() 
+        .color(0xFFE84D)
+        .secondaryColor(0xFF0000)
+        .iconSet('shiny') 
+        .cableProperties(2048, 4, 0, true)
+        .blastTemp(3600, 'low', 120, 8000)
+        .flags(
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+      );
+
+  event.create('fluxed_titanite')
+        .ingot()
+        .color(0x48C75B)
+        .secondaryColor(0x9E2B43)
+        .iconSet('shiny')
+        .cableProperties(8192, 4, 0, true) //
+        .blastTemp(4500, 'highest', 120, 12000)
+        .flags(
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+      );
+
+  event.create('titanite')
+        .gem()
+        .color(0x48C75B) 
+        .iconSet('quartz');
+  
   // Nitinol (NiTi)
   event
     .create("nitinol")

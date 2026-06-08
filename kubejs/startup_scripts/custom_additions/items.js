@@ -2,6 +2,9 @@ StartupEvents.registry("item", (e) => {
   e.create("twilight_flame").displayName("Twilight Flame");
   e.create("raw_arcane").displayName("Raw Arcane");
 
+  e.create("primal_essence").displayName("Primal Essence");
+  e.create("knowledge_fragment").displayName("Fragment of Knowledge");
+
   e.create("currency1").displayName("Stock Bill");
   e.create("currency2").displayName("Bundle of Stock Bills");
 
