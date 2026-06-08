@@ -31,4 +31,33 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .iconSet("mineral")
     .components("1x calcium", "2x fluorine")
     .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
+
+
+    // ----------------------------------------------
+    // Ad Astra Materials
+    // ----------------------------------------------
+
+    event.create("cynthilite")
+        .dust()
+        .ore()
+        .color(0x9E5B1D)
+        .iconSet("mineral")
+
+    event.create("aresite")
+        .dust()
+        .ore()
+        .color(0x563D45)
+        .iconSet("rough")
+
+    event.create("cytherite")
+        .dust()
+        .ore()
+        .color(0x7D1C28)
+        .iconSet("shiny")
+
+    event.create("ymirite")
+        .dust()
+        .ore()
+        .color(0x4A8587)
+        .iconSet("ruby")
 });

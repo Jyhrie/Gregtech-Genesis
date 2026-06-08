@@ -406,5 +406,49 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
       .iconSet(GTMaterialIconSet.SHINY)
       .cableProperties(8192, 2, 0, true);
 
+  // ----------------------------------------------------
+  // Ad Astra
+  // ----------------------------------------------------
+    event.create('desh')
+        .ingot()
+        .dust()
+        .color(0xD5A45F) // Warm orange-gold
+        .iconSet('metallic')
+        // Automatically creates 'gtceu:hot_desh_ingot' and adds Vacuum Freezer requirements
+        .blastTemp(2400, "LOW", 480, 300)
+        .flags(
+          GTMaterialFlags.GENERATE_FRAME,
+        );
+
+    event.create('ostrum')
+        .ingot()
+        .dust()
+        .color(0x7A5A63) // Dull mauve-bronze
+        .iconSet('dull')
+        .blastTemp(2750, "MID", 1920, 300)
+        .flags(
+          GTMaterialFlags.GENERATE_FRAME,
+        );
+
+    event.create('calorite')
+        .ingot()
+        .dust()
+        .color(0xBC2A3A) // Vibrant deep ruby red
+        .iconSet('shiny')
+        .blastTemp(3200, "HIGH", 1920, 300)
+        .flags(
+          GTMaterialFlags.GENERATE_FRAME,
+        );
+
+    event.create('etrium')
+        .ingot()
+        .dust()
+        .color(0x5CE1E6) // Bright neon teal
+        .iconSet('bright')
+        .blastTemp(3600, "HIGHER", 7680, 300)
+        .flags(
+          GTMaterialFlags.GENERATE_FRAME,
+        );
+
 
 });
