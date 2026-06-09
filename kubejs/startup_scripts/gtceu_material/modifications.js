@@ -17,6 +17,8 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.get("cerium").setProperty($PropertyKey.INGOT, new $IngotProperty());
   GTMaterials.get("lanthanum").setProperty($PropertyKey.INGOT, new $IngotProperty());
   GTMaterials.get("terbium").setProperty($PropertyKey.INGOT, new $IngotProperty());
+  GTMaterials.get("zirconium").setProperty($PropertyKey.INGOT, new $IngotProperty());
+  GTMaterials.get("hafnium").setProperty($PropertyKey.INGOT, new $IngotProperty());
 
   GTMaterials.get("ruthenium_tetroxide").setProperty(
     PropertyKey.FLUID,

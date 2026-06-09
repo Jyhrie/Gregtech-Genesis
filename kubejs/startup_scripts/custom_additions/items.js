@@ -32,4 +32,24 @@ StartupEvents.registry("item", (e) => {
     .rarity("rare")
     .tooltip("Pulsating with inhuman strength")
     .texture("kubejs:item/seaborn_blood");
+
+  e.create("t1_aerospace_material")
+    .displayName("Silica-Bonded Aluminium-Lithium Plating")
+    .rarity("rare")
+    .texture("kubejs:item/t1_aerospace_material");
+
+  e.create("t2_aerospace_material")
+    .displayName("Alumina-Shielded Titanium Plating")
+    .rarity("rare")
+    .texture("kubejs:item/t2_aerospace_material");
+
+  e.create("t3_aerospace_material")
+    .displayName("Diboride-Reinforced Inconel Plating")
+    .rarity("rare")
+    .texture("kubejs:item/t3_aerospace_material");
+
+  e.create("t4_aerospace_material")
+    .displayName("Starsteel Carbide Ceremet")
+    .rarity("rare")
+    .texture("kubejs:item/t4_aerospace_material");
 });

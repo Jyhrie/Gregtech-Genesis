@@ -18,4 +18,34 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x gtceu:lumium_dust')
         .duration(200) 
         .EUt(120);
+
+    
+  // ----------------------------------------------------
+  // Rocket Materials
+  // ----------------------------------------------------
+
+  
+    event.recipes.gtceu.mixer('titanium_grade_5_mixing')
+        .itemInputs(
+            '10x #forge:dusts/titanium',
+            '1x #forge:dusts/aluminium',
+            '1x #forge:dusts/vanadium',
+        )
+        .itemOutputs('12x gtceu:titanium_grade_5_dust')
+        .duration(200) 
+        .EUt(120);
+
+    event.recipes.gtceu.mixer('inconel_718_dust_mixing')
+        .itemInputs(
+            '10x #forge:dusts/nickel',
+            '4x #forge:dusts/chromium',
+            '4x #forge:dusts/iron',
+            '1x #forge:dusts/niobium',
+            '1x #forge:dusts/molybdenum',
+            '1x #forge:dusts/titanium',
+        )
+        .itemOutputs('21x gtceu:inconel_718_dust')
+        .duration(200) 
+        .EUt(120);
+
 });

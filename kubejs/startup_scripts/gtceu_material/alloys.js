@@ -123,39 +123,32 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .iconSet("shiny")
     .flags(
       GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.GENERATE_DENSE,
       GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING,
     );
 
-  event
-    .create("titanium_aluminide")
-    .ingot()
-    .fluid()
-    .components("1x titanium", "1x aluminium")
-    .color(0x9ca9b5) // A distinct, dull metallic silver-blue color
-    .iconSet("shiny")
+  event.create('titanium_grade_5')
+    .ingot().fluid()
+    .color(0xA0B0B0)
+    .iconSet('METALLIC')
+    .components('6x titanium', '1x aluminium', '1x vanadium')
+    .blastTemp(1941, 'low', 1920, 1000)
     .flags(
       GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.GENERATE_DENSE,
       GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING
     );
 
-  event
-    .create("tungsten_niobium")
+  event.create('inconel_718')
     .ingot()
     .fluid()
-    .components("2x tungsten", "1x niobium")
-    .color(0x525266) // Darker, heavy metallic grey
-    .iconSet("shiny")
+    .color(0x557A60)
+    .iconSet('METALLIC') // A slightly greenish-silver
+    .components('10x nickel', '4x chromium', '4x iron', '1x niobium', '1x molybdenum', '1x titanium')
+    .blastTemp(2500, 'mid', 7000, 1000)
     .flags(
       GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.GENERATE_DENSE,
       GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING
     );
     
@@ -164,14 +157,51 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .ingot()
     .fluid()
     .components("1x stellite_100" ,"1x naquadah")
-    .color(0x2E3B42) // Deep cosmic charcoal with a hint of blue
+    .blastTemp(2500, 'mid', 19200, 1000)
+    .color(0x2c243d) // Deep cosmic charcoal with a hint of blue
     .iconSet("metallic")
     .flags(
       GTMaterialFlags.GENERATE_PLATE,
-      GTMaterialFlags.GENERATE_ROD,
-      GTMaterialFlags.GENERATE_GEAR,
-      GTMaterialFlags.GENERATE_FRAME,
+      GTMaterialFlags.GENERATE_DENSE,
       GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING
+    );
+
+  event.create('silica_ceramic')
+    .dust()
+    .color(0xF2F5F8)
+    .iconSet('ROUGH') // Bright, clean ceramic tile white
+    .components('1x silicon', '2x oxygen')
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+    );
+
+  event.create('alumina_ceramic')
+    .dust()
+    .color(0xEAE6E1)
+    .iconSet('ROUGH')
+    .components('2x aluminium', '3x oxygen')
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+    );
+
+  // Tier 3 (IV): Zirconium Diboride
+  event.create('zirconium_diboride')
+    .dust()
+    .color(0x66696D)
+    .iconSet('METALLIC')
+    .components('1x zirconium', '2x boron')
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
+    );
+
+  // Tier 4 (IV End / LuV): Hafnium Carbide
+  event.create('hafnium_carbide')
+    .dust()
+    .color(0x383634)
+    .iconSet('FLINT')
+    .components('1x hafnium', '1x carbon')
+    .flags(
+      GTMaterialFlags.GENERATE_PLATE,
     );
 
   // ----------------------------------------------------
@@ -418,6 +448,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .blastTemp(2400, "LOW", 480, 300)
         .flags(
           GTMaterialFlags.GENERATE_FRAME,
+          GTMaterialFlags.GENERATE_DENSE
         );
 
     event.create('ostrum')
@@ -428,6 +459,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .blastTemp(2750, "MID", 1920, 300)
         .flags(
           GTMaterialFlags.GENERATE_FRAME,
+          GTMaterialFlags.GENERATE_DENSE
         );
 
     event.create('calorite')
@@ -438,6 +470,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .blastTemp(3200, "HIGH", 1920, 300)
         .flags(
           GTMaterialFlags.GENERATE_FRAME,
+          GTMaterialFlags.GENERATE_DENSE
         );
 
     event.create('etrium')
@@ -448,6 +481,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .blastTemp(3600, "HIGHER", 7680, 300)
         .flags(
           GTMaterialFlags.GENERATE_FRAME,
+          GTMaterialFlags.GENERATE_DENSE
         );
 
 

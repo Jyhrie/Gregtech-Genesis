@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
     //     .itemOutputs('1x gtceu:naquadah_fuel_blend_dust')
     //     .duration(400).EUt(480);
 
-    // event.recipes.gtceu.canner('can_uranium_aluminum_cell')
+    // event.recipes.gtceu.canner('can_uranium_aluminium_cell')
     //     .itemInputs('gtceu:aluminium_fluid_cell','gtceu:uranium_fuel_blend_dust') 
     //     .itemOutputs('kubejs:uranium_fuel_rod')
     //     .duration(100)

@@ -17,12 +17,12 @@ ServerEvents.recipes(event => {
     "type": "ad_astra:nasa_workbench",
     "ingredients": [
       { "item": "ad_astra:rocket_nose_cone" },      // Slot 0 (Top)
-      { "item": "gtceu:aluminium_lithium_block" },    // Slot 1
-      { "item": "gtceu:aluminium_lithium_block" },         // Slot 2
-      { "item": "gtceu:aluminium_lithium_block" },    // Slot 3
-      { "item": "gtceu:aluminium_lithium_block" },    // Slot 4
-      { "item": "gtceu:aluminium_lithium_block" },  // Slot 5 (The IMU Brain!)
-      { "item": "gtceu:aluminium_lithium_block" },    // Slot 6
+      { "item": "kubejs:t1_aerospace_material" },    // Slot 1
+      { "item": "kubejs:t1_aerospace_material" },         // Slot 2
+      { "item": "kubejs:t1_aerospace_material" },    // Slot 3
+      { "item": "kubejs:t1_aerospace_material" },    // Slot 4
+      { "item": "kubejs:t1_aerospace_material" },  // Slot 5 (The IMU Brain!)
+      { "item": "kubejs:t1_aerospace_material" },    // Slot 6
       { "item": "ad_astra:rocket_fin" },            // Slot 7
       { "item": "gtceu:hv_flight_controller" },            // Slot 8 (Omega Tank)
       { "item": "gtceu:hv_rocket_fuel_tank" },            // Slot 9 (Omega Tank)
@@ -44,12 +44,12 @@ ServerEvents.recipes(event => {
     "type": "ad_astra:nasa_workbench",
     "ingredients": [
       { "item": "ad_astra:rocket_nose_cone" },      // Slot 0 (Top)
-      { "item": "gtceu:titanium_aluminide_block" }, // Slot 1
-      { "item": "gtceu:titanium_aluminide_block" }, // Slot 2
-      { "item": "gtceu:titanium_aluminide_block" }, // Slot 3
-      { "item": "gtceu:titanium_aluminide_block" }, // Slot 4
-      { "item": "gtceu:titanium_aluminide_block" }, // Slot 5
-      { "item": "gtceu:titanium_aluminide_block" }, // Slot 6
+      { "item": "kubejs:t2_aerospace_material" }, // Slot 1
+      { "item": "kubejs:t2_aerospace_material" }, // Slot 2
+      { "item": "kubejs:t2_aerospace_material" }, // Slot 3
+      { "item": "kubejs:t2_aerospace_material" }, // Slot 4
+      { "item": "kubejs:t2_aerospace_material" }, // Slot 5
+      { "item": "kubejs:t2_aerospace_material" }, // Slot 6
       { "item": "ad_astra:rocket_fin" },            // Slot 7
       { "item": "gtceu:ev_flight_controller" },     // Slot 8
       { "item": "gtceu:ev_rocket_fuel_tank" },      // Slot 9
@@ -71,12 +71,12 @@ ServerEvents.recipes(event => {
     "type": "ad_astra:nasa_workbench",
     "ingredients": [
       { "item": "ad_astra:rocket_nose_cone" },      // Slot 0
-      { "item": "gtceu:tungsten_niobium_block" },   // Slot 1
-      { "item": "gtceu:tungsten_niobium_block" },   // Slot 2
-      { "item": "gtceu:tungsten_niobium_block" },   // Slot 3
-      { "item": "gtceu:tungsten_niobium_block" },   // Slot 4
-      { "item": "gtceu:tungsten_niobium_block" },   // Slot 5
-      { "item": "gtceu:tungsten_niobium_block" },   // Slot 6
+      { "item": "kubejs:t3_aerospace_material" },   // Slot 1
+      { "item": "kubejs:t3_aerospace_material" },   // Slot 2
+      { "item": "kubejs:t3_aerospace_material" },   // Slot 3
+      { "item": "kubejs:t3_aerospace_material" },   // Slot 4
+      { "item": "kubejs:t3_aerospace_material" },   // Slot 5
+      { "item": "kubejs:t3_aerospace_material" },   // Slot 6
       { "item": "ad_astra:rocket_fin" },            // Slot 7
       { "item": "gtceu:iv_flight_controller" },     // Slot 8
       { "item": "gtceu:iv_rocket_fuel_tank" },      // Slot 9
@@ -98,12 +98,12 @@ ServerEvents.recipes(event => {
     "type": "ad_astra:nasa_workbench",
     "ingredients": [
       { "item": "ad_astra:rocket_nose_cone" },      // Slot 0
-      { "item": "gtceu:stellated_starsteel_block" },// Slot 1
-      { "item": "gtceu:stellated_starsteel_block" },// Slot 2
-      { "item": "gtceu:stellated_starsteel_block" },// Slot 3
-      { "item": "gtceu:stellated_starsteel_block" },// Slot 4
-      { "item": "gtceu:stellated_starsteel_block" },// Slot 5
-      { "item": "gtceu:stellated_starsteel_block" },// Slot 6
+      { "item": "kubejs:t4_aerospace_material" },// Slot 1
+      { "item": "kubejs:t4_aerospace_material" },// Slot 2
+      { "item": "kubejs:t4_aerospace_material" },// Slot 3
+      { "item": "kubejs:t4_aerospace_material" },// Slot 4
+      { "item": "kubejs:t4_aerospace_material" },// Slot 5
+      { "item": "kubejs:t4_aerospace_material" },// Slot 6
       { "item": "ad_astra:rocket_fin" },            // Slot 7
       { "item": "gtceu:luv_flight_controller" },     // Slot 8 (Kept at IV per request)
       { "item": "gtceu:luv_rocket_fuel_tank" },      // Slot 9
