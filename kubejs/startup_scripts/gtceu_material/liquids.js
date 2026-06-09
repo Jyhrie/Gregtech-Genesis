@@ -195,7 +195,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   // Intermittent Materials for Processing Lines
   // ----------------------------------------------
 
-  event.create('aluminum_chloride_solution')
+  event.create('aluminium_chloride_solution')
         .fluid()
         .color(0x94A3B8)
         .iconSet('fluid');
