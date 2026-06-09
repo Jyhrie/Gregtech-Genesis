@@ -829,6 +829,28 @@
 			x: -4.5d
 			y: 11.5d
 		}
+		{
+			dependencies: ["554081F96115B80A"]
+			id: "36BB861DEEAE4E13"
+			tasks: [{
+				id: "258A9D1773556EF9"
+				item: "gtceu:raw_aresite"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["36BB861DEEAE4E13"]
+			id: "45B9B056E613259B"
+			tasks: [{
+				id: "73A531E50835E297"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
 	]
 	title: "The Atomic Era"
 }

@@ -76,4 +76,25 @@ StartupEvents.registry("block", (e) => {
     .tagBlock("minecraft:needs_iron_tool") // Requires Iron tier or better
     .tagBlock("forge:storage_blocks/jade") // For mod compatibility/recipes
     .requiresTool(true);
+
+  e.create('lightning_catcher_core')
+      .displayName('Lightning Collector Core')
+      .soundType('metal')
+      .hardness(6.0)
+      .resistance(12.0)
+      .requiresTool(true);
+
+  e.create('lunar_array_cell')
+        .displayName('Lunar Array Cell')
+        .soundType('metal')
+        .hardness(6.0)
+        .resistance(12.0)
+        .requiresTool(true)
+        .material('iron')
+        .texture('up', 'kubejs:block/machine_parts/lunar_array_cell/top') // Top face
+        .texture('down', 'kubejs:block/machine_parts/lunar_array_cell/bottom') // Bottom face
+        .texture('north', 'kubejs:block/machine_parts/lunar_array_cell/side') // Sides
+        .texture('south', 'kubejs:block/machine_parts/lunar_array_cell/side')
+        .texture('east', 'kubejs:block/machine_parts/lunar_array_cell/side')
+        .texture('west', 'kubejs:block/machine_parts/lunar_array_cell/side')
 });

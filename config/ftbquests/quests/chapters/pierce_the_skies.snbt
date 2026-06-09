@@ -71,27 +71,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7E063661C24B3EC0"]
+			dependencies: ["391D672B2C71671E"]
 			id: "367545008B089561"
 			tasks: [{
 				id: "3436D1FF7D8EB788"
 				item: "gtceu:raw_ilmenite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["469F4D816451FA52"]
-			hide_dependency_lines: true
-			id: "01B27111A8E3C68C"
-			tasks: [{
-				id: "5DFD6B706A92AABC"
-				item: "gtceu:liquid_helium_bucket"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 3.5d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["367545008B089561"]
@@ -101,8 +89,8 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3766C3CDFE8330F2"]
@@ -112,8 +100,8 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.5d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7AEC6E42AF96FCD7"]
@@ -123,12 +111,11 @@
 				item: "gtceu:hot_titanium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
-				"01B27111A8E3C68C"
 				"5907EC3182E64E0B"
 				"2070AAE23341AB36"
 			]
@@ -139,8 +126,8 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			id: "2070AAE23341AB36"
@@ -150,19 +137,19 @@
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 9.75d
-			y: 1.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["7E063661C24B3EC0"]
+			dependencies: ["391D672B2C71671E"]
 			id: "08924357771E9576"
 			tasks: [{
 				id: "7AA317CC8E545ED5"
 				item: "gtceu:raw_certus_quartz"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -177,8 +164,8 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 1.5d
+			y: 10.5d
 		}
 		{
 			id: "46B6A0E5D587DE06"
@@ -259,6 +246,28 @@
 			}]
 			x: -2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["391D672B2C71671E"]
+			id: "6DADC1478A1BCC1E"
+			tasks: [{
+				id: "454922AE8CA97726"
+				item: "gtceu:raw_cynthilite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DADC1478A1BCC1E"]
+			id: "6BA75C54BFB8C15C"
+			tasks: [{
+				id: "576D515CF66FF14C"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "Ad Astra Per Aspera"
