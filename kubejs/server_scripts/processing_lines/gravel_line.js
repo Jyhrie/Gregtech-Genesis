@@ -17,6 +17,21 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:calcite_dust').withChance(0.1)     // Silver (Native to GT)
     ], 'gtceu:stone_dust');
 
+    event.recipes.gtceu.splashing('wash_stone_dust')
+        .itemInputs('1x gtceu:stone_dust')
+        .chancedOutput('1x gtceu:ochrum_dust', 1000, 0)
+        .chancedOutput('1x gtceu:crimsite_dust', 1000, 0)
+        .chancedOutput('1x gtceu:veridium_dust', 1000, 0)
+        .chancedOutput('1x gtceu:asurine_dust', 1000, 0)
+        .chancedOutput('1x gtceu:scorchia_dust', 1000, 0)
+        .chancedOutput('1x gtceu:scoria_dust', 1000, 0)
+        .chancedOutput('1x gtceu:diorite_dust', 1000, 0)
+        .chancedOutput('1x gtceu:granite_dust', 1000, 0)
+        .chancedOutput('1x gtceu:andesite_dust', 1000, 0)
+        .chancedOutput('1x gtceu:calcite_dust', 1000, 0)
+        .duration(40)
+        .EUt(8); // LV Tier
+
     // 2. Processing the Dusts into Crushed Ores
     const dustProcessingMap = [
         { dust: 'gtceu:ochrum_dust',   ore: 'create:crushed_raw_gold' },
@@ -36,6 +51,12 @@ ServerEvents.recipes(event => {
             Item.of(entry.ore), 
             Item.of('minecraft:clay_ball').withChance(0.25) 
         ], entry.dust);
+
+        event.recipes.gtceu.ore_washer(`wash_${entry.dust.split(':')[1]}`)
+            .itemInputs(`1x ${entry.dust}`)
+            .itemOutputs(`1x ${entry.ore}`)
+            .duration(40)
+            .EUt(10); // LV Tier
     });
 
     // 3. Smelting Crushed Ores into Ingots
