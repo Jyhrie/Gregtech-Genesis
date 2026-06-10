@@ -17,9 +17,9 @@
 				"029C29A1F00CF35D"
 				"000A510D508C8AA7"
 				"46B6A0E5D587DE06"
-				"0A2673CD39406CC5"
 				"4FA26CA39F739B58"
 				"5D006794CDF69864"
+				"6876F7DBA6FE3BFA"
 			]
 			id: "7E063661C24B3EC0"
 			size: 4.0d
@@ -179,24 +179,13 @@
 			y: 0.0d
 		}
 		{
-			id: "0A2673CD39406CC5"
-			tasks: [{
-				count: 16L
-				id: "52E53ED37171B91B"
-				item: { Count: 16, id: "gtceu:aluminium_lithium_ingot" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -5.5d
-		}
-		{
 			id: "4FA26CA39F739B58"
 			tasks: [{
 				id: "531A56525725F466"
 				item: "gtceu:hv_flight_controller"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: -5.5d
 		}
 		{
@@ -268,6 +257,16 @@
 			}]
 			x: 4.5d
 			y: 1.5d
+		}
+		{
+			id: "6876F7DBA6FE3BFA"
+			tasks: [{
+				id: "0E886C7A6DF559B1"
+				item: "gtceu:hv_rocket_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 	]
 	title: "Ad Astra Per Aspera"
