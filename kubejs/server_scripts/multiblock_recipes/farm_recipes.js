@@ -9,6 +9,8 @@ ServerEvents.recipes(event => {
         ['minecraft:beetroot_seeds', 1, 'minecraft:beetroot', 2, null, 0, 0],
         ['minecraft:carrot', 1, 'minecraft:carrot', 2, null, 0, 0],
         ['minecraft:potato', 1, 'minecraft:potato', 2, 'minecraft:poisonous_potato', 6, 2000],
+        ['minecraft:sugar_cane', 1, 'minecraft:sugar_cane', 2, null, 0, 0],
+        ['minecraft:cocoa_beans', 1, 'minecraft:cocoa_beans', 2, null, 0, 0],
 
         ['farmersdelight:cabbage_seeds', 1, 'farmersdelight:cabbage', 3, null, 0, 0],
         ['farmersdelight:tomato_seeds', 1, 'farmersdelight:tomato', 3, 'farmersdelight:rotten_tomato', 6, 2000],
@@ -22,6 +24,8 @@ ServerEvents.recipes(event => {
         ['delightful:cantaloupe_seeds', 1, 'delightful:cantaloupe', 1, null, 0, 0],
 
         ['upgrade_aquatic:pickerelweed', 1, 'upgrade_aquatic:pickerelweed', 2, null, 0, 0],
+
+        ['environmental:cattail', 1, 'environmental:cattail', 2, null, 0, 0],
 
         ['hearthandharvest:cotton_seeds', 1, 'hearthandharvest:cotton', 3, null, 0, 0],
         ['hearthandharvest:blueberries', 1, 'hearthandharvest:blueberries', 3, null, 0, 0],
@@ -44,7 +48,7 @@ ServerEvents.recipes(event => {
 
     // 2. Your updated custom method with GTCEu formatting
     function registerFarmRecipe(seed, returnSeedQty, fruit, fruitQty, bonus, bonusQty, bonusChance) {
-        let recipeBuilder = event.recipes.gtceu.conventional_farming(seed) 
+        let recipeBuilder = event.recipes.gtceu.multiblock_automated_farm(seed) 
             .itemInputs(`25x ${seed}`)
             .itemOutputs(`${returnSeedQty * 8}x ${seed}`)
             .itemOutputs(`${fruitQty * 8}x ${fruit}`) 

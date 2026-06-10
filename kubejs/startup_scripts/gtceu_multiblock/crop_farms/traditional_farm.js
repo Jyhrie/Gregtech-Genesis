@@ -1,17 +1,16 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('conventional_farming') 
-        .category('conventional_farming')
+    event.create('multiblock_automated_farm') 
+        .category('multiblock_automated_farm')
         .setEUIO('in')
         .setMaxIOSize(8, 8, 3, 3) 
         .setSound(GTSoundEntries.ARC);
 });
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('conventional_farming_traditional', 'multiblock')
-        .langValue("Conventional Farm")
+    event.create('multiblock_farm_traditional', 'multiblock')
+        .langValue("Automated Farm")
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType('conventional_farming')
-        //.appearanceBlock(Block.getBlock('kubejs:casing_pvc_clean'))
+        .recipeType('multiblock_automated_farm')
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("CCCCCCC", "XFFFFFX", "X     X", "XXXXXXX")
             .aisle("CDDDDDC", "F     F", "       ", "X     X")
@@ -24,7 +23,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('C', Predicates.blocks(GTBlocks.TREATED_WOOD_PLANK.get())
                 .or(Predicates.autoAbilities(definition.getRecipeTypes())))
             .where('D', Predicates.blocks('farmersdelight:rich_soil')
-                .or(Predicates.blocks('farmersdelight:rich_soil_farmland')))
+                .or(Predicates.blocks('farmersdelight:rich_soil_farmland'))
+                .or(Predicates.blocks('minecraft:mud')))
             .where('F', Predicates.blocks(GTBlocks.TREATED_WOOD_FENCE.get()))
             .where('X', Predicates.blocks('gtceu:treated_wood_frame'))
             .build()
