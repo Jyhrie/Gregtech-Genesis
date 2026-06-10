@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:calcite_dust').withChance(0.1)     // Silver (Native to GT)
     ], 'gtceu:stone_dust');
 
-    event.recipes.gtceu.splashing('wash_stone_dust')
+    event.recipes.gtceu.ore_washer('wash_stone_dust')
         .itemInputs('1x gtceu:stone_dust')
         .chancedOutput('1x gtceu:ochrum_dust', 1000, 0)
         .chancedOutput('1x gtceu:crimsite_dust', 1000, 0)
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
             .itemInputs(`1x ${entry.dust}`)
             .itemOutputs(`1x ${entry.ore}`)
             .duration(40)
-            .EUt(10); // LV Tier
+            .EUt(10);
     });
 
     // 3. Smelting Crushed Ores into Ingots
