@@ -11,13 +11,13 @@ ServerEvents.recipes(event => {
     .EUt(8192)
 
     event.recipes.gtceu
-    .mixer('originium_stabilized_hydrolox')
+    .mixer('naquadah_enriched_hydrolox')
     .itemInputs("kubejs:originium_fuel_catalyst")
     .inputFluids(
       Fluid.of("gtceu:hydrolox", 288),
       Fluid.of("gtceu:fluorine", 144)
     )
-    .outputFluids(Fluid.of("gtceu:originium_stabilized_hydrolox", 288))
+    .outputFluids(Fluid.of("gtceu:naquadah_enriched_hydrolox", 288))
     .duration(2000)        
     .cleanroom(CleanroomType.CLEANROOM)     
     .EUt(480)

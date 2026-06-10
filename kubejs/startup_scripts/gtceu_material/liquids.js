@@ -155,7 +155,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 
     // Cryogenic Hydrolox (T3/T4 Rocket Fuel)
   event
-    .create("originium_stabilized_hydrolox")
+    .create("naquadah_enriched_hydrolox")
     .liquid(0)
     .color(0x0066ff) 
     .secondaryColor(0xff985c)
