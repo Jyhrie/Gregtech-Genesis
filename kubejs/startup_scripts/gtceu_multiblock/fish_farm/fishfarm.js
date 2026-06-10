@@ -6,9 +6,9 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.ARC);
 });
 
-// startup_scripts/nuclear_reactor.js
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('fish_farm', 'multiblock')
+        .langValue("Fish Farm")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fishfarm')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)

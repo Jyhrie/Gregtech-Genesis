@@ -39,6 +39,14 @@ StartupEvents.registry('block', event => {
         .requiresTool(true)
         .tagBlock('mineable/pickaxe')
 
+    event.create('casing_pvc_clean') //chemplant
+        .displayName('Polyvinyl Chloride Clean Casing')  
+        .soundType('metal')
+        .hardness(5.0)
+        .resistance(10.0)
+        .requiresTool(true)
+        .tagBlock('mineable/pickaxe')
+
     event.create('casing_stellar_aerospace')
         .displayName('Stellar Aerospace Casing')    
         .mapColor('metal')
