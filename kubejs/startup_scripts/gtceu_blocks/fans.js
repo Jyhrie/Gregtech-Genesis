@@ -1,0 +1,10 @@
+StartupEvents.registry('block', event => {
+    event.create('stainless_steel_intake_fan', 'gtceu:active')
+        .simple('kubejs:block/casings/fans/stainless_steel_intake_fan')
+        .displayName('Stainless Steel Intake Fan')
+        .soundType('metal')
+        .resistance(6).hardness(5)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+    })
