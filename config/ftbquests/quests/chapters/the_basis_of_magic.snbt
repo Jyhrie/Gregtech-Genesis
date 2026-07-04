@@ -81,7 +81,7 @@
 				item: "malum:sacred_spirit"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: -13.5d
 		}
 		{
@@ -92,7 +92,7 @@
 				item: "malum:wicked_spirit"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: -14.5d
 		}
 		{
@@ -103,7 +103,7 @@
 				item: "malum:arcane_spirit"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -14.5d
 		}
 		{
@@ -114,7 +114,7 @@
 				item: "malum:eldritch_spirit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: -13.5d
 		}
 		{
@@ -125,7 +125,7 @@
 				item: "malum:aerial_spirit"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: -12.0d
 		}
 		{
@@ -136,7 +136,7 @@
 				item: "malum:aqueous_spirit"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.0d
 			y: -10.5d
 		}
 		{
@@ -147,7 +147,7 @@
 				item: "malum:earthen_spirit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: -10.5d
 		}
 		{
@@ -158,7 +158,7 @@
 				item: "malum:infernal_spirit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: -12.0d
 		}
 		{
@@ -1263,7 +1263,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["521344A4F243F91D"]
@@ -1274,7 +1274,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["521344A4F243F91D"]
@@ -1285,7 +1285,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["521344A4F243F91D"]
@@ -1296,7 +1296,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["521344A4F243F91D"]
@@ -1307,7 +1307,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["48F6D60EECFB3A47"]
@@ -1378,7 +1378,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -11.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["653350D19DCAAA3B"]
@@ -1401,6 +1401,87 @@
 			}]
 			x: -5.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["67FB63C4DFE5EFB6"]
+			id: "2629250108FBAE70"
+			tasks: [{
+				id: "029D0A5D8FEAF1F1"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71471BA9EDE36432"]
+			id: "0AD996BB3BFFB2ED"
+			tasks: [{
+				id: "08EDF5D5124A7313"
+				item: "kubejs:foci_spirit_null"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0AD996BB3BFFB2ED"]
+			id: "74FDE6E6F5BFCB48"
+			tasks: [
+				{
+					id: "56BA9C4A800F13E7"
+					item: "kubejs:foci_spirit_aqueous"
+					type: "item"
+				}
+				{
+					id: "5E896E3011B78602"
+					item: "kubejs:foci_spirit_aerial"
+					type: "item"
+				}
+				{
+					id: "745D2E4B7F7D0F8F"
+					item: "kubejs:foci_spirit_arcane"
+					type: "item"
+				}
+				{
+					id: "1D0CF4103DD3C7DC"
+					item: "kubejs:foci_spirit_earthen"
+					type: "item"
+				}
+				{
+					id: "0DCF0B855BA9CB06"
+					item: "kubejs:foci_spirit_eldritch"
+					type: "item"
+				}
+				{
+					id: "07913ABEBFE6DACA"
+					item: "kubejs:foci_spirit_infernal"
+					type: "item"
+				}
+				{
+					id: "630B36A70B48EF62"
+					item: "kubejs:foci_spirit_sacred"
+					type: "item"
+				}
+				{
+					id: "0A1B5286B3D78D24"
+					item: "kubejs:foci_spirit_wicked"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["74FDE6E6F5BFCB48"]
+			id: "05DD0DCB20468B33"
+			tasks: [{
+				id: "3F5D02C824B70A57"
+				item: "gtceu:ulv_spirit_condenser"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -21.0d
 		}
 	]
 	title: "The Basis of Magic"

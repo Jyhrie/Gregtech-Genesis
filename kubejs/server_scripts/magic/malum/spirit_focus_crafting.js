@@ -1,0 +1,147 @@
+ServerEvents.recipes((event) => {
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/sapphire",
+      "malum:aqueous_spirit",
+      "botania:rune_water",
+      "malum:aqueous_spirit",
+      "minecraft:prismarine_crystals",
+      "malum:aqueous_spirit",
+      "botania:rune_water",
+      "malum:aqueous_spirit",
+    ],
+    "kubejs:foci_spirit_null", 
+    "kubejs:foci_spirit_aqueous", 
+    25000, 
+  );
+
+
+event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/ruby",
+      "malum:infernal_spirit",
+      "botania:rune_fire",
+      "malum:infernal_spirit",
+      "minecraft:fire_charge",
+      "malum:infernal_spirit",
+      "botania:rune_fire",
+      "malum:infernal_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_infernal",
+    25000, 
+  );
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/emerald",
+      "malum:earthen_spirit",
+      "botania:rune_earth",
+      "malum:earthen_spirit",
+      "hexerei:mandrake_root",
+      "malum:earthen_spirit",
+      "botania:rune_earth",
+      "malum:earthen_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_earthen",
+    25000, 
+);
+
+event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/topaz",
+      "malum:aerial_spirit",
+      "botania:rune_air",
+      "malum:aerial_spirit",
+      "twilightforest:raven_feather",
+      "malum:aerial_spirit",
+      "botania:rune_air",
+      "malum:aerial_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_aerial",
+    25000, 
+  );
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/amethyst",
+      "malum:arcane_spirit",
+      "botania:rune_mana",
+      "malum:arcane_spirit",
+      "ars_nouveau:source_gem",
+      "malum:arcane_spirit",
+      "botania:rune_mana",
+      "malum:arcane_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_arcane",
+    25000, 
+  );
+
+event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/rose_quartz",
+      "malum:sacred_spirit",
+      "botania:rune_spring",
+      "malum:sacred_spirit",
+      "minecraft:ghast_tear",
+      "malum:sacred_spirit",
+      "botania:rune_spring",
+      "malum:sacred_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_sacred",
+    25000, 
+  );
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "#forge:gems/onyx",
+      "malum:wicked_spirit",
+      "botania:rune_wrath",
+      "malum:wicked_spirit",
+      "hexerei:dried_belladonna_flowers",
+      "malum:wicked_spirit",
+      "botania:rune_wrath",
+      "malum:wicked_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_wicked",
+    25000, 
+  );
+
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "malum:processed_soulstone",
+      "malum:eldritch_spirit",
+      "botania:rune_wrath",
+      "malum:eldritch_spirit",
+      "botania:ender_air_bottle",
+      "malum:eldritch_spirit",
+      "botania:rune_wrath",
+      "malum:eldritch_spirit",
+    ],
+    "kubejs:foci_spirit_null",
+    "kubejs:foci_spirit_eldritch",
+    25000, 
+  );
+
+event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      "malum:alchemical_calx",
+      "botania:mana_diamond",
+      "bloodmagic:blankslate",
+      "botania:mana_diamond",
+      "malum:alchemical_calx",
+      "botania:mana_diamond",
+      "bloodmagic:blankslate",
+      "botania:mana_diamond",
+    ],
+    "kubejs:primal_essence",
+    "kubejs:foci_spirit_null",
+    25000, 
+  );
+});

@@ -1,8 +1,8 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('spiritbound_aquifer')
+    event.create('thirsty_tank')
         .category('simple')
         .setEUIO('in')
-        .setMaxIOSize(2, 2, 2, 2)
+        .setMaxIOSize(0, 0, 0, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH);
@@ -11,13 +11,13 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
   event
-    .create("spiritbound_aquifer", "simple")
+    .create("thirsty_tank", "simple")
     .tiers(GTValues.ULV)
     .definition((tier, builder) => {
       builder
-        .langValue("Spiritbound Aquifer")
-        .recipeType("spiritbound_aquifer")
-        .workableCasingModel("malum:block/polished_twisted_rock", "gtceu:block/machines/brewery")
+        .langValue("Thirsty Tank")
+        .recipeType("thirsty_tank")
+        .workableCasingModel("malum:block/polished_tainted_rock", "gtceu:block/machines/brewery")
         .rotationState(RotationState.NON_Y_AXIS)
     })
 })

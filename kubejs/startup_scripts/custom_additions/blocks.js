@@ -83,6 +83,13 @@ StartupEvents.registry("block", (e) => {
       .hardness(6.0)
       .resistance(12.0)
       .requiresTool(true);
+    
+  e.create('writhing_rock')
+    .displayName('Writhing Rock')
+    .soundType('stone')
+    .hardness(10.0)
+    .resistance(20.0)
+    .requiresTool(true);
 
   e.create('lunar_array_cell')
         .displayName('Lunar Array Cell')

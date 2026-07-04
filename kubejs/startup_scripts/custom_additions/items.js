@@ -8,6 +8,50 @@ StartupEvents.registry("item", (e) => {
   e.create("currency1").displayName("Stock Bill");
   e.create("currency2").displayName("Bundle of Stock Bills");
 
+  e.create("foci_spirit_aqueous")
+    .displayName("Aqueous Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_aerial")
+    .displayName("Aerial Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_arcane")
+    .displayName("Arcane Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_earthen")
+    .displayName("Earthen Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_eldritch")
+    .displayName("Eldritch Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_infernal")
+    .displayName("Infernal Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_sacred")
+    .displayName("Sacred Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_wicked")
+    .displayName("Wicked Spirit Focus")
+    .rarity("epic");
+
+  e.create("foci_spirit_null")
+    .displayName("Null Focus")
+    .rarity("epic");
+
+  e.create("circuit_magical_interface")
+    .displayName("Magical Interface Circuit")
+    .rarity("rare")
+
+  e.create("paracausal_energy")
+    .displayName("Paracausal Energy")
+    .rarity("epic")
+
   e.create("heart_of_the_void")
     .displayName("Heart of the Void")
     .unstackable() // Typically ritual catalysts are unstackable
@@ -26,6 +70,15 @@ StartupEvents.registry("item", (e) => {
     .displayName("Jade")
     .rarity("rare")
     .texture("kubejs:item/jade");
+
+  e.create("stellar_jade")
+    .displayName("Stellar Jade")
+    .rarity("epic")
+
+  e.create("siva_nanites")
+    .displayName("SIVA Nanites")
+    .rarity("epic")
+    .tooltip("§4CONSUME, ENHANCE, REPLICATE")
 
   e.create("seaborn_blood")
     .displayName("Seaborn Blood")

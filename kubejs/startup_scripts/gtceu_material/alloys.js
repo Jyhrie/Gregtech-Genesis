@@ -484,5 +484,33 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
           GTMaterialFlags.GENERATE_DENSE
         );
 
+  // ----------------------------------------------------
+  // Magic
+  // ----------------------------------------------------
+
+      event
+        .create("thaumium")
+        .ingot()
+        .dust()
+        .color(0x5a3896)
+        .iconSet("bright")
+        .flags(
+          GTMaterialFlags.GENERATE_FRAME,
+          GTMaterialFlags.GENERATE_DENSE,
+          GTMaterialFlags.GENERATE_PLATE,
+        );
+
+      event
+        .create("soulstained_steel")
+        .ingot()
+        .dust()
+        .color(0x6e4a8a)
+        .iconSet("bright")
+        .flags(
+          GTMaterialFlags.GENERATE_FRAME,
+          GTMaterialFlags.GENERATE_DENSE,
+          GTMaterialFlags.GENERATE_PLATE,
+        );
+
 
 });
