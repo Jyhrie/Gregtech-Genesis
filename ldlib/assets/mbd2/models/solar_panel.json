@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "malum:block/arcane_rock/twisted/polished_twisted_rock",
+    "rock_base": "malum:block/arcane_rock/twisted/polished_twisted_rock",
+    "panel_overlay": "kubejs:block/panel_top"
+  },
+  "elements": [
+    {
+      "name": "Solid Layer (Polished Twisted Rock)",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#rock_base", "cullface": "down" },
+        "up":    { "texture": "#rock_base", "cullface": "up" },
+        "north": { "texture": "#rock_base", "cullface": "north" },
+        "south": { "texture": "#rock_base", "cullface": "south" },
+        "east":  { "texture": "#rock_base", "cullface": "east" },
+        "west":  { "texture": "#rock_base", "cullface": "west" }
+      }
+    },
+    {
+      "name": "Top Layer (Panel Top)",
+      "from": [0, 16.002, 0],
+      "to": [16, 16.002, 16],
+      "faces": {
+        "up": { "texture": "#panel_overlay", "cullface": "up" }
+      }
+    }
+  ]
+}

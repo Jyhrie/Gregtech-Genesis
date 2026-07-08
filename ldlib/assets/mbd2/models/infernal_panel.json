@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "malum:block/arcane_rock/tainted/polished_tainted_rock",
+    
+    "base_rock": "malum:block/arcane_rock/tainted/polished_tainted_rock",
+    "overlay_top": "kubejs:block/infernal_panel_top",
+    "overlay_side": "kubejs:block/infernal_panel_side"
+  },
+  "elements": [
+    {
+      "name": "Solid Base Core (Twisted Rock)",
+      "from": [0.05, 0.05, 0.05],
+      "to": [15.95, 15.95, 15.95],
+      "faces": {
+        "down":  { "texture": "#base_rock", "cullface": "down" },
+        "up":    { "texture": "#base_rock", "cullface": "up" },
+        "north": { "texture": "#base_rock", "cullface": "north" },
+        "south": { "texture": "#base_rock", "cullface": "south" },
+        "east":  { "texture": "#base_rock", "cullface": "east" },
+        "west":  { "texture": "#base_rock", "cullface": "west" }
+      }
+    },
+    {
+      "name": "Transparent Wrap (Panel Textures)",
+	"from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#overlay_side", "cullface": "down" },
+        "up":    { "texture": "#overlay_top", "cullface": "up" },
+        "north": { "texture": "#overlay_side", "cullface": "north" },
+        "south": { "texture": "#overlay_side", "cullface": "south" },
+        "east":  { "texture": "#overlay_side", "cullface": "east" },
+        "west":  { "texture": "#overlay_side", "cullface": "west" }
+      }
+    }
+  ]
+}
